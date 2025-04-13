@@ -1,0 +1,69 @@
+<!-- Modal -->
+<div class="modal fade" id="modal-upload-preview-imagem" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header bg-info">
+                <h5 class="modal-title" id="exampleModalLabel">Envio de Arquivos e Mídias</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+
+            <div class="modal-body" id="modal-body">
+
+                <div class="row">
+                    <div class="col-4">
+                        <div class="card">
+                            <h5 class="card-header">Imagem</h5>
+                            <div class="card-body">
+
+                                <form id="form-upload-imagem" enctype="multipart/form-data">
+                                    <input type="hidden" name="tabela" id="tabela">
+                                    <input type="hidden" name="id_tabela" id="id_tabela">
+                                    <input type="hidden" id="controller">
+                                    <input type="hidden" id="action">
+                                    <div class="custom-file">
+                                        <input type="file" class="custom-file-input" name="seleciona-imagem" id="seleciona-imagem" multiple onchange="previewImagem()"/>
+                                        <label class="custom-file-label" for="customFile">Seleccionar</label>
+                                    </div>
+                                    <br/>
+                                    <br/>
+<!--                                    <hr>
+                                    <p style="text-align:justify">Sua imagem será redimensionada de acordo com os valores dos campos abaixo:</p>
+                                    <hr>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <label>Largura</label>
+                                            <input type="text" name="largura" id="largura" value="354" style="width: 40px" readonly="true"/> px
+                                        </div> 
+                                        <div class="col-md-6">
+                                            <label>Altura</label>
+                                            <input type="text" name="altura" id="altura" value="472" style="width: 40px" readonly="true"/> px
+                                        </div> 
+                                    </div>-->
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-8">
+                        <div class="card">
+                            <h5 class="card-header">Arquivos</h5>
+                            <div class="card-body" id="card-body-preview-imagem" style="min-height: 102px;"> 
+                                <center>
+                                    <img style="max-width: 455px; max-height: 250px; display: none" class="img-thumbnail  img-responsive" id="preview-imagem"><br>
+                                </center>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal-footer">
+                <button type="button" class="btn btn-sm btn-secondary" data-dismiss="modal"><i class="fa fa-undo"></i> Fechar</button>  
+                <button class="btn btn-sm btn-info" id="enviar-imagem"><i class="fa fa-cloud-upload"></i>&nbsp;Enviar</button>
+            </div>
+
+        </div>
+    </div>
+</div><!-- MODAL -->

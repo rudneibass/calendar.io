@@ -1,0 +1,1 @@
+<?php require_once('../../../app/view/votacao/painel/index.php') ?>

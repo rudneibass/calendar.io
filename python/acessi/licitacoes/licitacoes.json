@@ -1,0 +1,506 @@
+[
+    {
+        "id": 1,
+        "numero_processo": "001-16-PP-CMC",
+        "tipo": "Menor Preço",
+        "data_abertura": "2016-02-04",
+        "data_publicacao_edital": "2016-01-22",
+        "data_publicacao_aviso": "2016-01-22",
+        "objeto": "AQUISICAO DE COMBUSTIVEL E DERIVADOS DESTINADO AO FUNCIONAMENTO DOS VEICULOS VINCULADOS AO PODER LEGISLATIVO MUNICIPAL DE CEDRO."
+    },
+    {
+        "id": 2,
+        "numero_processo": "002-16-PP-CMC",
+        "tipo": "Menor Preço",
+        "data_abertura": "2016-02-04",
+        "data_publicacao_edital": "2016-01-22",
+        "data_publicacao_aviso": "2016-01-22",
+        "objeto": "PRESTACAO DE SERVICOS EM DIGITALIZACAO DE DOCUMENTOS DO EXERCICIO DE 2016 DO PODER LEGISLATIVO MUNICIPAL DE CEDRO."
+    },
+    {
+        "id": 3,
+        "numero_processo": "003-16-PP-CMC2016",
+        "tipo": "Menor Preço",
+        "data_abertura": "2016-02-04",
+        "data_publicacao_edital": "2016-01-22",
+        "data_publicacao_aviso": "2016-01-22",
+        "objeto": "CONTRATACAO DE 01 (UM) MOTORISTA PARA FICAR A DISPOSICAO DA CAMARA MUNICIPAL DE CEDRO."
+    },
+    {
+        "id": 4,
+        "numero_processo": "004-16-PP-CMC",
+        "tipo": "Menor Preço",
+        "data_abertura": "2016-02-04",
+        "data_publicacao_edital": "2016-01-22",
+        "data_publicacao_aviso": "2016-01-22",
+        "objeto": "SERVICO DE FILMAGENS DAS SESSOES ORDINARIAS E EXTRAORDINARIAS E DEMAIS EVENTOS DA CAMARA MUNICIPAL DE CEDRO,DURANTE O EXERCICIO DE 2016."
+    },
+    {
+        "id": 5,
+        "numero_processo": "005-16-PP-CMC-2016",
+        "tipo": "Menor Preço",
+        "data_abertura": "2016-02-04",
+        "data_publicacao_edital": "2016-01-22",
+        "data_publicacao_aviso": "2016-01-22",
+        "objeto": "SERVICO DE DIVULGACAO DAS ACOES REALIZADAS PELO PODER LEGISLATIVO MUNICIPAL DE CEDRO."
+    },
+    {
+        "id": 6,
+        "numero_processo": "001-15-PP-CMC",
+        "tipo": "Menor Preço",
+        "data_abertura": "2015-02-19",
+        "data_publicacao_edital": "2015-02-06",
+        "data_publicacao_aviso": "2015-02-06",
+        "objeto": "AQUISICAO DE COMBUSTIVEL E DERIVADOS DESTINADO AOS VEICULOS VINCULADOS AO PODER LEGISLATIVO MUNICIPAL DE CEDRO."
+    },
+    {
+        "id": 7,
+        "numero_processo": "002-15-PP-CMC",
+        "tipo": "Menor Preço",
+        "data_abertura": "2015-02-19",
+        "data_publicacao_edital": "2015-02-06",
+        "data_publicacao_aviso": "2015-02-06",
+        "objeto": "LOCACAO DE SISTEMA DE INFORMATICA E MANUTENCAO DOS MODULOS DE CONTABILIDADE,FOLHA DE PAGAMENTO,LICITACAO,ALMOXARIFADO E PATRIMONIO E PORTAL DA TRANSPARENCIA,JUNTO A CAMARA MUNICIPAL DE CEDRO."
+    },
+    {
+        "id": 8,
+        "numero_processo": "003-15-PP-CMC",
+        "tipo": "Menor Preço",
+        "data_abertura": "2015-02-19",
+        "data_publicacao_edital": "2015-02-06",
+        "data_publicacao_aviso": "2015-02-06",
+        "objeto": "SERVICO DE DIVULGACAO DAS SESSOES E ACOES REALIZADAS PELO PODER LEGISLATIVO MUNICIPAL DE CEDRO."
+    },
+    {
+        "id": 9,
+        "numero_processo": "004-15-PP-CMC",
+        "tipo": "Menor Preço",
+        "data_abertura": "2015-03-30",
+        "data_publicacao_edital": "2015-03-16",
+        "data_publicacao_aviso": "2015-03-16",
+        "objeto": "PRESTACAO DE SERVICOS EM DIGITALIZACAO DE DOCUMENTOS DO EXERCICIO DE 2015 DO PODER LEGISLATIVO MUNICIPAL DE CEDRO."
+    },
+    {
+        "id": 10,
+        "numero_processo": "001-15-TP-CMC",
+        "tipo": "Menor Preço",
+        "data_abertura": "2015-02-04",
+        "data_publicacao_edital": "2015-01-20",
+        "data_publicacao_aviso": "2015-01-20",
+        "objeto": "PRESTACAO DE SERVICOS EM ASSESSORIAS E CONSULTORIAS JUNTO AO PODER LEGISLATIVO MUNICIPAL DE CEDRO."
+    },
+    {
+        "id": 11,
+        "numero_processo": "N/A",
+        "tipo": "Menor Preço",
+        "data_abertura": "N/A",
+        "data_publicacao_edital": "N/A",
+        "data_publicacao_aviso": "N/A",
+        "objeto": "N/A"
+    },
+    {
+        "id": 12,
+        "numero_processo": "005-15-PP-CMC",
+        "tipo": "Menor Preço",
+        "data_abertura": "2015-03-30",
+        "data_publicacao_edital": "2015-03-16",
+        "data_publicacao_aviso": "2015-03-16",
+        "objeto": "PRESTACAO DE SERVICOS COM FILMAGENS E FOTOGRAFIAS DAS SESSOES ORDINARIAS E DEMAIS EVENTOS REALIZADO PELO PODER LEGISLATIVO MUNICIPAL DE CEDRO."
+    },
+    {
+        "id": 13,
+        "numero_processo": "N/A",
+        "tipo": "Menor Preço",
+        "data_abertura": "N/A",
+        "data_publicacao_edital": "N/A",
+        "data_publicacao_aviso": "N/A",
+        "objeto": "N/A"
+    },
+    {
+        "id": 14,
+        "numero_processo": "N/A",
+        "tipo": "Menor Preço",
+        "data_abertura": "N/A",
+        "data_publicacao_edital": "N/A",
+        "data_publicacao_aviso": "N/A",
+        "objeto": "N/A"
+    },
+    {
+        "id": 15,
+        "numero_processo": "N/A",
+        "tipo": "Menor Preço",
+        "data_abertura": "N/A",
+        "data_publicacao_edital": "N/A",
+        "data_publicacao_aviso": "N/A",
+        "objeto": "N/A"
+    },
+    {
+        "id": 16,
+        "numero_processo": "001/2017-TP",
+        "tipo": "Menor Preço",
+        "data_abertura": "2017-02-03",
+        "data_publicacao_edital": "2017-01-19",
+        "data_publicacao_aviso": "2017-01-19",
+        "objeto": "PRESTACAO DE SERVICOS EM ASSESSORIAS E CONSULTORIAS JUNTO AO PODER LEGISLATIVO MUNCIPAL DE CEDRO."
+    },
+    {
+        "id": 19,
+        "numero_processo": "003/2017-PP",
+        "tipo": "Menor Preço",
+        "data_abertura": "2017-03-10",
+        "data_publicacao_edital": "2017-02-21",
+        "data_publicacao_aviso": "2017-02-21",
+        "objeto": "PRESTACAO DE SERVICOS EM DIGITALIZACAO DE DOCUMENTOS DO EXERCICIO DE 2017 DO PODER LEGISLATIVO MUNICIPAL DE CEDRO."
+    },
+    {
+        "id": 20,
+        "numero_processo": "005/17-PP",
+        "tipo": "Menor Preço",
+        "data_abertura": "2017-05-12",
+        "data_publicacao_edital": "2017-05-02",
+        "data_publicacao_aviso": "2017-05-02",
+        "objeto": "PRESTACAO DE SERVICO DE LICENCA DE USO DE SISTEMA DE CONTABILIDADE,LICITACAO E PORTAL DA TRANSPARENCIA JUNTO A CAMARA MUNICIPAL DE CEDRO."
+    },
+    {
+        "id": 21,
+        "numero_processo": "006-2017",
+        "tipo": "Menor Preço",
+        "data_abertura": "2017-05-12",
+        "data_publicacao_edital": "2017-05-02",
+        "data_publicacao_aviso": "2017-05-02",
+        "objeto": "AQUISICAO DE GENEROS ALIMENTICIOS,MATERIAL DE LIMPEZA E HIGIENIZACAO E MATERIAL DE EXPEDIENTE PARA ATENDER AS NECESSIDADES DA CAMARA MUNICIPAL DE CEDRO."
+    },
+    {
+        "id": 22,
+        "numero_processo": "002-2017-PP",
+        "tipo": "Menor Preço",
+        "data_abertura": "2017-03-10",
+        "data_publicacao_edital": "2017-03-10",
+        "data_publicacao_aviso": "2017-02-21",
+        "objeto": "LOCACAO DE VEICULO TIPO POPULAR COM MOTORISTA,A GASOLINA/ALCOOL,COM CAPACIDADE DE TRANSPORTAR 04(QUATRO) PASSAGEIRO E 01(UM) MOTORISTA PARA FICAR A DISPOSICAO DO PODER LEGISLATIVO MUNICIPAL DE CEDRO."
+    },
+    {
+        "id": 23,
+        "numero_processo": "001/2017-PP",
+        "tipo": "Menor Preço",
+        "data_abertura": "2017-03-10",
+        "data_publicacao_edital": "2017-02-27",
+        "data_publicacao_aviso": "2017-02-21",
+        "objeto": "AQUISICAO DE COMBUSTIVEL E DERIVADOS DESTINADOS AO VEICULO DA CAMARA MUNICIPAL DE CEDRO."
+    },
+    {
+        "id": 24,
+        "numero_processo": "003/2017-TP",
+        "tipo": "Menor Preço",
+        "data_abertura": "2017-07-06",
+        "data_publicacao_edital": "2017-06-20",
+        "data_publicacao_aviso": "2017-06-20",
+        "objeto": "PRESTACAO DE SERVICO COM CONCLUSAO DA REFORMA DO PREDIO PARA INSTALACAO DA SEDE DA CAMARA DE VEREADORES DE CEDRO -CE."
+    },
+    {
+        "id": 25,
+        "numero_processo": "002/2017-TP",
+        "tipo": "Menor Preço",
+        "data_abertura": "2017-03-09",
+        "data_publicacao_edital": "2017-02-21",
+        "data_publicacao_aviso": "2017-02-21",
+        "objeto": "PRESTACAO DE SERVICOS ADMINISTRATIVOS COM ACOMPANHAMENTO,ORIENTACAO E ORGANIZACAO DOS PROCESSOS DE LICITACOES E CONTRATOS JUNTO AO PODER LEGISLATIVO MUNICIPAL DE CEDRO."
+    },
+    {
+        "id": 27,
+        "numero_processo": "N/A",
+        "tipo": "Menor Preço",
+        "data_abertura": "N/A",
+        "data_publicacao_edital": "N/A",
+        "data_publicacao_aviso": "N/A",
+        "objeto": "N/A"
+    },
+    {
+        "id": 28,
+        "numero_processo": "N/A",
+        "tipo": "Menor Preço",
+        "data_abertura": "N/A",
+        "data_publicacao_edital": "N/A",
+        "data_publicacao_aviso": "N/A",
+        "objeto": "N/A"
+    },
+    {
+        "id": 29,
+        "numero_processo": "N/A",
+        "tipo": "Menor Preço",
+        "data_abertura": "N/A",
+        "data_publicacao_edital": "N/A",
+        "data_publicacao_aviso": "N/A",
+        "objeto": "N/A"
+    },
+    {
+        "id": 30,
+        "numero_processo": "N/A",
+        "tipo": "Menor Preço",
+        "data_abertura": "N/A",
+        "data_publicacao_edital": "N/A",
+        "data_publicacao_aviso": "N/A",
+        "objeto": "N/A"
+    },
+    {
+        "id": 31,
+        "numero_processo": "N/A",
+        "tipo": "Menor Preço",
+        "data_abertura": "N/A",
+        "data_publicacao_edital": "N/A",
+        "data_publicacao_aviso": "N/A",
+        "objeto": "N/A"
+    },
+    {
+        "id": 32,
+        "numero_processo": "004/2017-PP/2017",
+        "tipo": "Menor Preço",
+        "data_abertura": "2017-03-09",
+        "data_publicacao_edital": "2017-02-21",
+        "data_publicacao_aviso": "2017-02-21",
+        "objeto": "SERVICO DE FILMEGENS E FOTOGRAFIAS DAS SESSOES ORDINARIAS E EXTRAORDINARIAS E DEMAIS EVENTOS DA CAMARA MUNICIPAL DE CEDRO, DURANTE O EXERCICIO DE 2017"
+    },
+    {
+        "id": 33,
+        "numero_processo": "007/17-PP/2017",
+        "tipo": "Menor Preço",
+        "data_abertura": "2017-11-13",
+        "data_publicacao_edital": "2017-10-26",
+        "data_publicacao_aviso": "2017-10-26",
+        "objeto": "AQUISICAO DE COMBUSTIVEL DESTINADO A ATENDER A FROTA DE VEICULOS PERTENCENTES A CAMARA MUNICIPAL DE CEDRO"
+    },
+    {
+        "id": 34,
+        "numero_processo": "004/17-TP/2017",
+        "tipo": "Menor Preço",
+        "data_abertura": "2017-11-13",
+        "data_publicacao_edital": "2017-10-26",
+        "data_publicacao_aviso": "2017-10-26",
+        "objeto": "PRESTACAO DE SERVICO COM ASSESSORIA E CONSULTORIA JURIDICA PARA ATENDER AS NECESSIDADES DA CAMARA MUNICIPAL DE CEDRO."
+    },
+    {
+        "id": 35,
+        "numero_processo": "2018.03.05.02/2018",
+        "tipo": "Menor Preço",
+        "data_abertura": "2018-04-02",
+        "data_publicacao_edital": "2018-03-20",
+        "data_publicacao_aviso": "2018-03-20",
+        "objeto": "CONTRATACAO PARA PRESTACAO DE SERVICOS DE FILMAGEM, FOTOGRAFIA E MANUTENCAO NO SITE OFICIAL, JUNTO A CAMARA MUNICIPAL DE CEDRO"
+    },
+    {
+        "id": 36,
+        "numero_processo": "2018.03.05.01/2018",
+        "tipo": "Menor Preço",
+        "data_abertura": "2018-04-02",
+        "data_publicacao_edital": "2018-03-20",
+        "data_publicacao_aviso": "2018-03-20",
+        "objeto": "AQUISICAO DE MATERIAIS DE EXPEDIENTE, CONSUMO E LIMPEZA PARA ATENDER AS NECESSIDADES DA CAMARA MUNICIPAL DE CEDRO"
+    },
+    {
+        "id": 37,
+        "numero_processo": "2018.03.05.03/2018",
+        "tipo": "Menor Preço",
+        "data_abertura": "2018-04-02",
+        "data_publicacao_edital": "2018-03-20",
+        "data_publicacao_aviso": "2018-03-20",
+        "objeto": "CONTRATACAO PARA PRESTACAO DE SERVICOS ESPECIALIZADOS DE EMISSORAS DE RADIODIFUSAO EM AM E FM, COM ALCANCE DE SINTONIA/FREQUENCIA EM TODA EXTENSAO URBANA E RURAL DO MUNICIPIO DE CEDRO E TRANSMISSAO DAS SESSOES PLENARIAS ORDINARIAS COM DURACAO MAXIMA DE 03 HORAS DA CAMARA MUNICIPAL DE CEDRO"
+    },
+    {
+        "id": 39,
+        "numero_processo": "2018.02.26.03/2018",
+        "tipo": "Menor Preço",
+        "data_abertura": "2018-03-21",
+        "data_publicacao_edital": "2018-03-08",
+        "data_publicacao_aviso": "2018-03-08",
+        "objeto": "LOCACAO DE SOFTWARE, CONFORME ESPECIFICACAO DO TERMO DE REFERENCIA, PARA ATENDIMENTO JUNTO A CAMARA MUNICIPAL DE CEDRO."
+    },
+    {
+        "id": 40,
+        "numero_processo": "2018.02.26.02/2018",
+        "tipo": "Menor Preço",
+        "data_abertura": "2018-03-21",
+        "data_publicacao_edital": "2018-03-08",
+        "data_publicacao_aviso": "2018-03-08",
+        "objeto": "CONTRATACAO PARA PRESTACAO DE SERVICOS TECNICOS PROFISSIONAIS ESPECIALIZADOS DE APOIO ADMINISTRATIVO E ACOMPANHAMENTO NOS SETORES DE ALMOXARIFADO, PATRIMONIO E COMBUSTIVEL, JUNTO CAMARA MUNICIPAL DE CEDRO."
+    },
+    {
+        "id": 41,
+        "numero_processo": "2018.02.26.01/2018",
+        "tipo": "Menor Preço",
+        "data_abertura": "2018-03-21",
+        "data_publicacao_edital": "2018-03-08",
+        "data_publicacao_aviso": "2018-03-08",
+        "objeto": "AQUISICAO DE COMBUSTIVEIS E DERIVADOS DO PETROLEO PARA ATENDIMENTO A CAMARA MUNICIPAL DE CEDRO."
+    },
+    {
+        "id": 42,
+        "numero_processo": "2018.08.22.01",
+        "tipo": "Menor Preço",
+        "data_abertura": "2018-09-14",
+        "data_publicacao_edital": "2018-08-27",
+        "data_publicacao_aviso": "2018-08-27",
+        "objeto": "CONTRATACAO DE EMPRESA ESPECIALIZADA NA PRESTACAO DE SERVICOS PARA ORGANIZACAO E REALIZACAO DE CONCURSO PUBLICO PARA PROVIMENTO DE CARGOS NO QUADRO DE FUNCIONARIOS DA CAMARA MUNICIPAL DE CEDRO - CE"
+    },
+    {
+        "id": 43,
+        "numero_processo": "2019.1802-003CM",
+        "tipo": "Menor Preço",
+        "data_abertura": "2019-03-01",
+        "data_publicacao_edital": "2019-02-19",
+        "data_publicacao_aviso": "2019-02-19",
+        "objeto": "CONTRATACAO PARA PRESTACAO DE SERVICOS DE DIGITALIZACAO DE DOCUMENTOS QUE CONSISTEM EM: PROCESSOS CONTABEIS, LICITACAO, PORTARIAS, DECRETOS E PROJETOS DE LEI MUNICIPAIS JUNTO A CAMARA A MUNICIPAL DE CEDRO - CE."
+    },
+    {
+        "id": 44,
+        "numero_processo": "1802.01/2019CMC",
+        "tipo": "Menor Preço",
+        "data_abertura": "2019-03-01",
+        "data_publicacao_edital": "2019-02-19",
+        "data_publicacao_aviso": "2019-02-19",
+        "objeto": "CONTRATACAO PARA PRESTACAO DE SERVICOS DE FILMAGEM, FOTOGRAFIA E MANUTENCAO NO SITE OFICIAL, TRANSMISSAO DAS SESSOES EM REDES SOCIAIS, JUNTO A CAMARA MUNICIPAL DE CEDRO - CE."
+    },
+    {
+        "id": 45,
+        "numero_processo": "2019.1802-002CM",
+        "tipo": "Menor Preço",
+        "data_abertura": "2019-03-01",
+        "data_publicacao_edital": "2019-02-19",
+        "data_publicacao_aviso": "2019-02-19",
+        "objeto": "CONTRATACAO DE EMPRESA PARA FORNECIMENTO DE COMBUSTIVEIS E DERIVADOS COMO TAMBEM OLEOS LUBRIFICANTES E FILTROS DE AR, PARA ATENDER AS NECESSIDADES DA FROTA DE VEICULOS DA CAMARA MUNICIPAL DE CEDRO - CE."
+    },
+    {
+        "id": 46,
+        "numero_processo": "N/A",
+        "tipo": "Menor Preço",
+        "data_abertura": "N/A",
+        "data_publicacao_edital": "N/A",
+        "data_publicacao_aviso": "N/A",
+        "objeto": "N/A"
+    },
+    {
+        "id": 47,
+        "numero_processo": "1202.01/2021",
+        "tipo": "Menor Preço",
+        "data_abertura": "2021-03-29",
+        "data_publicacao_edital": "2021-03-10",
+        "data_publicacao_aviso": "2021-03-10",
+        "objeto": "CONTRATACAO DE SERVICOS DE ASSESSORIA E EXECUCAO CONTABIL,ASSESSORIA E ACOMPANHAMENTO DE RECURSOS HUMANOS E ASSESSORIA EM GESTAO E ESTRATEGIA,JUNTO A CAMARA MUNICIPAL DE CEDRO/CE."
+    },
+    {
+        "id": 48,
+        "numero_processo": "1503.01/2021",
+        "tipo": "Menor Preço",
+        "data_abertura": "2021-04-07",
+        "data_publicacao_edital": "2021-03-22",
+        "data_publicacao_aviso": "N/A",
+        "objeto": "CONTRATACAO DE PESSOA JURIDICA PARA A PRESTACAO DOS SERVICOS DE ASSESSORIA EM PUBLICIDADE INSTITUCIONAL,JUNTO A CAMARA MUNICIPAL DE CEDRO/CE."
+    },
+    {
+        "id": 49,
+        "numero_processo": "2603.01/2021",
+        "tipo": "Menor Preço",
+        "data_abertura": "2021-04-30",
+        "data_publicacao_edital": "2021-04-16",
+        "data_publicacao_aviso": "N/A",
+        "objeto": "AQUISICAO DE COMBUSTIVEL,LUBRIFICANTES E FILTROS,DESTINADOS AO VEICULO CA CAMARA MUNICIPAL DE CEDRO/CE."
+    },
+    {
+        "id": 50,
+        "numero_processo": "N/A",
+        "tipo": "Menor Preço",
+        "data_abertura": "N/A",
+        "data_publicacao_edital": "N/A",
+        "data_publicacao_aviso": "N/A",
+        "objeto": "N/A"
+    },
+    {
+        "id": 51,
+        "numero_processo": "N/A",
+        "tipo": "Menor Preço",
+        "data_abertura": "N/A",
+        "data_publicacao_edital": "N/A",
+        "data_publicacao_aviso": "N/A",
+        "objeto": "N/A"
+    },
+    {
+        "id": 52,
+        "numero_processo": "N/A",
+        "tipo": "Menor Preço",
+        "data_abertura": "N/A",
+        "data_publicacao_edital": "N/A",
+        "data_publicacao_aviso": "N/A",
+        "objeto": "N/A"
+    },
+    {
+        "id": 53,
+        "numero_processo": "2807.01/2021",
+        "tipo": "Menor Preço",
+        "data_abertura": "2021-08-27",
+        "data_publicacao_edital": "2021-08-04",
+        "data_publicacao_aviso": "2021-07-28",
+        "objeto": "CONTRATACAO DE PESSOA JURIDICA PARA PRESTACAO DOS SERVICOS DE LICENCIAMENTO DE USO DE SISTEMAS WEB (ONLINE), JUNTO A CAMARA MUNICIPAL DE CEDRO/CE."
+    },
+    {
+        "id": 54,
+        "numero_processo": "2311.01/2021",
+        "tipo": "Menor Preço",
+        "data_abertura": "2021-12-10",
+        "data_publicacao_edital": "2021-11-23",
+        "data_publicacao_aviso": "2021-11-26",
+        "objeto": "AQUISICAO DE EQUIPAMENTOS DE INFORMATICA E APARELHOS DE AR-CONDICIONADO,JUNTO A CAMARA MUNICIPAL DE CEDRO/CE."
+    },
+    {
+        "id": 55,
+        "numero_processo": "N/A",
+        "tipo": "Menor Preço",
+        "data_abertura": "N/A",
+        "data_publicacao_edital": "N/A",
+        "data_publicacao_aviso": "N/A",
+        "objeto": "14/01/2022"
+    },
+    {
+        "id": 56,
+        "numero_processo": "N/A",
+        "tipo": "Menor Preço",
+        "data_abertura": "N/A",
+        "data_publicacao_edital": "N/A",
+        "data_publicacao_aviso": "N/A",
+        "objeto": "07/02/2022"
+    },
+    {
+        "id": 57,
+        "numero_processo": "0302.01/2022",
+        "tipo": "Menor Preço",
+        "data_abertura": "2022-02-23",
+        "data_publicacao_edital": "2022-02-23",
+        "data_publicacao_aviso": "2022-02-07",
+        "objeto": "CONTRATACAO DE PESSOA JURIDICA PARA A PRESTACAO DOS SERVICOS DE ASSESSORIA EM PUBLICIDADE INSTITUCIONAL, MANUTENCAO E DIVULGACAO DA HOME PAGE, JUNTO A CAMARA MUNICIPAL DE CEDRO/CE SINTESE DO OBJETO: PUBLICIDADE/PROPAGANDA"
+    },
+    {
+        "id": 58,
+        "numero_processo": "2803.01/2022",
+        "tipo": "Menor Preço",
+        "data_abertura": "2022-04-12",
+        "data_publicacao_edital": "2022-03-29",
+        "data_publicacao_aviso": "2022-03-30",
+        "objeto": "AQUISICAO DE COMBUSTIVEL, LUBRIFICANTES E FILTROS, DESTINADOS AO VEICULO DA CAMARA MUNICIPAL DE CEDRO/CE SINTESE DO OBJETO: COMBUSTIVEIS/LUBRIFICANTES/DERIVADOS DE PETROLEO"
+    },
+    {
+        "id": 59,
+        "numero_processo": "2501.01/2023",
+        "tipo": "Menor Preço",
+        "data_abertura": "2023-02-15",
+        "data_publicacao_edital": "2023-02-01",
+        "data_publicacao_aviso": "2023-02-01",
+        "objeto": "AQUISICAO DE COMBUSTIVEL, LUBRIFICANTES E FILTROS, DESTINADOS AOS VEICULOS DA CAMARA MUNICIPAL DE CEDRO/CE."
+    },
+    {
+        "id": 62,
+        "numero_processo": "0803.01/2023",
+        "tipo": "Menor Preço",
+        "data_abertura": "2023-04-05",
+        "data_publicacao_edital": "2023-03-20",
+        "data_publicacao_aviso": "2023-03-20",
+        "objeto": "CONTRATACAO DE PESSOA JURIDICA PARA PRESTACAO DOS SERVICOS DE REFORMA DA CAMARA MUNICIPAL DE CEDRO/CE"
+    }
+]

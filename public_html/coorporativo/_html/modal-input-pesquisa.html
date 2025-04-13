@@ -1,0 +1,61 @@
+<!-- Modal -->
+<div class="modal fade" id="modal-input-pesquisa" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h6>Pesquisa Por <span id="buscarPor"></span></h6>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true" style="color: white">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-md-10">
+                        <form id="form-input-pesquisa">      
+                            <div class="row">
+
+                                <div class="col-md-3">
+                                    <div class="input-group  input-group-sm mb-3">
+                                        <div class="input-group-prepend">
+                                            <span class="input-group-text" id="inputGroupPrepend1"> <i class="fa fa-file-text"> </i></span>
+                                        </div>
+                                        <input type="text" name="c1"  id="c1" class="form-control" placeholder="Código">
+                                    </div>
+                                </div>
+                                <div class="col-md-9">
+                                    <div class="input-group  input-group-sm mb-3">
+                                        <div class="input-group-prepend">
+                                            <span class="input-group-text" id="inputGroupPrepend1"> <i class="fa fa-file-text"> </i></span>
+                                        </div>
+                                        <input type="text" name="c2"  id="c2" class="form-control" placeholder="Nome">
+                                    </div>
+                                </div>
+
+                            </div> 
+                        </form>
+                    </div>
+                    <div class="col-md-1">
+                        <div class="col-md-2 reset">
+                            <button class="btn btn-secondary btn-sm" onclick="inputSearch()"><i class="fa fa-search white"></i><span class="white">&nbsp;Pesquisar</span></button>
+                        </div>
+                    </div>
+                </div>
+                <div style="max-height: 400px; overflow: auto;">
+                    <table class="table table-sm ">
+                        <thead id='thead-input-pesquisa'>
+                            <tr>
+                                <th>Cod</th>
+                                <th>Número</th>
+                                <th>Selecionar</th>
+                            </tr>
+                        </thead>
+                        <tbody id='tbody-input-pesquisa'>
+
+                        </tbody>
+                    </table>
+                    <div id="echos-input-pesquisa"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

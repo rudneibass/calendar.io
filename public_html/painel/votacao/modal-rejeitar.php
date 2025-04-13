@@ -1,0 +1,30 @@
+<section>
+    <div class="modal fade" id="modalRejeitar" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content border" style="background:rgba(0, 0, 0, 0.5);">
+                <div class="modal-body" style="background:rgba(0, 0, 0, 0.5); text-align: center;">
+                <h1 style="color: white">Atenção</h1>
+                    <hr style="color: white"/>
+                    <h2 style="color: white">
+                        Você está realmente contra essa matéria?
+                    </h2>
+                    <br />
+                    <div class="align-center d-flex" >
+                        <button
+                            type="button"
+                            class="btn btn-default btn-lg btn3d"
+                            data-bs-dismiss="modal">
+                            <i class="fa fa-undo"></i>
+                            Voltar
+                        </button>
+                        &emsp;
+                        <button type="button" class="btn btn-danger btn-lg btn3d m-auto">
+                            <i class="fa fa-remove"></i>&nbsp;Contra
+                        </button>
+                    </div>
+                    <br />
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,21 @@
+select * from arquivos where tabela_pai = 'diarias'
+ delete from arquivos where tabela_pai = 'diarias'
+UPDATE diarias SET exercicio = YEAR(data_diaria);
+
+select * from arquivos where tabela_pai = 'portarias'
+ delete from arquivos where tabela_pai = 'portarias'
+delete from portarias
+UPDATE portarias SET exercicio = YEAR(data_portaria);
+
+select * from arquivos where tabela_pai = 'publicacoes'
+ delete from arquivos where tabela_pai = 'publicacoes'
+delete from publicacoes
+UPDATE publicacoes SET exercicio = YEAR(data_publicacao);
+
+
+select * from arquivos where tabela_pai = 'leis'
+ delete from arquivos where tabela_pai = 'leis'
+delete from leis
+UPDATE leis SET exercicio = YEAR(data_lei);
+
+ALTER TABLE contratos CONVERT TO CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci

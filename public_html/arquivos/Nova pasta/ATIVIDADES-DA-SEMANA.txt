@@ -1,0 +1,33 @@
+22 a 24/07
+- Erro no arquivos de pagamento BB coopervida no link de teste (TT #1170)
+- Erro ao gerar relatório de pagamento em banco em csv no link de teste (TT #1202)
+- arquivo arajara Barbalha
+- Entrar em contato com Zé Filho, operador do ponto de Tamboril;
+- Verificar as pessoas que estão marcadas para não descontar IRRF;
+- Teste nos relatórios do RH 247
+- TESTES | Relatóios que não retornam registros (TT #1173)
+- TESTES | Relatórios com erro de geração (TT #1178)
+
+27/04 a 30/04
+
+- Auxiliar Rose de Acopiara na elaboração de uma rescisão judicial
+- Verificar diferença no SIM de Crateús
+- Verificar diferença no calculo do adicional noturno
+  de FRANCISCO EVERALDO DOS SANTOS Barbalha
+- Inconsistencias no sim do ipesq
+- Gerar aquivos para previjuno
+- Inconsistencias SIOPE barbalha
+- Cadastro de pensão alimenticia Catarina;
+- Cadastro de licença Irauçuba
+- Importar Consignados Bradesco Icó
+- Criar novo tipo de afastamento AUXILIO DOENÇA RPPS com as mesmas caracteristicas 
+  do AUXILIO DOENÇA padrão do sistema mudando apenas o campo REMUNERADO para SIM. (TT #1201)
+
+04/  a 08/05
+- Problema aquivos de pagamento barbalha
+- suporte portal do servidor crateus
+- suporte folha rosw acopiara
+
+
+
+

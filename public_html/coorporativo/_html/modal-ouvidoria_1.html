@@ -1,0 +1,78 @@
+<!-- MODAL -->
+<div class="modal fade" id="modal-ouvidoria" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Manifestação Publica</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body" >
+                <div id="modal-body">
+                    <div>
+                        <i class="fa fa-user-circle"  style="font-size:24px"></i>&nbsp;
+                        <span><b>De:&nbsp;</b></span><span id="o_nome"></span>
+                        <span><</span><span id="o_email"></span><span>></span><br/>
+                        <span ><b>Enviado:</b></span><span id="o_data_formatada"></span><br/>
+                        <span ><b>Protocolo:&nbsp;</b></span>00000<span id="o_id"></span><br/>
+                        <span ><b>Fone:&nbsp;</b></span><span id="o_fone"></span><br />
+                        <span ><b>Assunto:&nbsp;</b></span><span id="o_assunto"></span><hr>
+                        <div class="corpo-msg">    
+                            <span id="o_mensagem"></span><br/>
+                        </div>   
+                    </div>
+                    <br/>
+                    <div style="border-top: 1px solid #d6d6d6">
+                        <br />
+                        <div class="row">
+                            <div class="col-1">
+
+                            </div>
+                            <div class="col-7" id="loading" style="padding-top: 10px"></div>
+                            <div class="col-4">
+                                <div  style="padding-left: 20%">
+                                    <button type="button" class="btn btn-secondary btn-sm" data-dismiss="modal"><i class="fa fa-undo"></i> Voltar</button>
+                                    <button type="button" class="btn btn-info btn-sm" onclick="FormRespostaOuvidoria();"><i class="fa fa-reply"></i> Responder</button> 
+                                </div>
+                            </div> 
+                        </div>
+                    </div>
+
+                    <div class="form-resposta-ouvidoria" style="display: none">
+                        <hr/>
+                        <form id="form-resposta">
+                            <input type="hidden" id="tbl" name="tbl" value="enviadas">
+                            <input type="hidden" id="id_ouvidoria" name="id_ouvidoria">
+                            <input type="hidden" id="assunto" name="assunto">
+                            <input type="hidden" id="tag" name="tag" value="#ouvidoria">        
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="form-group input-group-sm mb-3">
+                                        <label>Destinatário</label>
+                                        <input type="text" class="form-control" name="email_destino" id="email_destino"  placeholder="Para.." value=""/>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-12">
+                                    <div class="form-group">	
+                                        <textarea class="form-control corpo-msg" name="mensagem_resposta" id="mensagem_resposta" rows="3" ></textarea>
+                                    </div>
+                                </div>
+
+                            </div>  
+                        </form>
+                        <div class="row">
+                            <div class="col-md-10"></div>
+                            <div class="col-md-2 pl-5">
+                                <button type="button" class="btn btn-info btn-sm" onclick="salvarRespostaOuvidoria();"><i class="fa fa-reply"></i> Enviar</button> 
+                            </div>
+                        </div>
+                    </div><!-- div form-resposta -->
+
+                </div>
+
+            </div>
+        </div>
+    </div> 
+</div><!-- FIM MODAL -->

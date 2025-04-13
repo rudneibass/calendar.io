@@ -1,0 +1,90 @@
+[
+  {
+    "nome": "ANTONIO HÉLIO",
+    "cargo": "VEREADOR(A)",
+    "partido": "PP",
+    "autoria": "Autor",
+    "acoes": "",
+    "id_materias": "1000"
+  },
+  {
+    "nome": "JOSÉ DE ARAÚJO",
+    "cargo": "VEREADOR(A)",
+    "partido": "PP",
+    "autoria": "Autor",
+    "acoes": "",
+    "id_materias": "1001"
+  },
+  {
+    "nome": "MATHEUS ARAÚJO",
+    "cargo": "VEREADOR(A)",
+    "partido": "PP",
+    "autoria": "Subescritor",
+    "acoes": "",
+    "id_materias": "1001"
+  },
+  {
+    "nome": "ANTONIO HÉLIO",
+    "cargo": "VEREADOR(A)",
+    "partido": "PP",
+    "autoria": "Subescritor",
+    "acoes": "",
+    "id_materias": "1001"
+  },
+  {
+    "nome": "GILBERTO BARBOSA",
+    "cargo": "PRESIDENTE",
+    "partido": "PDT",
+    "autoria": "Autor",
+    "acoes": "",
+    "id_materias": "1002"
+  },
+  {
+    "nome": "GILBERTO BARBOSA",
+    "cargo": "PRESIDENTE",
+    "partido": "PDT",
+    "autoria": "Autor",
+    "acoes": "",
+    "id_materias": "1003"
+  },
+  {
+    "nome": "GILBERTO BARBOSA",
+    "cargo": "PRESIDENTE",
+    "partido": "PDT",
+    "autoria": "Autor",
+    "acoes": "",
+    "id_materias": "1004"
+  },
+  {
+    "nome": "MARTA DINIZ",
+    "cargo": "1º SECRETÁRIO",
+    "partido": "PDT",
+    "autoria": "Autor",
+    "acoes": "",
+    "id_materias": "1005"
+  },
+  {
+    "nome": "MARTA DINIZ",
+    "cargo": "1º SECRETÁRIO",
+    "partido": "PDT",
+    "autoria": "Autor",
+    "acoes": "",
+    "id_materias": "1006"
+  },
+  {
+    "nome": "WYANA VIANA",
+    "cargo": "2º SECRETÁRIO",
+    "partido": "PT",
+    "autoria": "Autor",
+    "acoes": "",
+    "id_materias": "1008"
+  },
+  {
+    "nome": "WYANA VIANA",
+    "cargo": "2º SECRETÁRIO",
+    "partido": "PT",
+    "autoria": "Autor",
+    "acoes": "",
+    "id_materias": "1009"
+  }
+]

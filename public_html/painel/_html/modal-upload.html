@@ -1,0 +1,50 @@
+<!-- Modal -->
+<div class="modal fade" id="modal-upload" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Envio de Arquivos e Midias</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-4">
+                        <div class="card">
+                            <h5 class="card-header">Escolha de Arquivos</h5>
+                            <div class="card-body">
+                                <form id="form-upload" enctype="multipart/form-data">
+                                    <input type="hidden" name="tabela_pai" id="tabela_pai">
+                                    <input type="hidden" name="id_tabela_pai" id="id_tabela_pai">
+                                    <input type="hidden" id="controller">
+                                    <input type="hidden" id="action">
+                                    
+                                    <div class="custom-file">
+                                        <input type="file" name="arquivo[]" id="seleciona-arquivos" class="custom-file-input" multiple/>
+                                        <label class="custom-file-label" for="customFile">Seleccionar</label>
+                                    </div>
+                                    <br />
+                                    <br />
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-8">
+                        <div class="card">
+                            <h5 class="card-header">Arquivos</h5>
+                            <div class="card-body"  style="min-height: 102px;">
+                                <div id="anexos"></div>
+                                <div id="progress" class="text-center"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div> <!-- row -->
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary btn-sm" data-dismiss="modal"><i class="fa fa-undo"></i>&nbsp;Voltar</button>               
+                <button class="btn btn-success btn-sm" id="enviar"><i class="fa fa-cloud-upload"></i>&nbsp;Enviar</button>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,3188 @@
+[
+  {
+    "id": "1",
+    "data": "2016-05-06",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  14ª (DÉCIMA QUARTA) SESSÃO ORDINÁRIA DO 1º PERÍODO LEGISLATIVO DE 2016, EM 06 DE MAIO DE 2016."
+  },
+  {
+    "id": "2",
+    "data": "2016-05-03",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  13ª (DÉCIMA TERCEIRA) SESSÃO ORDINÁRIA DO 1º PERÍODO LEGISLATIVO DE 2016, EM 03 DE MAIO DE 2016."
+  },
+  {
+    "id": "3",
+    "data": "2016-04-26",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  12ª (DÉCIMA SEGUNDA) SESSÃO ORDINÁRIA DO 1º PERÍODO LEGISLATIVO DE 2016, EM 26 DE ABRIL DE 2016."
+  },
+  {
+    "id": "4",
+    "data": "2016-04-15",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  11ª (DÉCIMA) SESSÃO ORDINÁRIA DO 1º PERÍODO LEGISLATIVO DE 2016, EM 15 DE ABRIL DE 2016."
+  },
+  {
+    "id": "5",
+    "data": "2016-04-08",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  10ª (DÉCIMA) SESSÃO ORDINÁRIA DO 1º PERÍODO LEGISLATIVO DE 2016, EM 08 DE ABRIL DE 2016."
+  },
+  {
+    "id": "6",
+    "data": "2016-04-01",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  09ª (NONA) SESSÃO ORDINÁRIA DO 1º PERÍODO LEGISLATIVO DE 2016, EM 01 DE ABRIL DE 2016."
+  },
+  {
+    "id": "7",
+    "data": "2016-03-23",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  08ª (OITAVA) SESSÃO ORDINÁRIA DO 1º PERÍODO LEGISLATIVO DE 2016, EM 23 DE MARÇO DE 2016."
+  },
+  {
+    "id": "8",
+    "data": "2016-03-18",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  07ª (SÉTIMA) SESSÃO ORDINÁRIA DO 1º PERÍODO LEGISLATIVO DE 2016, EM 18 DE MARÇO DE 2016."
+  },
+  {
+    "id": "9",
+    "data": "2016-03-11",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  06ª (SEXTA) SESSÃO ORDINÁRIA DO 1º PERÍODO LEGISLATIVO DE 2016, EM 11 DE MARÇO DE 2016."
+  },
+  {
+    "id": "10",
+    "data": "2016-03-08",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  05ª (QUINTA) SESSÃO ORDINÁRIA DO 1º PERÍODO LEGISLATIVO DE 2016, EM 08 DE MARÇO DE 2016."
+  },
+  {
+    "id": "11",
+    "data": "2016-02-29",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  04ª (QUARTA) SESSÃO ORDINÁRIA DO 1º PERÍODO LEGISLATIVO DE 2016, EM 29 DE FEVEREIRO DE 2016."
+  },
+  {
+    "id": "12",
+    "data": "2016-02-19",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  03ª (TERCEIRA) SESSÃO ORDINÁRIA DO 1º PERÍODO LEGISLATIVO DE 2016, EM 19 DE FEVEREIRO DE 2016."
+  },
+  {
+    "id": "13",
+    "data": "2016-02-12",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  02ª (SEGUNDA) SESSÃO ORDINÁRIA DO 1º PERÍODO LEGISLATIVO DE 2016, EM 12 DE FEVEREIRO DE 2016."
+  },
+  {
+    "id": "14",
+    "data": "N/A",
+    "status": "N/A",
+    "descricao": "N/A"
+  },
+  {
+    "id": "15",
+    "data": "2016-02-05",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  01ª (PRIMEIRA) SESSÃO ORDINÁRIA DO 1º PERÍODO LEGISLATIVO DE 2016, EM 05 DE FEVEREIRO DE 2016."
+  },
+  {
+    "id": "16",
+    "data": "2016-01-25",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  1ª (PRIMEIRA) SESSÃO EXTRA-ORDINÁRIA DO 1º PERÍODO LEGISLATIVO DE 2016, EM 25 DE JANEIRO DE 2016."
+  },
+  {
+    "id": "17",
+    "data": "2015-02-02",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  1ª SESSÃO ORDINÁRIA – 02 DE FEVEREIRO DE 2015"
+  },
+  {
+    "id": "18",
+    "data": "2015-02-09",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  2ª SESSÃO ORDINÁRIA – 09 DE FEVEREIRO DE 2015"
+  },
+  {
+    "id": "19",
+    "data": "2015-02-19",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  3ª SESSÃO ORDINÁRIA – 19 DE FEVEREIRO DE 2015"
+  },
+  {
+    "id": "20",
+    "data": "2015-02-23",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  4ª SESSÃO ORDINÁRIA – 23 DE FEVEREIRO DE 2015"
+  },
+  {
+    "id": "21",
+    "data": "2015-03-02",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  5ª SESSÃO ORDINÁRIA – 02 DE MARÇO DE 2015"
+  },
+  {
+    "id": "22",
+    "data": "2015-03-09",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  6ª SESSÃO ORDINÁRIA – 09 DE MARÇO DE 2015"
+  },
+  {
+    "id": "23",
+    "data": "2015-03-16",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  7ª SESSÃO ORDINÁRIA – 16 DE MARÇO DE 2015"
+  },
+  {
+    "id": "24",
+    "data": "2015-03-23",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  8ª SESSÃO ORDINÁRIA – 23 DE MARÇO DE 2015"
+  },
+  {
+    "id": "25",
+    "data": "2015-03-30",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  9ª SESSÃO ORDINÁRIA – 30 DE MARÇO DE 2015"
+  },
+  {
+    "id": "26",
+    "data": "2015-04-06",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  10ª SESSÃO ORDINÁRIA – 06 DE ABRIL DE 2015"
+  },
+  {
+    "id": "27",
+    "data": "2015-04-13",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  11ª SESSÃO ORDINÁRIA – 13 DE ABRIL DE 2015"
+  },
+  {
+    "id": "28",
+    "data": "2015-04-20",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  12ª SESSÃO ORDINÁRIA – 20 DE ABRIL DE 2015"
+  },
+  {
+    "id": "29",
+    "data": "2015-04-27",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  13ª SESSÃO ORDINÁRIA – 27 DE ABRIL DE 2015"
+  },
+  {
+    "id": "30",
+    "data": "2015-05-04",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  14ª SESSÃO ORDINÁRIA – 04 DE MAIO DE 2015"
+  },
+  {
+    "id": "31",
+    "data": "2015-05-11",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  15ª SESSÃO ORDINÁRIA – 11 DE MAIO DE 2015"
+  },
+  {
+    "id": "32",
+    "data": "2015-05-18",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  16ª SESSÃO ORDINÁRIA – 18 DE MAIO DE 2015"
+  },
+  {
+    "id": "33",
+    "data": "2015-05-25",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  17ª SESSÃO ORDINÁRIA – 25 DE MAIO DE 2015"
+  },
+  {
+    "id": "34",
+    "data": "2015-06-01",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  18ª SESSÃO ORDINÁRIA – 1º DE JUNHO DE 2015"
+  },
+  {
+    "id": "35",
+    "data": "2015-06-08",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  19ª SESSÃO ORDINÁRIA – 08 DE JUNHO DE 2015"
+  },
+  {
+    "id": "36",
+    "data": "2015-06-15",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  20ª SESSÃO ORDINÁRIA – 15 DE JUNHO DE 2015"
+  },
+  {
+    "id": "37",
+    "data": "2015-06-22",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  21ª SESSÃO ORDINÁRIA – 22 DE JUNHO DE 2015"
+  },
+  {
+    "id": "38",
+    "data": "2015-06-29",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  22ª SESSÃO ORDINÁRIA – 29 DE JUNHO DE 2015"
+  },
+  {
+    "id": "39",
+    "data": "2015-07-06",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  23ª SESSÃO ORDINÁRIA – 06 DE JULHO DE 2015"
+  },
+  {
+    "id": "40",
+    "data": "2015-07-13",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  24ª SESSÃO ORDINÁRIA – 13 DE JULHO DE 2015"
+  },
+  {
+    "id": "41",
+    "data": "2015-08-03",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  25ª SESSÃO ORDINÁRIA – 03 DE AGOSTO DE 2015"
+  },
+  {
+    "id": "42",
+    "data": "2015-08-10",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  26ª SESSÃO ORDINÁRIA – 10 DE AGOSTO DE 2015"
+  },
+  {
+    "id": "43",
+    "data": "2015-08-17",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  27ª SESSÃO ORDINÁRIA – 17 DE AGOSTO DE 2015"
+  },
+  {
+    "id": "44",
+    "data": "2015-08-24",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  28ª SESSÃO ORDINÁRIA – 24 DE AGOSTO DE 2015"
+  },
+  {
+    "id": "45",
+    "data": "2015-08-31",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  29ª SESSÃO ORDINÁRIA – 31 DE AGOSTO DE 2015"
+  },
+  {
+    "id": "46",
+    "data": "2015-09-08",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  30ª SESSÃO ORDINÁRIA – 08 DE SETEMBRO DE 2015"
+  },
+  {
+    "id": "47",
+    "data": "2015-09-14",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  31ª SESSÃO ORDINÁRIA – 14 DE SETEMBRO DE 2015"
+  },
+  {
+    "id": "48",
+    "data": "2015-09-25",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  32ª SESSÃO ORDINÁRIA – 25 DE SETEMBRO DE 2015"
+  },
+  {
+    "id": "49",
+    "data": "2015-10-02",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  33ª SESSÃO ORDINÁRIA – 02 DE OUTUBRO DE 2015"
+  },
+  {
+    "id": "50",
+    "data": "2015-10-09",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  34ª SESSÃO ORDINÁRIA – 09 DE OUTUBRO DE 2015"
+  },
+  {
+    "id": "51",
+    "data": "2015-10-16",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  35ª SESSÃO ORDINÁRIA – 16 DE OUTUBRO DE 2015"
+  },
+  {
+    "id": "52",
+    "data": "2015-10-23",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  36ª SESSÃO ORDINÁRIA – 23 DE OUTUBRO DE 2015"
+  },
+  {
+    "id": "53",
+    "data": "2015-10-29",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  37ª SESSÃO ORDINÁRIA – 29 DE OUTUBRO DE 2015"
+  },
+  {
+    "id": "54",
+    "data": "2015-11-06",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  38ª SESSÃO ORDINÁRIA – 06 DE NOVEMBRO DE 2015"
+  },
+  {
+    "id": "55",
+    "data": "2015-11-13",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  39ª SESSÃO ORDINÁRIA – 13 DE NOVEMBRO DE 2015"
+  },
+  {
+    "id": "56",
+    "data": "2015-11-20",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  40ª SESSÃO ORDINÁRIA – 20 DE NOVEMBRO DE 2015"
+  },
+  {
+    "id": "57",
+    "data": "2015-11-27",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  41ª SESSÃO ORDINÁRIA – 27 DE NOVEMBRO DE 2015"
+  },
+  {
+    "id": "58",
+    "data": "2015-12-04",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  42ª SESSÃO ORDINÁRIA – 04 DE DEZEMBRO DE 2015"
+  },
+  {
+    "id": "59",
+    "data": "2015-12-11",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  43ª SESSÃO ORDINÁRIA – 11 DE DEZEMBRO DE 2015"
+  },
+  {
+    "id": "60",
+    "data": "2015-12-18",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  44ª SESSÃO ORDINÁRIA – 18 DE DEZEMBRO DE 2015"
+  },
+  {
+    "id": "61",
+    "data": "2015-01-30",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  1ª SESSÃO EXTRAORDINÁRIA - 30 DE JANEIRO DE 2015"
+  },
+  {
+    "id": "62",
+    "data": "2015-01-30",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  2ª SESSÃO EXTRAORDINÁRIA - 30 DE JANEIRO DE 2015."
+  },
+  {
+    "id": "63",
+    "data": "2015-02-12",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  3ª SESSÃO EXTRAORDINÁRIA - 12 DE FEVEREIRO DE 2015."
+  },
+  {
+    "id": "64",
+    "data": "2015-07-02",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  4ª SESSÃO EXTRAORDINÁRIA - 02 DE JULHO DE 2015."
+  },
+  {
+    "id": "65",
+    "data": "2015-07-28",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  5ª SESSÃO EXTRAORDINÁRIA - 28 DE JULHO DE 2015."
+  },
+  {
+    "id": "66",
+    "data": "2016-03-18",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  007ª (SÉTIMA) SESSÃO ORDINÁRIA DO 1º PERÍODO LEGISLATIVO DE 2016, EM 18 DE MARÇO DE 2016."
+  },
+  {
+    "id": "67",
+    "data": "2016-03-20",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  8ª (OITAVA) SESSÃO ORDINÁRIA DO 1º PERÍODO LEGISLATIVO DE 2016, EM 23 DE MARÇO DE 2016"
+  },
+  {
+    "id": "68",
+    "data": "2016-05-13",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  15ª (DÉCIMA QUINTA) SESSÃO ORDINÁRIA DO 1º PERÍODO LEGISLATIVO DE 2016, EM 13 DE MAIO DE 2016"
+  },
+  {
+    "id": "69",
+    "data": "2016-05-20",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  16ª (DÉCIMA SEXTA) SESSÃO ORDINÁRIA DO 1º PERÍODO LEGISLATIVO DE 2016, EM 20 DE MAIO DE 2016"
+  },
+  {
+    "id": "70",
+    "data": "2016-05-27",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  17ª (DÉCIMA SÉTIMAA) SESSÃO ORDINÁRIA DO 1º PERÍODO LEGISLATIVO DE 2016, EM 27 DE MAIO DE 2016"
+  },
+  {
+    "id": "71",
+    "data": "2016-06-03",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  18ª SESSÃO ORDINÁRIA – 03 DE JUNHO DE 2016"
+  },
+  {
+    "id": "72",
+    "data": "2016-06-13",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  19ª SESSÃO ORDINÁRIA – 13 DE JUNHO DE 2016"
+  },
+  {
+    "id": "73",
+    "data": "2016-06-17",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  20ª SESSÃO ORDINÁRIA – 17 DE JUNHO DE 2016"
+  },
+  {
+    "id": "74",
+    "data": "2016-06-23",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  \r\n21ª SESSÃO ORDINÁRIA – 23 DE JUNHO DE 2016"
+  },
+  {
+    "id": "75",
+    "data": "2016-06-30",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  22ª SESSÃO ORDINÁRIA – 30 DE JUNHO DE 2016"
+  },
+  {
+    "id": "76",
+    "data": "2016-07-08",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  23ª SESSÃO ORDINÁRIA – 08 DE JULHO DE 2016"
+  },
+  {
+    "id": "77",
+    "data": "N/A",
+    "status": "N/A",
+    "descricao": "N/A"
+  },
+  {
+    "id": "78",
+    "data": "2016-10-19",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  036ª (TRIGÉSIMA SEXTA) SESSÃO ORDINÁRIA DO 2º PERÍODO LEGISLATIVO DE 2016, EM 19 DE OUTUBRO DE 2016."
+  },
+  {
+    "id": "79",
+    "data": "2016-10-14",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  \r\n35ª SESSÃO ORDINÁRIA – 14 DE OUTUBRO DE 2016"
+  },
+  {
+    "id": "80",
+    "data": "2016-10-07",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  34ª SESSÃO ORDINÁRIA – 07 DE OUTUBRO DE 2016"
+  },
+  {
+    "id": "81",
+    "data": "2016-09-30",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  33ª SESSÃO ORDINÁRIA – 30 DE SETEMBRO DE 2016"
+  },
+  {
+    "id": "82",
+    "data": "2016-09-23",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  32ª SESSÃO ORDINÁRIA – 23 DE SETEMBRO DE 2016"
+  },
+  {
+    "id": "83",
+    "data": "2016-09-16",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  31ª SESSÃO ORDINÁRIA – 16 DE SETEMBRO DE 2016"
+  },
+  {
+    "id": "84",
+    "data": "2016-09-09",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  30ª SESSÃO ORDINÁRIA – 09 DE SETEMBRO DE 2016"
+  },
+  {
+    "id": "85",
+    "data": "2016-09-02",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  29ª SESSÃO ORDINÁRIA – 02 DE SETEMBRO DE 2016"
+  },
+  {
+    "id": "86",
+    "data": "2016-08-26",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  28ª SESSÃO ORDINÁRIA – 26 DE AGOSTO DE 2016"
+  },
+  {
+    "id": "87",
+    "data": "2016-08-19",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  \r\n27ª SESSÃO ORDINÁRIA – 19 DE AGOSTO DE 2016"
+  },
+  {
+    "id": "88",
+    "data": "2016-08-12",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  26ª SESSÃO ORDINÁRIA – 12 DE AGOSTO DE 2016"
+  },
+  {
+    "id": "89",
+    "data": "2016-08-05",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  25ª SESSÃO ORDINÁRIA – 05 DE AGOSTO DE 2016"
+  },
+  {
+    "id": "90",
+    "data": "2016-07-15",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  24ª SESSÃO ORDINÁRIA – 15 DE JULHO DE 2016"
+  },
+  {
+    "id": "91",
+    "data": "2017-02-03",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  001ª () SESSÃO EXTRA-ORDINÁRIA DO LEGISLATURA (2017 - 2020) - 45ª PERÍODO (30/12/1899 À 30/12/1899) DE 3 DE FEVEREIRO DE 2017"
+  },
+  {
+    "id": "92",
+    "data": "2017-02-10",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  02ª (SEGUNDA) SESSÃO ORDINÁRIA DO LEGISLATURA (2017 - 2020) - 45ª PERÍODO (30/12/1899 À 30/12/1899) DE 10 DE FEVEREIRO DE 2017"
+  },
+  {
+    "id": "93",
+    "data": "2017-01-19",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  001ª () SESSÃO EXTRA-ORDINÁRIA DO LEGISLATURA (2017 - 2020) - 45ª PERÍODO (30/12/1899 À 30/12/1899) DE 19 DE JANEIRO DE 2017"
+  },
+  {
+    "id": "94",
+    "data": "2017-02-17",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  003ª (TERCEIRA) SESSÃO ORDINÁRIA DO LEGISLATURA (2017 - 2020) - 45ª PERÍODO (30/12/1899 À 30/12/1899) DE 17 DE FEVEREIRO DE 2017"
+  },
+  {
+    "id": "95",
+    "data": "2017-02-24",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  004ª (QUARTA) SESSÃO ORDINÁRIA DO LEGISLATURA (2017 - 2020)"
+  },
+  {
+    "id": "96",
+    "data": "2017-03-03",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  005ª (QUINTA) SESSÃO ORDINÁRIA DO LEGISLATURA (2017 - 2020) - 45ª PERÍODO (30/12/1899 À 30/12/1899) DE 3 DE MARÇO DE 2017"
+  },
+  {
+    "id": "97",
+    "data": "2017-03-10",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  006ª (SEXTA) SESSÃO ORDINÁRIA DO LEGISLATURA (2017 - 2020) - 45ª PERÍODO (30/12/1899 À 30/12/1899) DE 10 DE MARÇO DE 2017"
+  },
+  {
+    "id": "98",
+    "data": "2017-03-24",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  008ª (OITAVA) SESSÃO ORDINÁRIA DO LEGISLATURA (2017 - 2020) - 45ª PERÍODO (30/12/1899 À 30/12/1899) DE 24 DE MARÇO DE 2017"
+  },
+  {
+    "id": "99",
+    "data": "2017-03-31",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  09ª (NONA) SESSÃO ORDINÁRIA DO LEGISLATURA (2017 - 2020) - 45ª PERÍODO (30/12/1899 À 30/12/1899) DE 31 DE MARÇO DE 2017"
+  },
+  {
+    "id": "100",
+    "data": "2017-04-12",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  05ª (QUINTA) SESSÃO EXTRA-ORDINÁRIA DO LEGISLATURA (2017 - 2020) - 45ª PERÍODO (30/12/1899 À 30/12/1899) DE 21 DE ABRIL DE 2017"
+  },
+  {
+    "id": "101",
+    "data": "2017-04-12",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  10ª (DÉCIMA) SESSÃO ORDINÁRIA DO LEGISLATURA (2017 - 2020) - 45ª PERÍODO (30/12/1899 À 30/12/1899) DE 12 DE ABRIL DE 2017"
+  },
+  {
+    "id": "102",
+    "data": "2017-04-12",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  11ª (DÉCIMA) SESSÃO ORDINÁRIA DO LEGISLATURA (2017 - 2020) - 45ª PERÍODO (30/12/1899 À 30/12/1899) DE 12 DE ABRIL DE 2017"
+  },
+  {
+    "id": "103",
+    "data": "N/A",
+    "status": "N/A",
+    "descricao": "N/A"
+  },
+  {
+    "id": "104",
+    "data": "2017-04-20",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  012ª (DÉCIMA SEGUNDA) SESSÃO ORDINÁRIA DO LEGISLATURA (2017 - 2020) - 45ª PERÍODO (30/12/1899 À 30/12/1899) DE 20 DE ABRIL DE 2017"
+  },
+  {
+    "id": "105",
+    "data": "2017-05-05",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  14ª (DÉCIMA QUARTA) SESSÃO ORDINÁRIA DO LEGISLATURA (2017 - 2020) - 45ª PERÍODO (30/12/1899 À 30/12/1899) DE 5 DE MAIO DE 2017"
+  },
+  {
+    "id": "106",
+    "data": "2017-05-05",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  13ª (DÉCIMA TERCEIRA) SESSÃO ORDINÁRIA DO LEGISLATURA (2017 - 2020) - 45ª PERÍODO (30/12/1899 À 30/12/1899) DE 5 DE MAIO DE 2017"
+  },
+  {
+    "id": "107",
+    "data": "2017-05-19",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  016ª (DÉCIMA SEXTA) SESSÃO ORDINÁRIA DO LEGISLATURA (2017 - 2020) - 45ª PERÍODO (30/12/1899 À 30/12/1899) DE 19 DE MAIO DE 2017"
+  },
+  {
+    "id": "108",
+    "data": "2017-05-26",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  17ª (DÉCIMA SÉTIMA) SESSÃO ORDINÁRIA DO LEGISLATURA (2017 - 2020) - 45ª PERÍODO (30/12/1899 À 30/12/1899) DE 26 DE MAIO DE 2017"
+  },
+  {
+    "id": "109",
+    "data": "2017-06-02",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  18ª (DÉCIMA OITAVA) SESSÃO ORDINÁRIA DO LEGISLATURA (2017 - 2020) - 45ª PERÍODO (30/12/1899 À 30/12/1899) DE 2 DE JUNHO DE 2017"
+  },
+  {
+    "id": "110",
+    "data": "2017-06-09",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  ª () SESSÃO ORDINÁRIA DO LEGISLATURA (2017 - 2020) - 45ª PERÍODO (30/12/1899 À 30/12/1899) DE 30 DE DEZEMBRO DE 1899"
+  },
+  {
+    "id": "111",
+    "data": "2017-06-16",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  020ª (VIGÉSIMA) SESSÃO ORDINÁRIA DO LEGISLATURA (2017 - 2020) - 45ª PERÍODO (30/12/1899 À 30/12/1899) DE 16 DE JUNHO DE 2017"
+  },
+  {
+    "id": "112",
+    "data": "2017-06-23",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  21ª (VIGÉSIMA) SESSÃO ORDINÁRIA DO LEGISLATURA (2017 - 2020) - 45ª PERÍODO (30/12/1899 À 30/12/1899) DE 23 DE JUNHO DE 2017"
+  },
+  {
+    "id": "113",
+    "data": "2017-06-30",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  ª () SESSÃO ORDINÁRIA DO LEGISLATURA (2017 - 2020) - 45ª PERÍODO (30/12/1899 À 30/12/1899) DE 30 DE DEZEMBRO DE 1899"
+  },
+  {
+    "id": "114",
+    "data": "2017-06-12",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  009ª (NONA) SESSÃO EXTRA-ORDINÁRIA DO LEGISLATURA (2017 - 2020) - 45ª PERÍODO (30/12/1899 À 30/12/1899) DE 12 DE JUNHO DE 2017"
+  },
+  {
+    "id": "115",
+    "data": "2017-08-07",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  023ª (VIGÉSIMA TERCEIRA) SESSÃO ORDINÁRIA DO LEGISLATURA (2017 - 2020) - 45ª PERÍODO (30/12/1899 À 30/12/1899) DE 7 DE DEZEMBRO DE 2017"
+  },
+  {
+    "id": "116",
+    "data": "2017-08-14",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  024ª (VIGÉSIMA QUARTA) SESSÃO ORDINÁRIA DO LEGISLATURA (2017 - 2020) - 45ª PERÍODO (30/12/1899 À 30/12/1899) DE 14 DE AGOSTO DE 2017"
+  },
+  {
+    "id": "117",
+    "data": "2017-08-18",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  025ª (VIGÉSIMA QUINTA) SESSÃO ORDINÁRIA DO LEGISLATURA (2017 - 2020) - 45ª PERÍODO (30/12/1899 À 30/12/1899) DE 18 DE AGOSTO DE 2017"
+  },
+  {
+    "id": "118",
+    "data": "2017-09-01",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  29ª (VIGÉSIMA NONA) SESSÃO ORDINÁRIA DO LEGISLATURA (2017 - 2020) - 45ª PERÍODO (30/12/1899 À 30/12/1899) DE 1 DE SETEMBRO DE 2017"
+  },
+  {
+    "id": "119",
+    "data": "2017-09-01",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  14ª (DÉCIMA QUARTA) SESSÃO EXTRA-ORDINÁRIA DO LEGISLATURA (2017 - 2020) - 45ª PERÍODO (30/12/1899 À 30/12/1899) DE 1 DE SETEMBRO DE 2017"
+  },
+  {
+    "id": "120",
+    "data": "2017-09-15",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  31ª (TRIGÉSIMA) SESSÃO ORDINÁRIA DO LEGISLATURA (2017 - 2020) - 45ª PERÍODO (30/12/1899 À 30/12/1899) DE 15 DE SETEMBRO DE 2017"
+  },
+  {
+    "id": "121",
+    "data": "2017-09-15",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  15ª (DÉCIMA QUINTA) SESSÃO EXTRA-ORDINÁRIA DO LEGISLATURA (2017 - 2020) - 45ª PERÍODO (30/12/1899 À 30/12/1899) DE 15 DE SETEMBRO DE 2017"
+  },
+  {
+    "id": "122",
+    "data": "2017-09-22",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  32ª (TRIGÉSIMA SEGUNDA) SESSÃO ORDINÁRIA DO LEGISLATURA (2017 - 2020) - 45ª PERÍODO (30/12/1899 À 30/12/1899) DE 22 DE SETEMBRO DE 2017"
+  },
+  {
+    "id": "123",
+    "data": "2017-10-11",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  33ª (TRIGÉSIMA TERCEIRA) SESSÃO ORDINÁRIA DO LEGISLATURA (2017 - 2020) - 45ª PERÍODO (30/12/1899 À 30/12/1899) DE 11 DE OUTUBRO DE 2017"
+  },
+  {
+    "id": "124",
+    "data": "2017-10-23",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  34ª (TRIGÉSIMA QUARTA) SESSÃO ORDINÁRIA DO LEGISLATURA (2017 - 2020) - 45ª PERÍODO (30/12/1899 À 30/12/1899) DE 23 DE OUTUBRO DE 2017"
+  },
+  {
+    "id": "125",
+    "data": "2017-10-31",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  38ª (TRIGÉSIMA OITAVA) SESSÃO ORDINÁRIA DO LEGISLATURA (2017 - 2020) - 45ª PERÍODO (30/12/1899 À 30/12/1899) DE 31 DE OUTUBRO DE 2017"
+  },
+  {
+    "id": "126",
+    "data": "2017-10-31",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  17ª (DÉCIMA SÉTIMA) SESSÃO EXTRA-ORDINÁRIA DO LEGISLATURA (2017 - 2020) - 45ª PERÍODO (30/12/1899 À 30/12/1899) DE 31 DE OUTUBRO DE 2017"
+  },
+  {
+    "id": "127",
+    "data": "2017-11-10",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  39ª (TRIGÉSIMA NONA) SESSÃO ORDINÁRIA DO LEGISLATURA (2017 - 2020) - 45ª PERÍODO (30/12/1899 À 30/12/1899) DE 10 DE NOVEMBRO DE 2017"
+  },
+  {
+    "id": "128",
+    "data": "2017-11-17",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  40ª (QUADRAGÉSIMA) SESSÃO ORDINÁRIA DO LEGISLATURA (2017 - 2020) - 45ª PERÍODO (30/12/1899 À 30/12/1899) DE 17 DE NOVEMBRO DE 2017"
+  },
+  {
+    "id": "129",
+    "data": "2017-11-24",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  41ª (QUADRAGÉSIMA) SESSÃO ORDINÁRIA DO LEGISLATURA (2017 - 2020) - 45ª PERÍODO (30/12/1899 À 30/12/1899) DE 24 DE NOVEMBRO DE 2017"
+  },
+  {
+    "id": "130",
+    "data": "2017-12-01",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  42ª (QUADRAGÉSIMA SEGUNDA) SESSÃO ORDINÁRIA DO LEGISLATURA (2017 - 2020) - 45ª PERÍODO (30/12/1899 À 30/12/1899) DE 1 DE DEZEMBRO DE 2017"
+  },
+  {
+    "id": "131",
+    "data": "N/A",
+    "status": "N/A",
+    "descricao": "N/A"
+  },
+  {
+    "id": "132",
+    "data": "2017-12-08",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  43ª (QUADRAGÉSIMA TERCEIRA) SESSÃO ORDINÁRIA DO LEGISLATURA (2017 - 2020) - 45ª PERÍODO (30/12/1899 À 30/12/1899) DE 8 DE DEZEMBRO DE 2017"
+  },
+  {
+    "id": "133",
+    "data": "2017-12-15",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  44ª (QUADRAGÉSIMA QUARTA) SESSÃO ORDINÁRIA DO LEGISLATURA (2017 - 2020) - 45ª PERÍODO (30/12/1899 À 30/12/1899) DE 15 DE DEZEMBRO DE 2017"
+  },
+  {
+    "id": "134",
+    "data": "2018-02-02",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  001ª (PRIMEIRA) SESSÃO ORDINÁRIA DO LEGISLATURA (2017 - 2020) - 45ª PERÍODO (30/12/1899 À 30/12/1899) DE 2 DE MARÇO DE 2018"
+  },
+  {
+    "id": "135",
+    "data": "2018-02-17",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  002ª (SEGUNDA) SESSÃO ORDINÁRIA DO LEGISLATURA (2017 - 2020) - 45ª PERÍODO (30/12/1899 À 30/12/1899) DE 17 DE FEVEREIRO DE 2018"
+  },
+  {
+    "id": "136",
+    "data": "2018-02-03",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  003ª (TERCEIRA) SESSÃO EXTRA-ORDINÁRIA DO LEGISLATURA (2017 - 2020) - 45ª PERÍODO (30/12/1899 À 30/12/1899) DE 3 DE FEVEREIRO DE 2018"
+  },
+  {
+    "id": "137",
+    "data": "2018-02-17",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  003ª (TERCEIRA) SESSÃO ORDINÁRIA DO LEGISLATURA (2017 - 2020) - 45ª PERÍODO (30/12/1899 À 30/12/1899) DE 17 DE FEVEREIRO DE 2018"
+  },
+  {
+    "id": "138",
+    "data": "2018-02-03",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  004ª (QUARTA) SESSÃO EXTRA-ORDINÁRIA DO LEGISLATURA (2017 - 2020) - 45ª PERÍODO (30/12/1899 À 30/12/1899) DE 3 DE FEVEREIRO DE 2018"
+  },
+  {
+    "id": "139",
+    "data": "2018-02-24",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  004ª (QUARTA) SESSÃO ORDINÁRIA DO LEGISLATURA (2017 - 2020) - 45ª PERÍODO (30/12/1899 À 30/12/1899) DE 24 DE FEVEREIRO DE 2018"
+  },
+  {
+    "id": "140",
+    "data": "2018-02-10",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  005ª (QUINTA) SESSÃO EXTRA-ORDINÁRIA DO LEGISLATURA (2017 - 2020) - 45ª PERÍODO (30/12/1899 À 30/12/1899) DE 10 DE FEVEREIRO DE 2018"
+  },
+  {
+    "id": "141",
+    "data": "2018-03-03",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  005ª (QUINTA) SESSÃO ORDINÁRIA DO LEGISLATURA (2017 - 2020) - 45ª PERÍODO (30/12/1899 À 30/12/1899) DE 3 DE MARÇO DE 2018"
+  },
+  {
+    "id": "142",
+    "data": "2018-02-10",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  006ª (SEXTA) SESSÃO EXTRA-ORDINÁRIA DO LEGISLATURA (2017 - 2020) - 45ª PERÍODO (30/12/1899 À 30/12/1899) DE 10 DE FEVEREIRO DE 2018"
+  },
+  {
+    "id": "143",
+    "data": "2018-03-10",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  006ª (SEXTA) SESSÃO ORDINÁRIA DO LEGISLATURA (2017 - 2020) - 45ª PERÍODO (30/12/1899 À 30/12/1899) DE 10 DE MARÇO DE 2018"
+  },
+  {
+    "id": "144",
+    "data": "N/A",
+    "status": "N/A",
+    "descricao": "N/A"
+  },
+  {
+    "id": "145",
+    "data": "2018-03-24",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  8ª (OITAVA) SESSÃO ORDINÁRIA DA LEGISLATURA (2017 - 2020) - 45ª PERÍODO (30/12/1899 À 30/12/1899) DE 24 DE MARÇO DE 2018"
+  },
+  {
+    "id": "146",
+    "data": "2018-04-14",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  10ª (DÉCIMA) SESSÃO ORDINÁRIA DA LEGISLATURA (2017 - 2020) - 45ª PERÍODO (30/12/1899 À 30/12/1899) DE 14 DE ABRIL DE 2018"
+  },
+  {
+    "id": "147",
+    "data": "2018-04-07",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  9ª (NONA) SESSÃO ORDINÁRIA DA LEGISLATURA (2017 - 2020) - 45ª PERÍODO (30/12/1899 À 30/12/1899) DE 7 DE ABRIL DE 2018"
+  },
+  {
+    "id": "148",
+    "data": "2018-04-14",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  8ª (OITAVA) SESSÃO EXTRA-ORDINÁRIA DA LEGISLATURA (2017 - 2020) - 45ª PERÍODO (30/12/1899 À 30/12/1899) DE 14 DE ABRIL DE 2018"
+  },
+  {
+    "id": "149",
+    "data": "2018-03-17",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  7ª (SÉTIMA) SESSÃO ORDINÁRIA DA LEGISLATURA (2017 - 2020) - 45ª PERÍODO (30/12/1899 À 30/12/1899) DE 17 DE MARÇO DE 2018"
+  },
+  {
+    "id": "150",
+    "data": "2018-03-10",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  6ª (SEXTA) SESSÃO ORDINÁRIA DA LEGISLATURA (2017 - 2020) - 45ª PERÍODO (30/12/1899 À 30/12/1899) DE 10 DE MARÇO DE 2018"
+  },
+  {
+    "id": "151",
+    "data": "2018-04-28",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  12ª (DÉCIMA SEGUNDA) SESSÃO ORDINÁRIA DA LEGISLATURA (2017 - 2020) - 45ª PERÍODO (30/12/1899 À 30/12/1899) DE 28 DE ABRIL DE 2018"
+  },
+  {
+    "id": "152",
+    "data": "2018-05-05",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  13ª (DÉCIMA TERCEIRA) SESSÃO ORDINÁRIA DA LEGISLATURA (2017 - 2020) - 45ª PERÍODO (30/12/1899 À 30/12/1899) DE 5 DE MAIO DE 2018"
+  },
+  {
+    "id": "153",
+    "data": "2018-03-28",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  11ª (DÉCIMA PRIMEIRA) SESSÃO ORDINÁRIA DA LEGISLATURA (2017 - 2020) - 45ª PERÍODO (30/12/1899 À 30/12/1899) DE 28 DE MARÇO DE 2018"
+  },
+  {
+    "id": "154",
+    "data": "2018-05-12",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  9ª (NONA) SESSÃO EXTRA-ORDINÁRIA DA LEGISLATURA (2017 - 2020) - 45ª PERÍODO (30/12/1899 À 30/12/1899) DE 12 DE MAIO DE 2018"
+  },
+  {
+    "id": "155",
+    "data": "2018-06-09",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  10ª (DÉCIMA) SESSÃO EXTRA-ORDINÁRIA DA LEGISLATURA (2017 - 2020) - 45ª PERÍODO (30/12/1899 À 30/12/1899) DE 9 DE JUNHO DE 2018"
+  },
+  {
+    "id": "156",
+    "data": "2018-05-19",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  15ª (DÉCIMA QUINTA) SESSÃO ORDINÁRIA DA LEGISLATURA (2017 - 2020) - 45ª PERÍODO (30/12/1899 À 30/12/1899) DE 19 DE MAIO DE 2018"
+  },
+  {
+    "id": "157",
+    "data": "2018-06-02",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  16ª (DÉCIMA SEXTA) SESSÃO ORDINÁRIA DA LEGISLATURA (2017 - 2020) - 45ª PERÍODO (30/12/1899 À 30/12/1899) DE 2 DE JUNHO DE 2018"
+  },
+  {
+    "id": "158",
+    "data": "2018-06-02",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  17ª (DÉCIMA SÉTIMA) SESSÃO ORDINÁRIA DA LEGISLATURA (2017 - 2020) - 45ª PERÍODO (30/12/1899 À 30/12/1899) DE 2 DE JUNHO DE 2018"
+  },
+  {
+    "id": "159",
+    "data": "2018-06-09",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  18ª (DÉCIMA OITAVA) SESSÃO ORDINÁRIA DA LEGISLATURA (2017 - 2020) - 45ª PERÍODO (30/12/1899 À 30/12/1899) DE 9 DE JUNHO DE 2018"
+  },
+  {
+    "id": "160",
+    "data": "2018-06-16",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  19ª (DÉCIMA NONA) SESSÃO ORDINÁRIA DA LEGISLATURA (2017 - 2020) - 45ª PERÍODO (30/12/1899 À 30/12/1899) DE 16 DE JUNHO DE 2018"
+  },
+  {
+    "id": "161",
+    "data": "2018-06-29",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  20ª (VIGÉSIMA) SESSÃO ORDINÁRIA DA LEGISLATURA (2017 - 2020) - 45ª PERÍODO (30/12/1899 À 30/12/1899) DE 29 DE JUNHO DE 2018"
+  },
+  {
+    "id": "162",
+    "data": "2018-07-09",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  21ª (VIGÉSIMA PRIMEIRA) SESSÃO ORDINÁRIA DA LEGISLATURA (2017 - 2020) - 45ª PERÍODO (30/12/1899 À 30/12/1899) DE 9 DE JULHO DE 2018"
+  },
+  {
+    "id": "163",
+    "data": "2018-03-03",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  7ª (SÉTIMA) SESSÃO EXTRA-ORDINÁRIA DA LEGISLATURA (2017 - 2020) - 45ª PERÍODO (30/12/1899 À 30/12/1899) DE 3 DE MARÇO DE 2018"
+  },
+  {
+    "id": "164",
+    "data": "2018-07-13",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  11ª (DÉCIMA PRIMEIRA) SESSÃO EXTRA-ORDINÁRIA DA LEGISLATURA (2017 - 2020) - 45ª PERÍODO (30/12/1899 À 30/12/1899) DE 13 DE JULHO DE 2018"
+  },
+  {
+    "id": "165",
+    "data": "2018-05-12",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  14ª (DÉCIMA QUARTA) SESSÃO ORDINÁRIA DA LEGISLATURA (2017 - 2020) - 45ª PERÍODO (30/12/1899 À 30/12/1899) DE 12 DE MAIO DE 2018"
+  },
+  {
+    "id": "166",
+    "data": "2018-07-13",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  22ª (VIGÉSIMA SEGUNDA) SESSÃO ORDINÁRIA DA LEGISLATURA (2017 - 2020) - 45ª PERÍODO (30/12/1899 À 30/12/1899) DE 13 DE JULHO DE 2018"
+  },
+  {
+    "id": "167",
+    "data": "2018-08-01",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  23ª (VIGÉSIMA TERCEIRA) SESSÃO ORDINÁRIA DA LEGISLATURA (2017 - 2020) - 45ª PERÍODO (30/12/1899 À 30/12/1899) DE 1 DE AGOSTO DE 2018"
+  },
+  {
+    "id": "168",
+    "data": "2018-08-10",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  024ª (VIGÉSIMA QUARTA) SESSÃO ORDINÁRIA DA LEGISLATURA (2017 - 2020) - 45ª PERÍODO (30/12/1899 À 30/12/1899) DE 10 DE AGOSTO DE 2018"
+  },
+  {
+    "id": "169",
+    "data": "2018-08-17",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  025ª (VIGÉSIMA QUINTA) SESSÃO ORDINÁRIA DA LEGISLATURA (2017 - 2020) - 45ª PERÍODO (30/12/1899 À 30/12/1899) DE 17 DE AGOSTO DE 2018"
+  },
+  {
+    "id": "170",
+    "data": "2018-08-24",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  026ª (VIGÉSIMA SEXTA) SESSÃO ORDINÁRIA DA LEGISLATURA (2017 - 2020) - 45ª PERÍODO (30/12/1899 À 30/12/1899) DE 24 DE AGOSTO DE 2018"
+  },
+  {
+    "id": "171",
+    "data": "2018-08-15",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  013ª (DÉCIMA TERCEIRA) SESSÃO EXTRAORDINÁRIA DA LEGISLATURA (2017 - 2020) - 45ª PERÍODO (30/12/1899 À 30/12/1899) DE 15 DE AGOSTO DE 2018"
+  },
+  {
+    "id": "172",
+    "data": "2018-08-15",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  012ª (DÉCIMA SEGUNDA) SESSÃO EXTRAORDINÁRIA DA LEGISLATURA (2017 - 2020) - 45ª PERÍODO (30/12/1899 À 30/12/1899) DE 15 DE AGOSTO DE 2018."
+  },
+  {
+    "id": "173",
+    "data": "2018-08-31",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  027ª (VIGÉSIMA SÉTIMA) SESSÃO ORDINÁRIA DA LEGISLATURA (2017 - 2020) - 45ª PERÍODO (30/12/1899 À 30/12/1899) DE 31 DE AGOSTO DE 2018"
+  },
+  {
+    "id": "174",
+    "data": "2018-08-31",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  028ª (VIGÉSIMA OITAVA) SESSÃO ORDINÁRIA DA LEGISLATURA (2017 - 2020) - 45ª PERÍODO (30/12/1899 À 30/12/1899) DE 31 DE AGOSTO DE 2018"
+  },
+  {
+    "id": "175",
+    "data": "2018-08-24",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  014ª (SESSÃO EXTRAORDINÁRIA) DA LEGISLATURA (2017 - 2020) - 45ª PERÍODO (30/12/1899 À 30/12/1899) DE 24 DE AGOSTO DE 2018."
+  },
+  {
+    "id": "176",
+    "data": "2018-09-14",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  029ª (VIGÉSIMA NONA) SESSÃO ORDINÁRIA DA LEGISLATURA (2017 - 2020) - 45ª PERÍODO (30/12/1899 À 30/12/1899) DE 14 DE SETEMBRO DE 2018"
+  },
+  {
+    "id": "177",
+    "data": "2018-09-21",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  030ª (TRIGÉSIMA) SESSÃO ORDINÁRIA DA LEGISLATURA (2017 - 2020) - 45ª PERÍODO (30/12/1899 À 30/12/1899) DE 21 DE SETEMBRO DE 2018"
+  },
+  {
+    "id": "178",
+    "data": "2018-09-28",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  031ª (TRIGÉSIMA PRIMEIRA) SESSÃO ORDINÁRIA DA LEGISLATURA (2017 - 2020) - 45ª PERÍODO (30/12/1899 À 30/12/1899) DE 28 DE SETEMBRO DE 2018"
+  },
+  {
+    "id": "179",
+    "data": "2018-10-11",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  032ª (TRIGÉSIMA SEGUNDA) SESSÃO ORDINÁRIA DA LEGISLATURA (2017 - 2020) - 45ª PERÍODO (30/12/1899 À 30/12/1899) DE 11 DE OUTUBRO DE 2018"
+  },
+  {
+    "id": "180",
+    "data": "2018-10-11",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  033ª (TRIGÉSIMA TERCEIRA) SESSÃO ORDINÁRIA DA LEGISLATURA (2017 - 2020) - 45ª PERÍODO (30/12/1899 À 30/12/1899) DE 11 DE OUTUBRO DE 2018"
+  },
+  {
+    "id": "181",
+    "data": "2018-10-19",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  034ª (TRIGÉSIMA QUARTA) SESSÃO ORDINÁRIA DA LEGISLATURA (2017 - 2020) - 45ª PERÍODO (30/12/1899 À 30/12/1899) DE 19 DE OUTUBRO DE 2018"
+  },
+  {
+    "id": "182",
+    "data": "2018-10-26",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  035ª (TRIGÉSIMA QUINTA) SESSÃO ORDINÁRIA DA LEGISLATURA (2017 - 2020) - 45ª PERÍODO (30/12/1899 À 30/12/1899) DE 26 DE OUTUBRO DE 2018"
+  },
+  {
+    "id": "183",
+    "data": "2018-10-30",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  036ª (TRIGÉSIMA SEXTA) SESSÃO ORDINÁRIA DA LEGISLATURA (2017 - 2020) - 45ª PERÍODO (30/12/1899 À 30/12/1899) DE 30 DE OUTUBRO DE 2018"
+  },
+  {
+    "id": "184",
+    "data": "2018-11-09",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  037ª (TRIGÉSIMA SÉTIMA) SESSÃO ORDINÁRIA DA LEGISLATURA (2017 - 2020) - 45ª PERÍODO (30/12/1899 À 30/12/1899) DE 9 DE NOVEMBRO DE 2018"
+  },
+  {
+    "id": "185",
+    "data": "2018-11-23",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  038ª (TRIGÉSIMA OITAVA) SESSÃO ORDINÁRIA DA LEGISLATURA (2017 - 2020) - 45ª PERÍODO (30/12/1899 À 30/12/1899) DE 23 DE NOVEMBRO DE 2018"
+  },
+  {
+    "id": "186",
+    "data": "2018-11-23",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  039ª (TRIGÉSIMA OITAVA) SESSÃO ORDINÁRIA DA LEGISLATURA (2017 - 2020) - 45ª PERÍODO (30/12/1899 À 30/12/1899) DE 23 DE NOVEMBRO DE 2018"
+  },
+  {
+    "id": "187",
+    "data": "2018-12-03",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  040ª (QUADRAGÉSIMA) SESSÃO ORDINÁRIA DA LEGISLATURA (2017 - 2020) - 45ª PERÍODO (30/12/1899 À 30/12/1899) DE 3 DE DEZEMBRO DE 2018"
+  },
+  {
+    "id": "188",
+    "data": "2018-12-03",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  041ª (QUADRAGÉSIMA PRIMEIRA) SESSÃO ORDINÁRIA DA LEGISLATURA (2017 - 2020) - 45ª PERÍODO (30/12/1899 À 30/12/1899) DE 3 DE DEZEMBRO DE 2018"
+  },
+  {
+    "id": "189",
+    "data": "2018-12-10",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  042ª (QUADRAGÉSIMA SEGUNDA) SESSÃO ORDINÁRIA DA LEGISLATURA (2017 - 2020) - 45ª PERÍODO (30/12/1899 À 30/12/1899) DE 10 DE DEZEMBRO DE 2018"
+  },
+  {
+    "id": "190",
+    "data": "2019-02-18",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  001ª (PRIMEIRA) SESSÃO ORDINÁRIA DA LEGISLATURA (2017 - 2020) - 3º PERIODO DE 18 DE FEVEREIRO DE 2019"
+  },
+  {
+    "id": "191",
+    "data": "2019-02-25",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  002ª (SEGUNDA) SESSÃO ORDINÁRIA DA LEGISLATURA (2017 - 2020) - 3º PERIODO DE 25 DE FEVEREIRO DE 2019"
+  },
+  {
+    "id": "192",
+    "data": "2019-03-11",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  003ª (TERCEIRA) SESSÃO ORDINÁRIA DA LEGISLATURA (2017 - 2020) - 3º PERIODO DE 11 DE MARÇO DE 2019"
+  },
+  {
+    "id": "193",
+    "data": "2019-03-18",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  005ª (QUINTA) SESSÃO ORDINÁRIA DA LEGISLATURA (2017 - 2020) - 3º PERIODO DE 18 DE MARÇO DE 2019"
+  },
+  {
+    "id": "194",
+    "data": "2019-04-01",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  006ª (SEXTA) SESSÃO ORDINÁRIA DA LEGISLATURA (2017 - 2020) - 3º PERIODO DE 1 DE ABRIL DE 2019"
+  },
+  {
+    "id": "195",
+    "data": "2019-04-18",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  11ª (DÉCIMA PRIMEIRA) SESSÃO ORDINÁRIA DA LEGISLATURA (2017 - 2020) - 3º PERIODO DE 18 DE ABRIL DE 2019"
+  },
+  {
+    "id": "196",
+    "data": "N/A",
+    "status": "N/A",
+    "descricao": "N/A"
+  },
+  {
+    "id": "197",
+    "data": "2019-04-01",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  007ª (SÉTIMA) SESSÃO ORDINÁRIA DA LEGISLATURA (2017 - 2020) - 3º PERIODO DE 1 DE ABRIL DE 2019"
+  },
+  {
+    "id": "198",
+    "data": "2019-04-15",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  009ª (NONA) SESSÃO ORDINÁRIA DA LEGISLATURA (2017 - 2020) - 3º PERIODO DE 15 DE ABRIL DE 2019"
+  },
+  {
+    "id": "199",
+    "data": "2019-04-18",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  010ª (DÉCIMA) SESSÃO ORDINÁRIA DA LEGISLATURA (2017 - 2020) - 3º PERIODO DE 18 DE ABRIL DE 2019"
+  },
+  {
+    "id": "200",
+    "data": "2019-04-18",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  011ª (DÉCIMA PRIMEIRA) SESSÃO ORDINÁRIA DA LEGISLATURA (2017 - 2020) - 3º PERIODO DE 18 DE ABRIL DE 2019"
+  },
+  {
+    "id": "201",
+    "data": "2019-04-08",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  008ª (OITAVA) SESSÃO ORDINÁRIA DA LEGISLATURA (2017 - 2020) - 3º PERIODO DE 8 DE ABRIL DE 2019"
+  },
+  {
+    "id": "202",
+    "data": "2019-05-06",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  012ª (DÉCIMA SEGUNDA) SESSÃO ORDINÁRIA DA LEGISLATURA (2017 - 2020) - 3º PERIODO DE 6 DE MAIO DE 2019"
+  },
+  {
+    "id": "203",
+    "data": "2019-05-13",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  013ª (DÉCIMA TERCEIRA) SESSÃO ORDINÁRIA DA LEGISLATURA (2017 - 2020) - 3º PERIODO DE 13 DE MAIO DE 2019"
+  },
+  {
+    "id": "204",
+    "data": "2019-05-20",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  014ª (DÉCIMA QUARTA) SESSÃO ORDINÁRIA DA LEGISLATURA (2017 - 2020) - 3º PERIODO DE 20 DE MAIO DE 2019"
+  },
+  {
+    "id": "205",
+    "data": "N/A",
+    "status": "N/A",
+    "descricao": "N/A"
+  },
+  {
+    "id": "206",
+    "data": "2019-05-27",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  015ª (DÉCIMA QUINTA) SESSÃO ORDINÁRIA DA LEGISLATURA (2017 - 2020) - 3º PERIODO DE 27 DE MAIO DE 2019"
+  },
+  {
+    "id": "207",
+    "data": "N/A",
+    "status": "N/A",
+    "descricao": "N/A"
+  },
+  {
+    "id": "208",
+    "data": "2019-02-18",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  001ª (PRIMEIRA) SESSÃO ORDINÁRIA DA LEGISLATURA (2017 - 2020) - 3º PERIODO DE 18 DE FEVEREIRO DE 2019"
+  },
+  {
+    "id": "209",
+    "data": "N/A",
+    "status": "N/A",
+    "descricao": "N/A"
+  },
+  {
+    "id": "210",
+    "data": "2019-02-25",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  002ª (SEGUNDA) SESSÃO ORDINÁRIA DA LEGISLATURA (2017 - 2020) - 3º PERIODO DE 25 DE FEVEREIRO DE 2019"
+  },
+  {
+    "id": "211",
+    "data": "N/A",
+    "status": "N/A",
+    "descricao": "N/A"
+  },
+  {
+    "id": "212",
+    "data": "2019-06-03",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  016ª (DÉCIMA SEXTA) SESSÃO ORDINÁRIA DA LEGISLATURA (2017 - 2020) - 3º PERIODO DE 3 DE JUNHO DE 2019"
+  },
+  {
+    "id": "213",
+    "data": "2019-06-10",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  017ª (DÉCIMA SÉTIMA) SESSÃO ORDINÁRIA DA LEGISLATURA (2017 - 2020) - 3º PERIODO DE 10 DE JUNHO DE 2019"
+  },
+  {
+    "id": "214",
+    "data": "2019-06-10",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  018ª (DÉCIMA OITAVA) SESSÃO ORDINÁRIA DA LEGISLATURA (2017 - 2020) - 3º PERIODO DE 10 DE JUNHO DE 2019"
+  },
+  {
+    "id": "215",
+    "data": "2019-06-25",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  019ª (DÉCIMA NONA) SESSÃO ORDINÁRIA DA LEGISLATURA (2017 - 2020) - 3º PERIODO DE 25 DE JUNHO DE 2019"
+  },
+  {
+    "id": "216",
+    "data": "2019-07-01",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  020ª (VIGÉSIMA) SESSÃO ORDINÁRIA DA LEGISLATURA (2017 - 2020) - 3º PERIODO DE 1 DE JULHO DE 2019"
+  },
+  {
+    "id": "217",
+    "data": "2019-07-08",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  021ª (VIGÉSIMA PRIMEIRA) SESSÃO ORDINÁRIA DA LEGISLATURA (2017 - 2020) - 3º PERIODO DE 8 DE JULHO DE 2019"
+  },
+  {
+    "id": "218",
+    "data": "2019-08-05",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  022ª (VIGÉSIMA SEGUNDA) SESSÃO ORDINÁRIA DA LEGISLATURA (2017 - 2020) - 3º PERIODO DE 5 DE AGOSTO DE 2019"
+  },
+  {
+    "id": "219",
+    "data": "2019-08-12",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  023ª (VIGÉSIMA TERCEIRA) SESSÃO ORDINÁRIA DA LEGISLATURA (2017 - 2020) - 3º PERIODO DE 12 DE AGOSTO DE 2019"
+  },
+  {
+    "id": "220",
+    "data": "2019-08-19",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  024ª (VIGÉSIMA QUARTA) SESSÃO ORDINÁRIA DA LEGISLATURA (2017 - 2020) - 3º PERIODO DE 19 DE AGOSTO DE 2019"
+  },
+  {
+    "id": "221",
+    "data": "2019-08-26",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  025ª (VIGÉSIMA QUINTA) SESSÃO ORDINÁRIA DA LEGISLATURA (2017 - 2020) - 3º PERIODO DE 26 DE AGOSTO DE 2019"
+  },
+  {
+    "id": "222",
+    "data": "2019-09-02",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  026ª (VIGÉSIMA SEXTA) SESSÃO ORDINÁRIA DA LEGISLATURA (2017 - 2020) - 3º PERIODO DE 2 DE SETEMBRO DE 2019"
+  },
+  {
+    "id": "223",
+    "data": "2019-09-09",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  027ª (VIGÉSIMA SÉTIMA) SESSÃO ORDINÁRIA DA LEGISLATURA (2017 - 2020) - 3º PERIODO DE 9 DE SETEMBRO DE 2019"
+  },
+  {
+    "id": "224",
+    "data": "2019-09-16",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  028ª (VIGÉSIMA OITAVA) SESSÃO ORDINÁRIA DA LEGISLATURA (2017 - 2020) - 3º PERIODO DE 16 DE SETEMBRO DE 2019"
+  },
+  {
+    "id": "225",
+    "data": "2019-09-23",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  029ª (VIGÉSIMA NONA) SESSÃO ORDINÁRIA DA LEGISLATURA (2017 - 2020) - 3º PERIODO DE 23 DE SETEMBRO DE 2019"
+  },
+  {
+    "id": "226",
+    "data": "2019-09-30",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  030ª (TRIGÉSIMA) SESSÃO ORDINÁRIA DA LEGISLATURA (2017 - 2020) - 3º PERIODO DE 30 DE SETEMBRO DE 2019"
+  },
+  {
+    "id": "227",
+    "data": "2019-01-17",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  001ª (PRIMEIRA) SESSÃO EXTRA-ORDINÁRIA DA LEGISLATURA (2017 - 2020) - 3º PERIODO DE 17 DE JANEIRO DE 2019"
+  },
+  {
+    "id": "228",
+    "data": "2019-01-17",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  002ª (SEGUNDA) SESSÃO EXTRA-ORDINÁRIA DA LEGISLATURA (2017 - 2020) - 3º PERIODO DE 17 DE JANEIRO DE 2019"
+  },
+  {
+    "id": "229",
+    "data": "2019-02-03",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  003ª (TERCEIRA) SESSÃO EXTRA-ORDINÁRIA DA LEGISLATURA (2017 - 2020) - 3º PERIODO DE 3 DE FEVEREIRO DE 2019"
+  },
+  {
+    "id": "230",
+    "data": "2019-02-25",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  004ª (QUARTA) SESSÃO EXTRA-ORDINÁRIA DA LEGISLATURA (2017 - 2020) - 3º PERIODO DE 25 DE FEVEREIRO DE 2019"
+  },
+  {
+    "id": "231",
+    "data": "2019-03-18",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  005ª (QUINTA) SESSÃO EXTRA-ORDINÁRIA DA LEGISLATURA (2017 - 2020) - 3º PERIODO DE 18 DE MARÇO DE 2019"
+  },
+  {
+    "id": "232",
+    "data": "2019-04-18",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  006ª (SEXTA) SESSÃO EXTRA-ORDINÁRIA DA LEGISLATURA (2017 - 2020) - 3º PERIODO DE 18 DE ABRIL DE 2019"
+  },
+  {
+    "id": "233",
+    "data": "2019-06-10",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  007ª (SÉTIMA) SESSÃO EXTRA-ORDINÁRIA DA LEGISLATURA (2017 - 2020) - 3º PERIODO DE 10 DE JUNHO DE 2019"
+  },
+  {
+    "id": "234",
+    "data": "2019-07-08",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  008ª (OITAVA) SESSÃO EXTRA-ORDINÁRIA DA LEGISLATURA (2017 - 2020) - 3º PERIODO DE 8 DE JULHO DE 2019"
+  },
+  {
+    "id": "235",
+    "data": "2019-10-07",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  031ª (TRIGÉSIMA PRIMEIRA) SESSÃO ORDINÁRIA DA LEGISLATURA (2017 - 2020) - 3º PERIODO DE 7 DE OUTUBRO DE 2019"
+  },
+  {
+    "id": "236",
+    "data": "2019-11-11",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  036ª (TRIGÉSIMA SEXTA) SESSÃO ORDINÁRIA DA LEGISLATURA (2017 - 2020) - 3º PERIODO DE 11 DE NOVEMBRO DE 2019"
+  },
+  {
+    "id": "237",
+    "data": "2019-11-18",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  037ª (TRIGÉSIMA SÉTIMA) SESSÃO ORDINÁRIA DA LEGISLATURA (2017 - 2020) - 3º PERIODO DE 18 DE NOVEMBRO DE 2019"
+  },
+  {
+    "id": "238",
+    "data": "2019-11-25",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  038ª (TRIGÉSIMA OITAVA) SESSÃO ORDINÁRIA DA LEGISLATURA (2017 - 2020) - 3º PERIODO DE 25 DE NOVEMBRO DE 2019"
+  },
+  {
+    "id": "239",
+    "data": "2019-12-02",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  039ª (TRIGÉSIMA NONA) SESSÃO ORDINÁRIA DA LEGISLATURA (2017 - 2020) - 3º PERIODO DE 2 DE DEZEMBRO DE 2019"
+  },
+  {
+    "id": "240",
+    "data": "2019-12-09",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  040ª (QUADRAGÉSIMA) SESSÃO ORDINÁRIA DA LEGISLATURA (2017 - 2020) - 3º PERIODO DE 9 DE DEZEMBRO DE 2019"
+  },
+  {
+    "id": "241",
+    "data": "2019-10-31",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  009ª (NONA) SESSÃO EXTRA-ORDINÁRIA DA LEGISLATURA (2017 - 2020) - 3º PERIODO DE 31 DE OUTUBRO DE 2019"
+  },
+  {
+    "id": "242",
+    "data": "2019-10-31",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  010ª (DÉCIMA) SESSÃO EXTRA-ORDINÁRIA DA LEGISLATURA (2017 - 2020) - 3º PERIODO DE 31 DE OUTUBRO DE 2019"
+  },
+  {
+    "id": "243",
+    "data": "2019-12-09",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  011ª (DÉCIMA PRIMEIRA) SESSÃO EXTRA-ORDINÁRIA DA LEGISLATURA (2017 - 2020) - 3º PERIODO DE 9 DE DEZEMBRO DE 2019"
+  },
+  {
+    "id": "244",
+    "data": "2019-11-11",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  036ª (TRIGÉSIMA SEXTA) SESSÃO ORDINÁRIA DA LEGISLATURA (2017 - 2020) - 3º PERIODO DE 11 DE NOVEMBRO DE 2019"
+  },
+  {
+    "id": "245",
+    "data": "2019-11-25",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  038ª (TRIGÉSIMA OITAVA) SESSÃO ORDINÁRIA DA LEGISLATURA (2017 - 2020) - 3º PERIODO DE 25 DE NOVEMBRO DE 2019"
+  },
+  {
+    "id": "246",
+    "data": "2019-11-18",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  037ª (TRIGÉSIMA SÉTIMA) SESSÃO ORDINÁRIA DA LEGISLATURA (2017 - 2020) - 3º PERIODO DE 18 DE NOVEMBRO DE 2019"
+  },
+  {
+    "id": "247",
+    "data": "N/A",
+    "status": "N/A",
+    "descricao": "N/A"
+  },
+  {
+    "id": "248",
+    "data": "2019-12-02",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  039ª (TRIGÉSIMA NONA) SESSÃO ORDINÁRIA DA LEGISLATURA (2017 - 2020) - 3º PERIODO DE 2 DE DEZEMBRO DE 2019"
+  },
+  {
+    "id": "249",
+    "data": "2019-12-09",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  040ª (QUADRAGÉSIMA) SESSÃO ORDINÁRIA DA LEGISLATURA (2017 - 2020) - 3º PERIODO DE 9 DE DEZEMBRO DE 2019"
+  },
+  {
+    "id": "250",
+    "data": "2019-10-31",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  009ª (NONA) SESSÃO EXTRA-ORDINÁRIA DA LEGISLATURA (2017 - 2020) - 3º PERIODO DE 31 DE OUTUBRO DE 2019"
+  },
+  {
+    "id": "251",
+    "data": "2019-10-31",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  010ª (DÉCIMA) SESSÃO EXTRA-ORDINÁRIA DA LEGISLATURA (2017 - 2020) - 3º PERIODO DE 31 DE OUTUBRO DE 2019"
+  },
+  {
+    "id": "252",
+    "data": "2019-12-09",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  011ª (DÉCIMA PRIMEIRA) SESSÃO EXTRA-ORDINÁRIA DA LEGISLATURA (2017 - 2020) - 3º PERIODO DE 9 DE DEZEMBRO DE 2019"
+  },
+  {
+    "id": "253",
+    "data": "2019-10-14",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  032ª (TRIGÉSIMA SEGUNDA) SESSÃO ORDINÁRIA DA LEGISLATURA (2017 - 2020) - 3º PERIODO DE 14 DE OUTUBRO DE 2019"
+  },
+  {
+    "id": "254",
+    "data": "2019-10-18",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  033ª (TRIGÉSIMA TERCEIRA) SESSÃO ORDINÁRIA DA LEGISLATURA (2017 - 2020) - 3º PERIODO DE 18 DE OUTUBRO DE 2019"
+  },
+  {
+    "id": "255",
+    "data": "N/A",
+    "status": "N/A",
+    "descricao": "N/A"
+  },
+  {
+    "id": "256",
+    "data": "N/A",
+    "status": "N/A",
+    "descricao": "N/A"
+  },
+  {
+    "id": "257",
+    "data": "N/A",
+    "status": "N/A",
+    "descricao": "N/A"
+  },
+  {
+    "id": "258",
+    "data": "2020-06-05",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  018ª (DÉCIMA OITAVA) SESSÃO ORDINÁRIA DA LEGISLATURA (2017 - 2020) - 4º PERÍODO DE 5 DE JUNHO DE 2020"
+  },
+  {
+    "id": "259",
+    "data": "2020-02-03",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  001ª (PRIMEIRA) SESSÃO ORDINÁRIA DA LEGISLATURA (2017 - 2020) - 4º PERÍODO DE 3 DE FEVEREIRO DE 2020"
+  },
+  {
+    "id": "260",
+    "data": "2020-01-20",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  001ª (PRIMEIRA) SESSÃO EXTRA-ORDINÁRIA DA LEGISLATURA (2017 - 2020) - 4º PERÍODO DE 20 DE JANEIRO DE 2020"
+  },
+  {
+    "id": "261",
+    "data": "2020-02-14",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  002ª (SEGUNDA) SESSÃO ORDINÁRIA DA LEGISLATURA (2017 - 2020) - 4º PERÍODO DE 14 DE FEVEREIRO DE 2020"
+  },
+  {
+    "id": "262",
+    "data": "2020-01-20",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  002ª (SEGUNDA) SESSÃO EXTRA-ORDINÁRIA DA LEGISLATURA (2017 - 2020) - 4º PERÍODO DE 20 DE JANEIRO DE 2020"
+  },
+  {
+    "id": "263",
+    "data": "N/A",
+    "status": "N/A",
+    "descricao": "N/A"
+  },
+  {
+    "id": "264",
+    "data": "N/A",
+    "status": "N/A",
+    "descricao": "N/A"
+  },
+  {
+    "id": "265",
+    "data": "2020-01-29",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  003ª (TERCEIRA) SESSÃO EXTRA-ORDINÁRIA DA LEGISLATURA (2017 - 2020) - 4º PERÍODO DE 29 DE JANEIRO DE 2020"
+  },
+  {
+    "id": "266",
+    "data": "2020-02-29",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  004ª (QUARTA) SESSÃO EXTRA-ORDINÁRIA DA LEGISLATURA (2017 - 2020) - 4º PERÍODO DE 29 DE FEVEREIRO DE 2020"
+  },
+  {
+    "id": "267",
+    "data": "2020-02-14",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  005ª (QUINTA) SESSÃO EXTRA-ORDINÁRIA DA LEGISLATURA (2017 - 2020) - 4º PERÍODO DE 14 DE FEVEREIRO DE 2020"
+  },
+  {
+    "id": "268",
+    "data": "2020-03-13",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  006ª (SEXTA) SESSÃO ORDINÁRIA DA LEGISLATURA (2017 - 2020) - 4º PERÍODO DE 13 DE MARÇO DE 2020"
+  },
+  {
+    "id": "269",
+    "data": "2020-03-20",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  007ª (SÉTIMA) SESSÃO ORDINÁRIA DA LEGISLATURA (2017 - 2020) - 4º PERÍODO DE 20 DE MARÇO DE 2020"
+  },
+  {
+    "id": "270",
+    "data": "2020-03-27",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  008ª (OITAVA) SESSÃO ORDINÁRIA DA LEGISLATURA (2017 - 2020) - 4º PERÍODO DE 27 DE MARÇO DE 2020"
+  },
+  {
+    "id": "271",
+    "data": "2020-04-09",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  009ª (NONA) SESSÃO ORDINÁRIA DA LEGISLATURA (2017 - 2020) - 4º PERÍODO DE 9 DE ABRIL DE 2020"
+  },
+  {
+    "id": "272",
+    "data": "2020-04-09",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  010ª (DÉCIMA) SESSÃO ORDINÁRIA DA LEGISLATURA (2017 - 2020) - 4º PERÍODO DE 9 DE ABRIL DE 2020"
+  },
+  {
+    "id": "273",
+    "data": "N/A",
+    "status": "N/A",
+    "descricao": "N/A"
+  },
+  {
+    "id": "274",
+    "data": "N/A",
+    "status": "N/A",
+    "descricao": "N/A"
+  },
+  {
+    "id": "275",
+    "data": "2020-02-21",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  003ª (TERCEIRA) SESSÃO ORDINÁRIA DA LEGISLATURA (2017 - 2020) - 4º PERÍODO DE 21 DE FEVEREIRO DE 2020"
+  },
+  {
+    "id": "276",
+    "data": "2020-02-21",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  004ª (QUARTA) SESSÃO ORDINÁRIA DA LEGISLATURA (2017 - 2020) - 4º PERÍODO DE 21 DE FEVEREIRO DE 2020"
+  },
+  {
+    "id": "277",
+    "data": "2020-03-06",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  005ª (QUINTA) SESSÃO ORDINÁRIA DA LEGISLATURA (2017 - 2020) - 4º PERÍODO DE 6 DE MARÇO DE 2020"
+  },
+  {
+    "id": "278",
+    "data": "2020-05-15",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  006ª (SEXTA) SESSÃO EXTRA-ORDINÁRIA DA LEGISLATURA (2017 - 2020) - 4º PERÍODO DE 15 DE MAIO DE 2020"
+  },
+  {
+    "id": "279",
+    "data": "2020-04-14",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  011ª (DÉCIMA PRIMEIRA) SESSÃO ORDINÁRIA DA LEGISLATURA (2017 - 2020) - 4º PERÍODO DE 14 DE ABRIL DE 2020"
+  },
+  {
+    "id": "280",
+    "data": "2020-04-14",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  012ª (DÉCIMA SEGUNDA) SESSÃO ORDINÁRIA DA LEGISLATURA (2017 - 2020) - 4º PERÍODO DE 14 DE ABRIL DE 2020"
+  },
+  {
+    "id": "281",
+    "data": "2020-04-30",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  013ª (DÉCIMA TERCEIRA) SESSÃO ORDINÁRIA DA LEGISLATURA (2017 - 2020) - 4º PERÍODO DE 30 DE ABRIL DE 2020"
+  },
+  {
+    "id": "282",
+    "data": "2020-05-08",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  014ª (DÉCIMA QUARTA) SESSÃO ORDINÁRIA DA LEGISLATURA (2017 - 2020) - 4º PERÍODO DE 8 DE MAIO DE 2020"
+  },
+  {
+    "id": "283",
+    "data": "2020-05-15",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  015ª (DÉCIMA QUINTA) SESSÃO ORDINÁRIA DA LEGISLATURA (2017 - 2020) - 4º PERÍODO DE 15 DE MAIO DE 2020"
+  },
+  {
+    "id": "284",
+    "data": "2020-05-22",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  016ª (DÉCIMA SEXTA) SESSÃO ORDINÁRIA DA LEGISLATURA (2017 - 2020) - 4º PERÍODO DE 22 DE MAIO DE 2020"
+  },
+  {
+    "id": "285",
+    "data": "2020-05-29",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  017ª (DÉCIMA SÉTIMA) SESSÃO ORDINÁRIA DA LEGISLATURA (2017 - 2020) - 4º PERÍODO DE 29 DE MAIO DE 2020"
+  },
+  {
+    "id": "286",
+    "data": "2020-02-03",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  001ª (PRIMEIRA) SESSÃO ORDINÁRIA DA LEGISLATURA (2017 - 2020) - 4º PERÍODO DE 3 DE FEVEREIRO DE 2020"
+  },
+  {
+    "id": "287",
+    "data": "2020-06-10",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  019ª (DÉCIMA NONA) SESSÃO ORDINÁRIA DA LEGISLATURA (2017 - 2020) - 4º PERÍODO DE 10 DE JUNHO DE 2020"
+  },
+  {
+    "id": "288",
+    "data": "2020-06-19",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  020ª (VIGÉSIMA) SESSÃO ORDINÁRIA DA LEGISLATURA (2017 - 2020) - 4º PERÍODO DE 19 DE JUNHO DE 2020"
+  },
+  {
+    "id": "289",
+    "data": "2020-06-26",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  021ª (VIGÉSIMA PRIMEIRA) SESSÃO ORDINÁRIA DA LEGISLATURA (2017 - 2020) - 4º PERÍODO DE 26 DE JUNHO DE 2020"
+  },
+  {
+    "id": "290",
+    "data": "2020-07-03",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  022ª (VIGÉSIMA SEGUNDA) SESSÃO ORDINÁRIA DA LEGISLATURA (2017 - 2020) - 4º PERÍODO DE 3 DE JULHO DE 2020"
+  },
+  {
+    "id": "291",
+    "data": "2020-07-10",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  023ª (VIGÉSIMA TERCEIRA) SESSÃO ORDINÁRIA DA LEGISLATURA (2017 - 2020) - 4º PERÍODO DE 10 DE JULHO DE 2020"
+  },
+  {
+    "id": "292",
+    "data": "2020-08-07",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  024ª (VIGÉSIMA QUARTA) SESSÃO ORDINÁRIA DA LEGISLATURA (2017 - 2020) - 4º PERÍODO DE 7 DE AGOSTO DE 2020"
+  },
+  {
+    "id": "293",
+    "data": "2020-08-14",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  025ª (VIGÉSIMA QUINTA) SESSÃO ORDINÁRIA DA LEGISLATURA (2017 - 2020) - 4º PERÍODO DE 14 DE AGOSTO DE 2020"
+  },
+  {
+    "id": "294",
+    "data": "2020-08-21",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  026ª (VIGÉSIMA SEXTA) SESSÃO ORDINÁRIA DA LEGISLATURA (2017 - 2020) - 4º PERÍODO DE 21 DE AGOSTO DE 2020"
+  },
+  {
+    "id": "295",
+    "data": "2020-08-28",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  027ª (VIGÉSIMA SÉTIMA) SESSÃO ORDINÁRIA DA LEGISLATURA (2017 - 2020) - 4º PERÍODO DE 28 DE AGOSTO DE 2020"
+  },
+  {
+    "id": "296",
+    "data": "2020-09-04",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  028ª (VIGÉSIMA OITAVA) SESSÃO ORDINÁRIA DA LEGISLATURA (2017 - 2020) - 4º PERÍODO DE 4 DE SETEMBRO DE 2020"
+  },
+  {
+    "id": "297",
+    "data": "2020-09-18",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  030ª (TRIGÉSIMA) SESSÃO ORDINÁRIA DA LEGISLATURA (2017 - 2020) - 4º PERÍODO DE 18 DE SETEMBRO DE 2020"
+  },
+  {
+    "id": "298",
+    "data": "2020-10-09",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  033ª (TRIGÉSIMA TERCEIRA) SESSÃO ORDINÁRIA DA LEGISLATURA (2017 - 2020) - 4º PERÍODO DE 9 DE OUTUBRO DE 2020"
+  },
+  {
+    "id": "299",
+    "data": "2020-10-16",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  034ª (TRIGÉSIMA QUARTA) SESSÃO ORDINÁRIA DA LEGISLATURA (2017 - 2020) - 4º PERÍODO DE 16 DE OUTUBRO DE 2020"
+  },
+  {
+    "id": "300",
+    "data": "2020-10-23",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  035ª (TRIGÉSIMA QUINTA) SESSÃO ORDINÁRIA DA LEGISLATURA (2017 - 2020) - 4º PERÍODO DE 23 DE OUTUBRO DE 2020"
+  },
+  {
+    "id": "301",
+    "data": "2020-10-30",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  036ª (TRIGÉSIMA SEXTA) SESSÃO ORDINÁRIA DA LEGISLATURA (2017 - 2020) - 4º PERÍODO DE 30 DE OUTUBRO DE 2020"
+  },
+  {
+    "id": "302",
+    "data": "2020-11-20",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  038ª (TRIGÉSIMA OITAVA) SESSÃO ORDINÁRIA DA LEGISLATURA (2017 - 2020) - 4º PERÍODO DE 20 DE NOVEMBRO DE 2020"
+  },
+  {
+    "id": "303",
+    "data": "2020-11-20",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  039ª (TRIGÉSIMA NONA) SESSÃO ORDINÁRIA DA LEGISLATURA (2017 - 2020) - 4º PERÍODO DE 20 DE NOVEMBRO DE 2020"
+  },
+  {
+    "id": "304",
+    "data": "2020-11-27",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  040ª (QUADRAGÉSIMA) SESSÃO ORDINÁRIA DA LEGISLATURA (2017 - 2020) - 4º PERÍODO DE 27 DE NOVEMBRO DE 2020"
+  },
+  {
+    "id": "305",
+    "data": "2020-12-03",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  041ª (QUADRAGÉSIMA PRIMEIRA) SESSÃO ORDINÁRIA DA LEGISLATURA (2017 - 2020) - 4º PERÍODO DE 3 DE DEZEMBRO DE 2020"
+  },
+  {
+    "id": "306",
+    "data": "2020-12-11",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  042ª (QUADRAGÉSIMA SEGUNDA) SESSÃO ORDINÁRIA DA LEGISLATURA (2017 - 2020) - 4º PERÍODO DE 11 DE DEZEMBRO DE 2020"
+  },
+  {
+    "id": "307",
+    "data": "2020-06-26",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  007ª (SÉTIMA) SESSÃO EXTRA-ORDINÁRIA DA LEGISLATURA (2017 - 2020) - 4º PERÍODO DE 26 DE JUNHO DE 2020"
+  },
+  {
+    "id": "308",
+    "data": "2020-07-03",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  008ª (OITAVA) SESSÃO EXTRA-ORDINÁRIA DA LEGISLATURA (2017 - 2020) - 4º PERÍODO DE 3 DE JULHO DE 2020"
+  },
+  {
+    "id": "309",
+    "data": "2020-07-10",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  009ª (NONA) SESSÃO AUDIÊNCIA PÚBLICA DA LEGISLATURA (2017 - 2020) - 4º PERÍODO DE 10 DE JULHO DE 2020"
+  },
+  {
+    "id": "310",
+    "data": "2020-07-10",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  010ª (DÉCIMA) SESSÃO EXTRA-ORDINÁRIA DA LEGISLATURA (2017 - 2020) - 4º PERÍODO DE 10 DE JULHO DE 2020"
+  },
+  {
+    "id": "311",
+    "data": "2020-10-30",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  011ª (DÉCIMA PRIMEIRA) SESSÃO EXTRA-ORDINÁRIA DA LEGISLATURA (2017 - 2020) - 4º PERÍODO DE 30 DE OUTUBRO DE 2020"
+  },
+  {
+    "id": "312",
+    "data": "2020-12-11",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  012ª (DÉCIMA SEGUNDA) SESSÃO EXTRA-ORDINÁRIA DA LEGISLATURA (2017 - 2020) - 4º PERÍODO DE 11 DE DEZEMBRO DE 2020"
+  },
+  {
+    "id": "313",
+    "data": "2020-12-14",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  013ª (DÉCIMA TERCEIRA) SESSÃO EXTRA-ORDINÁRIA DA LEGISLATURA (2017 - 2020) - 4º PERÍODO DE 14 DE DEZEMBRO DE 2020"
+  },
+  {
+    "id": "314",
+    "data": "2020-12-14",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  014ª (DÉCIMA QUARTA) SESSÃO EXTRA-ORDINÁRIA DA LEGISLATURA (2017 - 2020) - 4º PERÍODO DE 14 DE DEZEMBRO DE 2020"
+  },
+  {
+    "id": "315",
+    "data": "2021-02-05",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  01ª (PRIMEIRA) SESSÃO ORDINÁRIA DA LEGISLATURA (2021 - 2024) - 1º PERÍODO 2021 DE 5 DE FEVEREIRO DE 2021"
+  },
+  {
+    "id": "316",
+    "data": "2021-01-01",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  01ª (PRIMEIRA) SESSÃO SOLENE DE 1 DE JANEIRO DE 2021"
+  },
+  {
+    "id": "317",
+    "data": "2021-02-12",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  02ª (SEGUNDA) SESSÃO ORDINÁRIA DA LEGISLATURA (2021 - 2024) - 1º PERÍODO 2021 DE 12 DE FEVEREIRO DE 2021"
+  },
+  {
+    "id": "318",
+    "data": "N/A",
+    "status": "N/A",
+    "descricao": "N/A"
+  },
+  {
+    "id": "319",
+    "data": "2021-02-22",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  03ª (TERCEIRA) SESSÃO ORDINÁRIA DA LEGISLATURA (2021 - 2024) - 1º PERÍODO 2021 DE 22 DE FEVEREIRO DE 2021"
+  },
+  {
+    "id": "320",
+    "data": "2021-02-26",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  04ª (QUARTA) SESSÃO ORDINÁRIA DA LEGISLATURA (2021 - 2024) - 1º PERÍODO 2021 DE 26 DE FEVEREIRO DE 2021"
+  },
+  {
+    "id": "321",
+    "data": "2021-03-05",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  05ª (QUINTA) SESSÃO ORDINÁRIA DA LEGISLATURA (2021 - 2024) - 1º PERÍODO 2021 DE 5 DE MARÇO DE 2021"
+  },
+  {
+    "id": "322",
+    "data": "N/A",
+    "status": "N/A",
+    "descricao": "N/A"
+  },
+  {
+    "id": "323",
+    "data": "2021-03-12",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  06ª (SEXTA) SESSÃO ORDINÁRIA DA LEGISLATURA (2021 - 2024) - 1º PERÍODO 2021 DE 12 DE MARÇO DE 2021"
+  },
+  {
+    "id": "324",
+    "data": "2021-03-12",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  03ª (TERCEIRA) SESSÃO EXTRA-ORDINÁRIA DA LEGISLATURA (2021 - 2024) - 1º PERÍODO 2021 DE 12 DE MARÇO DE 2021"
+  },
+  {
+    "id": "325",
+    "data": "N/A",
+    "status": "N/A",
+    "descricao": "N/A"
+  },
+  {
+    "id": "326",
+    "data": "2021-03-17",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  07ª (SÉTIMA) SESSÃO ORDINÁRIA DA LEGISLATURA (2021 - 2024) - 1º PERÍODO 2021 DE 17 DE MARÇO DE 2021"
+  },
+  {
+    "id": "327",
+    "data": "2021-03-17",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  04ª (QUARTA) SESSÃO EXTRA-ORDINÁRIA DA LEGISLATURA (2021 - 2024) - 1º PERÍODO 2021 DE 17 DE MARÇO DE 2021"
+  },
+  {
+    "id": "328",
+    "data": "2021-03-26",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  08ª (OITAVA) SESSÃO ORDINÁRIA DA LEGISLATURA (2021 - 2024) - 1º PERÍODO 2021 DE 26 DE MARÇO DE 2021"
+  },
+  {
+    "id": "329",
+    "data": "2021-03-29",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  09ª (NONA) SESSÃO ORDINÁRIA DA LEGISLATURA (2021 - 2024) - 1º PERÍODO 2021 DE 29 DE MARÇO DE 2021"
+  },
+  {
+    "id": "330",
+    "data": "2021-03-29",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  05ª (QUINTA) SESSÃO EXTRA-ORDINÁRIA DA LEGISLATURA (2021 - 2024) - 1º PERÍODO 2021 DE 29 DE MARÇO DE 2021"
+  },
+  {
+    "id": "331",
+    "data": "N/A",
+    "status": "N/A",
+    "descricao": "N/A"
+  },
+  {
+    "id": "332",
+    "data": "N/A",
+    "status": "N/A",
+    "descricao": "N/A"
+  },
+  {
+    "id": "333",
+    "data": "2021-04-01",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  06ª (SEXTA) SESSÃO EXTRA-ORDINÁRIA DA LEGISLATURA (2021 - 2024) - 1º PERÍODO 2021 DE 1 DE ABRIL DE 2021"
+  },
+  {
+    "id": "334",
+    "data": "2021-04-09",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  07ª (SÉTIMA) SESSÃO EXTRA-ORDINÁRIA DA LEGISLATURA (2021 - 2024) - 1º PERÍODO 2021 DE 9 DE ABRIL DE 2021"
+  },
+  {
+    "id": "335",
+    "data": "2021-04-09",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  10ª (DÉCIMA) SESSÃO ORDINÁRIA DA LEGISLATURA (2021 - 2024) - 1º PERÍODO 2021 DE 9 DE ABRIL DE 2021"
+  },
+  {
+    "id": "336",
+    "data": "2021-04-16",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  11ª (DÉCIMA PRIMEIRA) SESSÃO ORDINÁRIA DA LEGISLATURA (2021 - 2024) - 1º PERÍODO 2021 DE 16 DE ABRIL DE 2021"
+  },
+  {
+    "id": "337",
+    "data": "2021-04-23",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  12ª (DÉCIMA SEGUNDA) SESSÃO ORDINÁRIA DA LEGISLATURA (2021 - 2024) - 1º PERÍODO 2021 DE 23 DE ABRIL DE 2021"
+  },
+  {
+    "id": "338",
+    "data": "2021-04-30",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  13ª (DÉCIMA TERCEIRA) SESSÃO ORDINÁRIA DA LEGISLATURA (2021 - 2024) - 1º PERÍODO 2021 DE 30 DE ABRIL DE 2021"
+  },
+  {
+    "id": "339",
+    "data": "2021-05-07",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  14ª (DÉCIMA QUARTA) SESSÃO ORDINÁRIA DA LEGISLATURA (2021 - 2024) - 1º PERÍODO 2021 DE 7 DE MAIO DE 2021"
+  },
+  {
+    "id": "340",
+    "data": "2021-05-14",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  15ª (DÉCIMA QUINTA) SESSÃO ORDINÁRIA DA LEGISLATURA (2021 - 2024) - 1º PERÍODO 2021 DE 14 DE MAIO DE 2021"
+  },
+  {
+    "id": "341",
+    "data": "2021-05-21",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  16ª (DÉCIMA SEXTA) SESSÃO ORDINÁRIA DA LEGISLATURA (2021 - 2024) - 1º PERÍODO 2021 DE 21 DE MAIO DE 2021"
+  },
+  {
+    "id": "342",
+    "data": "2021-05-24",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  08ª (OITAVA) SESSÃO EXTRA-ORDINÁRIA DA LEGISLATURA (2021 - 2024) - 1º PERÍODO 2021 DE 24 DE MAIO DE 2021"
+  },
+  {
+    "id": "343",
+    "data": "2021-05-24",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  09ª (NONA) SESSÃO EXTRA-ORDINÁRIA DA LEGISLATURA (2021 - 2024) - 1º PERÍODO 2021 DE 24 DE MAIO DE 2021"
+  },
+  {
+    "id": "344",
+    "data": "2021-05-28",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  17ª (DÉCIMA SÉTIMA) SESSÃO ORDINÁRIA DA LEGISLATURA (2021 - 2024) - 1º PERÍODO 2021 DE 28 DE MAIO DE 2021"
+  },
+  {
+    "id": "345",
+    "data": "2021-06-04",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  18ª (DÉCIMA OITAVA) SESSÃO ORDINÁRIA DA LEGISLATURA (2021 - 2024) - 1º PERÍODO 2021 DE 4 DE JUNHO DE 2021"
+  },
+  {
+    "id": "346",
+    "data": "2021-06-04",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  10ª (DÉCIMA) SESSÃO EXTRA-ORDINÁRIA DA LEGISLATURA (2021 - 2024) - 1º PERÍODO 2021 DE 4 DE JUNHO DE 2021"
+  },
+  {
+    "id": "347",
+    "data": "2021-06-11",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  19ª (DÉCIMA NONA) SESSÃO ORDINÁRIA DA LEGISLATURA (2021 - 2024) - 1º PERÍODO 2021 DE 11 DE JUNHO DE 2021"
+  },
+  {
+    "id": "348",
+    "data": "2021-06-18",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  20ª (VIGÉSIMA) SESSÃO ORDINÁRIA DA LEGISLATURA (2021 - 2024) - 1º PERÍODO 2021 DE 18 DE JUNHO DE 2021"
+  },
+  {
+    "id": "349",
+    "data": "2021-06-23",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  21ª (VIGÉSIMA PRIMEIRA) SESSÃO ORDINÁRIA DA LEGISLATURA (2021 - 2024) - 1º PERÍODO 2021 DE 23 DE JUNHO DE 2021"
+  },
+  {
+    "id": "350",
+    "data": "2021-06-23",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  11ª (DÉCIMA PRIMEIRA) SESSÃO EXTRA-ORDINÁRIA DA LEGISLATURA (2021 - 2024) - 1º PERÍODO 2021 DE 23 DE JUNHO DE 2021"
+  },
+  {
+    "id": "351",
+    "data": "2021-06-23",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  12ª (DÉCIMA SEGUNDA) SESSÃO EXTRA-ORDINÁRIA DA LEGISLATURA (2021 - 2024) - 1º PERÍODO 2021 DE 23 DE JUNHO DE 2021"
+  },
+  {
+    "id": "352",
+    "data": "2021-06-28",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  01ª (PRIMEIRA) AUDIÊNCIA PÚBLICA DA LEGISLATURA (2021 - 2024) - 1º PERÍODO 2021 DE 28 DE JUNHO DE 2021"
+  },
+  {
+    "id": "353",
+    "data": "2021-07-02",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  22ª (VIGÉSIMA SEGUNDA) SESSÃO ORDINÁRIA DA LEGISLATURA (2021 - 2024) - 1º PERÍODO 2021 DE 2 DE JULHO DE 2021"
+  },
+  {
+    "id": "354",
+    "data": "2021-07-09",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  23ª (VIGÉSIMA TERCEIRA) SESSÃO ORDINÁRIA DA LEGISLATURA (2021 - 2024) - 1º PERÍODO 2021 DE 9 DE JULHO DE 2021"
+  },
+  {
+    "id": "355",
+    "data": "2021-08-02",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  13ª (DÉCIMA TERCEIRA) SESSÃO EXTRA-ORDINÁRIA DA LEGISLATURA (2021 - 2024) - 2º PERÍODO DE 2021 DE 2 DE AGOSTO DE 2021"
+  },
+  {
+    "id": "356",
+    "data": "2021-08-02",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  14ª (DÉCIMA QUARTA) SESSÃO EXTRA-ORDINÁRIA DA LEGISLATURA (2021 - 2024) - 2º PERÍODO DE 2021 DE 2 DE AGOSTO DE 2021"
+  },
+  {
+    "id": "357",
+    "data": "2021-08-06",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  24ª (VIGÉSIMA QUARTA) SESSÃO ORDINÁRIA DA LEGISLATURA (2021 - 2024) - 2º PERÍODO DE 2021 DE 6 DE AGOSTO DE 2021"
+  },
+  {
+    "id": "358",
+    "data": "2021-08-13",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  25ª (VIGÉSIMA QUINTA) SESSÃO ORDINÁRIA DA LEGISLATURA (2021 - 2024) - 2º PERÍODO DE 2021 DE 13 DE AGOSTO DE 2021"
+  },
+  {
+    "id": "359",
+    "data": "2021-08-20",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  26ª (VIGÉSIMA SEXTA) SESSÃO ORDINÁRIA DA LEGISLATURA (2021 - 2024) - 2º PERÍODO DE 2021 DE 20 DE AGOSTO DE 2021"
+  },
+  {
+    "id": "360",
+    "data": "2021-08-25",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  15ª (DÉCIMA QUINTA) SESSÃO EXTRA-ORDINÁRIA DA LEGISLATURA (2021 - 2024) - 2º PERÍODO DE 2021 DE 25 DE AGOSTO DE 2021"
+  },
+  {
+    "id": "361",
+    "data": "2021-08-25",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  16ª (DÉCIMA SEXTA) SESSÃO EXTRA-ORDINÁRIA DA LEGISLATURA (2021 - 2024) - 2º PERÍODO DE 2021 DE 25 DE AGOSTO DE 2021"
+  },
+  {
+    "id": "362",
+    "data": "2021-08-27",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  27ª (VIGÉSIMA SÉTIMA) SESSÃO ORDINÁRIA DA LEGISLATURA (2021 - 2024) - 2º PERÍODO DE 2021 DE 27 DE AGOSTO DE 2021"
+  },
+  {
+    "id": "363",
+    "data": "2021-01-20",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  01ª (PRIMEIRA) SESSÃO EXTRA-ORDINÁRIA DA  DE 20 DE JANEIRO DE 2021"
+  },
+  {
+    "id": "364",
+    "data": "2021-01-20",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  02ª (SEGUNDA) SESSÃO EXTRA-ORDINÁRIA DA  DE 20 DE JANEIRO DE 2021"
+  },
+  {
+    "id": "365",
+    "data": "2021-09-03",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  28ª (VIGÉSIMA OITAVA) SESSÃO ORDINÁRIA DA LEGISLATURA (2021 - 2024) - 2º PERÍODO DE 2021 DE 3 DE SETEMBRO DE 2021"
+  },
+  {
+    "id": "366",
+    "data": "2021-09-10",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  29ª (VIGÉSIMA NONA) SESSÃO ORDINÁRIA DA LEGISLATURA (2021 - 2024) - 2º PERÍODO DE 2021 DE 10 DE SETEMBRO DE 2021"
+  },
+  {
+    "id": "367",
+    "data": "2021-09-10",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  30ª (TRIGÉSIMA) SESSÃO ORDINÁRIA DA LEGISLATURA (2021 - 2024) - 2º PERÍODO DE 2021 DE 10 DE SETEMBRO DE 2021"
+  },
+  {
+    "id": "368",
+    "data": "2021-09-24",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  31ª (TRIGÉSIMA PRIMEIRA) SESSÃO ORDINÁRIA DA LEGISLATURA (2021 - 2024) - 2º PERÍODO DE 2021 DE 24 DE SETEMBRO DE 2021"
+  },
+  {
+    "id": "369",
+    "data": "2021-10-01",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  32ª (TRIGÉSIMA SEGUNDA) SESSÃO ORDINÁRIA DA LEGISLATURA (2021 - 2024) - 2º PERÍODO DE 2021 DE 1 DE OUTUBRO DE 2021"
+  },
+  {
+    "id": "370",
+    "data": "2021-10-01",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  17ª (DÉCIMA SÉTIMA) SESSÃO EXTRA-ORDINÁRIA DA LEGISLATURA (2021 - 2024) - 2º PERÍODO DE 2021 DE 1 DE OUTUBRO DE 2021"
+  },
+  {
+    "id": "371",
+    "data": "2021-10-08",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  33ª (TRIGÉSIMA TERCEIRA) SESSÃO ORDINÁRIA DA LEGISLATURA (2021 - 2024) - 2º PERÍODO DE 2021 DE 8 DE OUTUBRO DE 2021"
+  },
+  {
+    "id": "372",
+    "data": "2021-10-15",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  34ª (TRIGÉSIMA QUARTA) SESSÃO ORDINÁRIA DA LEGISLATURA (2021 - 2024) - 2º PERÍODO DE 2021 DE 15 DE OUTUBRO DE 2021"
+  },
+  {
+    "id": "373",
+    "data": "2021-10-15",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  18ª (DÉCIMA OITAVA) SESSÃO EXTRA-ORDINÁRIA DA LEGISLATURA (2021 - 2024) - 2º PERÍODO DE 2021 DE 15 DE OUTUBRO DE 2021"
+  },
+  {
+    "id": "374",
+    "data": "2021-10-19",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  35ª (TRIGÉSIMA QUINTA) SESSÃO ORDINÁRIA DA LEGISLATURA (2021 - 2024) - 2º PERÍODO DE 2021 DE 19 DE OUTUBRO DE 2021"
+  },
+  {
+    "id": "375",
+    "data": "2021-10-19",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  19ª (DÉCIMA NONA) SESSÃO EXTRA-ORDINÁRIA DA LEGISLATURA (2021 - 2024) - 2º PERÍODO DE 2021 DE 19 DE OUTUBRO DE 2021"
+  },
+  {
+    "id": "376",
+    "data": "2021-10-27",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  20ª (VIGÉSIMA) SESSÃO EXTRA-ORDINÁRIA DA LEGISLATURA (2021 - 2024) - 2º PERÍODO DE 2021 DE 27 DE OUTUBRO DE 2021"
+  },
+  {
+    "id": "377",
+    "data": "2021-10-27",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  21ª (VIGÉSIMA PRIMEIRA) SESSÃO EXTRA-ORDINÁRIA DA LEGISLATURA (2021 - 2024) - 2º PERÍODO DE 2021 DE 27 DE OUTUBRO DE 2021"
+  },
+  {
+    "id": "378",
+    "data": "2021-10-29",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  36ª (TRIGÉSIMA SEXTA) SESSÃO ORDINÁRIA DA LEGISLATURA (2021 - 2024) - 2º PERÍODO DE 2021 DE 29 DE OUTUBRO DE 2021"
+  },
+  {
+    "id": "379",
+    "data": "2021-11-05",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  37ª (TRIGÉSIMA SÉTIMA) SESSÃO ORDINÁRIA DA LEGISLATURA (2021 - 2024) - 2º PERÍODO DE 2021 DE 5 DE NOVEMBRO DE 2021"
+  },
+  {
+    "id": "380",
+    "data": "2021-11-12",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  38ª (TRIGÉSIMA OITAVA) SESSÃO ORDINÁRIA DA LEGISLATURA (2021 - 2024) - 2º PERÍODO DE 2021 DE 12 DE NOVEMBRO DE 2021"
+  },
+  {
+    "id": "381",
+    "data": "2021-11-12",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  22ª (VIGÉSIMA SEGUNDA) SESSÃO EXTRA-ORDINÁRIA DA LEGISLATURA (2021 - 2024) - 2º PERÍODO DE 2021 DE 12 DE NOVEMBRO DE 2021"
+  },
+  {
+    "id": "382",
+    "data": "2021-11-19",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  39ª (TRIGÉSIMA NONA) SESSÃO ORDINÁRIA DA LEGISLATURA (2021 - 2024) - 2º PERÍODO DE 2021 DE 19 DE NOVEMBRO DE 2021"
+  },
+  {
+    "id": "383",
+    "data": "2021-11-19",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  23ª (VIGÉSIMA TERCEIRA) SESSÃO EXTRA-ORDINÁRIA DA LEGISLATURA (2021 - 2024) - 2º PERÍODO DE 2021 DE 19 DE NOVEMBRO DE 2021"
+  },
+  {
+    "id": "384",
+    "data": "2021-11-26",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  40ª (QUADRAGÉSIMA) SESSÃO ORDINÁRIA DA LEGISLATURA (2021 - 2024) - 2º PERÍODO DE 2021 DE 26 DE NOVEMBRO DE 2021"
+  },
+  {
+    "id": "385",
+    "data": "2021-12-03",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  41ª (QUADRAGÉSIMA PRIMEIRA) SESSÃO ORDINÁRIA DA LEGISLATURA (2021 - 2024) - 2º PERÍODO DE 2021 DE 3 DE DEZEMBRO DE 2021"
+  },
+  {
+    "id": "386",
+    "data": "2021-12-10",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  42ª (QUADRAGÉSIMA SEGUNDA) SESSÃO ORDINÁRIA DA LEGISLATURA (2021 - 2024) - 2º PERÍODO DE 2021 DE 10 DE DEZEMBRO DE 2021"
+  },
+  {
+    "id": "387",
+    "data": "2021-12-13",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  24ª (VIGÉSIMA QUARTA) SESSÃO EXTRA-ORDINÁRIA DA LEGISLATURA (2021 - 2024) - 2º PERÍODO DE 2021 DE 13 DE DEZEMBRO DE 2021"
+  },
+  {
+    "id": "388",
+    "data": "2021-12-13",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  25ª (VIGÉSIMA QUINTA) SESSÃO EXTRA-ORDINÁRIA DA LEGISLATURA (2021 - 2024) - 2º PERÍODO DE 2021 DE 13 DE DEZEMBRO DE 2021"
+  },
+  {
+    "id": "389",
+    "data": "2022-01-17",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  01ª (PRIMEIRA) SESSÃO EXTRA-ORDINÁRIA DA  DE 17 DE JANEIRO DE 2022"
+  },
+  {
+    "id": "390",
+    "data": "2022-01-17",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  02ª (SEGUNDA) SESSÃO EXTRA-ORDINÁRIA DA  DE 17 DE JANEIRO DE 2022"
+  },
+  {
+    "id": "391",
+    "data": "N/A",
+    "status": "N/A",
+    "descricao": "N/A"
+  },
+  {
+    "id": "392",
+    "data": "2022-02-04",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  01ª (PRIMEIRA) SESSÃO ORDINÁRIA DA LEGISLATURA (2021 - 2024) - 1º PERÍODO DE 2022 DE 4 DE FEVEREIRO DE 2022"
+  },
+  {
+    "id": "393",
+    "data": "2022-02-11",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  02ª (SEGUNDA) SESSÃO ORDINÁRIA DA LEGISLATURA (2021 - 2024) - 1º PERÍODO DE 2022 DE 11 DE FEVEREIRO DE 2022"
+  },
+  {
+    "id": "394",
+    "data": "2022-02-14",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  03ª (TERCEIRA) SESSÃO EXTRA-ORDINÁRIA DA LEGISLATURA (2021 - 2024) - 1º PERÍODO DE 2022 DE 14 DE FEVEREIRO DE 2022"
+  },
+  {
+    "id": "395",
+    "data": "2022-02-14",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  04ª (QUARTA) SESSÃO EXTRA-ORDINÁRIA DA LEGISLATURA (2021 - 2024) - 1º PERÍODO DE 2022 DE 14 DE FEVEREIRO DE 2022"
+  },
+  {
+    "id": "396",
+    "data": "2022-02-18",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  03ª (TERCEIRA) SESSÃO ORDINÁRIA DA LEGISLATURA (2021 - 2024) - 1º PERÍODO DE 2022 DE 18 DE FEVEREIRO DE 2022"
+  },
+  {
+    "id": "397",
+    "data": "2022-02-18",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  04ª (QUARTA) SESSÃO ORDINÁRIA DA LEGISLATURA (2021 - 2024) - 1º PERÍODO DE 2022 DE 18 DE FEVEREIRO DE 2022"
+  },
+  {
+    "id": "398",
+    "data": "2022-02-23",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  05ª (QUINTA) SESSÃO EXTRA-ORDINÁRIA DA LEGISLATURA (2021 - 2024) - 1º PERÍODO DE 2022 DE 23 DE FEVEREIRO DE 2022"
+  },
+  {
+    "id": "399",
+    "data": "2022-02-23",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  06ª (SEXTA) SESSÃO EXTRA-ORDINÁRIA DA LEGISLATURA (2021 - 2024) - 1º PERÍODO DE 2022 DE 23 DE FEVEREIRO DE 2022"
+  },
+  {
+    "id": "400",
+    "data": "2022-03-04",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  05ª (QUINTA) SESSÃO ORDINÁRIA DA LEGISLATURA (2021 - 2024) - 1º PERÍODO DE 2022 DE 4 DE MARÇO DE 2022"
+  },
+  {
+    "id": "401",
+    "data": "2022-03-11",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  06ª (SEXTA) SESSÃO ORDINÁRIA DA LEGISLATURA (2021 - 2024) - 1º PERÍODO DE 2022 DE 11 DE MARÇO DE 2022"
+  },
+  {
+    "id": "402",
+    "data": "2022-03-11",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  07ª (SÉTIMA) SESSÃO EXTRA-ORDINÁRIA DA LEGISLATURA (2021 - 2024) - 1º PERÍODO DE 2022 DE 11 DE MARÇO DE 2022"
+  },
+  {
+    "id": "403",
+    "data": "2022-03-18",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  07ª (SÉTIMA) SESSÃO ORDINÁRIA DA LEGISLATURA (2021 - 2024) - 1º PERÍODO DE 2022 DE 18 DE MARÇO DE 2022"
+  },
+  {
+    "id": "404",
+    "data": "2022-03-26",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  08ª (OITAVA) SESSÃO ORDINÁRIA DA LEGISLATURA (2021 - 2024) - 1º PERÍODO DE 2022 DE 26 DE MARÇO DE 2022"
+  },
+  {
+    "id": "405",
+    "data": "2022-04-01",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  09ª (NONA) SESSÃO ORDINÁRIA DA LEGISLATURA (2021 - 2024) - 1º PERÍODO DE 2022 DE 1 DE ABRIL DE 2022"
+  },
+  {
+    "id": "406",
+    "data": "2022-04-08",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  10ª (DÉCIMA) SESSÃO ORDINÁRIA DA LEGISLATURA (2021 - 2024) - 1º PERÍODO DE 2022 DE 8 DE ABRIL DE 2022"
+  },
+  {
+    "id": "407",
+    "data": "2022-04-08",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  08ª (OITAVA) SESSÃO EXTRA-ORDINÁRIA DA LEGISLATURA (2021 - 2024) - 1º PERÍODO DE 2022 DE 8 DE ABRIL DE 2022"
+  },
+  {
+    "id": "408",
+    "data": "2022-04-13",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  09ª (NONA) SESSÃO EXTRA-ORDINÁRIA DA LEGISLATURA (2021 - 2024) - 1º PERÍODO DE 2022 DE 13 DE ABRIL DE 2022"
+  },
+  {
+    "id": "409",
+    "data": "2022-04-13",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  10ª (DÉCIMA) SESSÃO EXTRA-ORDINÁRIA DA LEGISLATURA (2021 - 2024) - 1º PERÍODO DE 2022 DE 13 DE ABRIL DE 2022"
+  },
+  {
+    "id": "410",
+    "data": "2022-04-23",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  11ª (DÉCIMA PRIMEIRA) SESSÃO ORDINÁRIA DA LEGISLATURA (2021 - 2024) - 1º PERÍODO DE 2022 DE 23 DE ABRIL DE 2022"
+  },
+  {
+    "id": "411",
+    "data": "2022-04-29",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  12ª (DÉCIMA SEGUNDA) SESSÃO ORDINÁRIA DA LEGISLATURA (2021 - 2024) - 1º PERÍODO DE 2022 DE 29 DE ABRIL DE 2022"
+  },
+  {
+    "id": "412",
+    "data": "2022-05-06",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  13ª (DÉCIMA TERCEIRA) SESSÃO ORDINÁRIA DA LEGISLATURA (2021 - 2024) - 1º PERÍODO DE 2022 DE 6 DE MAIO DE 2022"
+  },
+  {
+    "id": "413",
+    "data": "2022-05-06",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  11ª (DÉCIMA PRIMEIRA) SESSÃO EXTRA-ORDINÁRIA DA LEGISLATURA (2021 - 2024) - 1º PERÍODO DE 2022 DE 6 DE MAIO DE 2022"
+  },
+  {
+    "id": "414",
+    "data": "2022-05-06",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  12ª (DÉCIMA SEGUNDA) SESSÃO EXTRA-ORDINÁRIA DA LEGISLATURA (2021 - 2024) - 1º PERÍODO DE 2022 DE 6 DE MAIO DE 2022"
+  },
+  {
+    "id": "415",
+    "data": "2022-05-13",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  14ª (DÉCIMA QUARTA) SESSÃO ORDINÁRIA DA LEGISLATURA (2021 - 2024) - 1º PERÍODO DE 2022 DE 13 DE MAIO DE 2022"
+  },
+  {
+    "id": "416",
+    "data": "2022-05-20",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  15ª (DÉCIMA QUINTA) SESSÃO ORDINÁRIA DA LEGISLATURA (2021 - 2024) - 1º PERÍODO DE 2022 DE 20 DE MAIO DE 2022"
+  },
+  {
+    "id": "417",
+    "data": "2022-05-28",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  16ª (DÉCIMA SEXTA) SESSÃO ORDINÁRIA DA LEGISLATURA (2021 - 2024) - 1º PERÍODO DE 2022 DE 28 DE MAIO DE 2022"
+  },
+  {
+    "id": "418",
+    "data": "2022-06-03",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  17ª (DÉCIMA SÉTIMA) SESSÃO ORDINÁRIA DA LEGISLATURA (2021 - 2024) - 1º PERÍODO DE 2022 DE 3 DE JUNHO DE 2022"
+  },
+  {
+    "id": "419",
+    "data": "2022-06-10",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  18ª (DÉCIMA OITAVA) SESSÃO ORDINÁRIA DA LEGISLATURA (2021 - 2024) - 1º PERÍODO DE 2022 DE 10 DE JUNHO DE 2022"
+  },
+  {
+    "id": "420",
+    "data": "2022-07-02",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  19ª (DÉCIMA NONA) SESSÃO ORDINÁRIA DA LEGISLATURA (2021 - 2024) - 1º PERÍODO DE 2022 DE 2 DE JULHO DE 2022"
+  },
+  {
+    "id": "421",
+    "data": "2022-07-08",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  20ª (VIGÉSIMA) SESSÃO ORDINÁRIA DA LEGISLATURA (2021 - 2024) - 1º PERÍODO DE 2022 DE 8 DE JULHO DE 2022"
+  },
+  {
+    "id": "422",
+    "data": "2022-07-08",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  13ª (DÉCIMA TERCEIRA) SESSÃO EXTRA-ORDINÁRIA DA LEGISLATURA (2021 - 2024) - 1º PERÍODO DE 2022 DE 8 DE JULHO DE 2022"
+  },
+  {
+    "id": "423",
+    "data": "2022-07-25",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  14ª (DÉCIMA QUARTA) SESSÃO EXTRA-ORDINÁRIA DA  DE 25 DE JULHO DE 2022"
+  },
+  {
+    "id": "424",
+    "data": "2022-07-25",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  15ª (DÉCIMA QUINTA) SESSÃO EXTRA-ORDINÁRIA DA  DE 25 DE JULHO DE 2022"
+  },
+  {
+    "id": "425",
+    "data": "N/A",
+    "status": "N/A",
+    "descricao": "N/A"
+  },
+  {
+    "id": "426",
+    "data": "2022-08-05",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  21ª (VIGÉSIMA PRIMEIRA) SESSÃO ORDINÁRIA DA LEGISLATURA (2021 - 2024) - 2º PERÍODO DE 2022 DE 5 DE AGOSTO DE 2022"
+  },
+  {
+    "id": "427",
+    "data": "2022-08-12",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  22ª (VIGÉSIMA SEGUNDA) SESSÃO ORDINÁRIA DA LEGISLATURA (2021 - 2024) - 2º PERÍODO DE 2022 DE 12 DE AGOSTO DE 2022"
+  },
+  {
+    "id": "428",
+    "data": "2022-08-19",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  23ª (VIGÉSIMA TERCEIRA) SESSÃO ORDINÁRIA DA LEGISLATURA (2021 - 2024) - 2º PERÍODO DE 2022 DE 19 DE AGOSTO DE 2022"
+  },
+  {
+    "id": "429",
+    "data": "2022-08-19",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  24ª (VIGÉSIMA QUARTA) SESSÃO ORDINÁRIA DA LEGISLATURA (2021 - 2024) - 2º PERÍODO DE 2022 DE 19 DE AGOSTO DE 2022"
+  },
+  {
+    "id": "430",
+    "data": "2022-09-02",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  25ª (VIGÉSIMA QUINTA) SESSÃO ORDINÁRIA DA LEGISLATURA (2021 - 2024) - 2º PERÍODO DE 2022 DE 2 DE SETEMBRO DE 2022"
+  },
+  {
+    "id": "431",
+    "data": "2022-09-09",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  26ª (VIGÉSIMA SEXTA) SESSÃO ORDINÁRIA DA LEGISLATURA (2021 - 2024) - 2º PERÍODO DE 2022 DE 9 DE SETEMBRO DE 2022"
+  },
+  {
+    "id": "432",
+    "data": "2022-09-16",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  27ª (VIGÉSIMA SÉTIMA) SESSÃO ORDINÁRIA DA LEGISLATURA (2021 - 2024) - 2º PERÍODO DE 2022 DE 16 DE SETEMBRO DE 2022"
+  },
+  {
+    "id": "433",
+    "data": "2022-09-23",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  28ª (VIGÉSIMA OITAVA) SESSÃO ORDINÁRIA DA LEGISLATURA (2021 - 2024) - 2º PERÍODO DE 2022 DE 23 DE SETEMBRO DE 2022"
+  },
+  {
+    "id": "434",
+    "data": "2022-09-23",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  16ª (DÉCIMA SEXTA) SESSÃO EXTRA-ORDINÁRIA DA LEGISLATURA (2021 - 2024) - 2º PERÍODO DE 2022 DE 23 DE SETEMBRO DE 2022"
+  },
+  {
+    "id": "435",
+    "data": "2022-09-23",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  17ª (DÉCIMA SÉTIMA) SESSÃO EXTRA-ORDINÁRIA DA LEGISLATURA (2021 - 2024) - 2º PERÍODO DE 2022 DE 23 DE SETEMBRO DE 2022"
+  },
+  {
+    "id": "436",
+    "data": "2022-09-23",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  29ª (VIGÉSIMA NONA) SESSÃO ORDINÁRIA DA LEGISLATURA (2021 - 2024) - 2º PERÍODO DE 2022 DE 23 DE SETEMBRO DE 2022"
+  },
+  {
+    "id": "437",
+    "data": "2022-10-07",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  30ª (TRIGÉSIMA) SESSÃO ORDINÁRIA DA LEGISLATURA (2021 - 2024) - 2º PERÍODO DE 2022 DE 7 DE OUTUBRO DE 2022"
+  },
+  {
+    "id": "438",
+    "data": "2022-10-14",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  31ª (TRIGÉSIMA PRIMEIRA) SESSÃO ORDINÁRIA DA LEGISLATURA (2021 - 2024) - 2º PERÍODO DE 2022 DE 14 DE OUTUBRO DE 2022"
+  },
+  {
+    "id": "439",
+    "data": "2022-10-28",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  32ª (TRIGÉSIMA SEGUNDA) SESSÃO ORDINÁRIA DA LEGISLATURA (2021 - 2024) - 2º PERÍODO DE 2022 DE 28 DE OUTUBRO DE 2022"
+  },
+  {
+    "id": "440",
+    "data": "2022-10-28",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  33ª (TRIGÉSIMA TERCEIRA) SESSÃO ORDINÁRIA DA LEGISLATURA (2021 - 2024) - 2º PERÍODO DE 2022 DE 28 DE OUTUBRO DE 2022"
+  },
+  {
+    "id": "441",
+    "data": "2022-11-05",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  34ª (TRIGÉSIMA QUARTA) SESSÃO ORDINÁRIA DA LEGISLATURA (2021 - 2024) - 2º PERÍODO DE 2022 DE 5 DE NOVEMBRO DE 2022"
+  },
+  {
+    "id": "442",
+    "data": "2022-11-12",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  35ª (TRIGÉSIMA QUINTA) SESSÃO ORDINÁRIA DA LEGISLATURA (2021 - 2024) - 2º PERÍODO DE 2022 DE 12 DE NOVEMBRO DE 2022"
+  },
+  {
+    "id": "443",
+    "data": "2022-11-18",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  36ª (TRIGÉSIMA SEXTA) SESSÃO ORDINÁRIA DA LEGISLATURA (2021 - 2024) - 2º PERÍODO DE 2022 DE 18 DE NOVEMBRO DE 2022"
+  },
+  {
+    "id": "444",
+    "data": "2022-11-25",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  37ª (TRIGÉSIMA SÉTIMA) SESSÃO ORDINÁRIA DA LEGISLATURA (2021 - 2024) - 2º PERÍODO DE 2022 DE 25 DE NOVEMBRO DE 2022"
+  },
+  {
+    "id": "445",
+    "data": "2022-11-25",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  18ª (DÉCIMA OITAVA) SESSÃO EXTRA-ORDINÁRIA DA LEGISLATURA (2021 - 2024) - 2º PERÍODO DE 2022 DE 25 DE NOVEMBRO DE 2022"
+  },
+  {
+    "id": "446",
+    "data": "2022-12-03",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  38ª (TRIGÉSIMA OITAVA) SESSÃO ORDINÁRIA DA LEGISLATURA (2021 - 2024) - 2º PERÍODO DE 2022 DE 3 DE DEZEMBRO DE 2022"
+  },
+  {
+    "id": "447",
+    "data": "2022-12-03",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  19ª (DÉCIMA NONA) SESSÃO EXTRA-ORDINÁRIA DA LEGISLATURA (2021 - 2024) - 2º PERÍODO DE 2022 DE 3 DE DEZEMBRO DE 2022"
+  },
+  {
+    "id": "448",
+    "data": "2022-12-09",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  39ª (TRIGÉSIMA NONA) SESSÃO ORDINÁRIA DA LEGISLATURA (2021 - 2024) - 2º PERÍODO DE 2022 DE 9 DE DEZEMBRO DE 2022"
+  },
+  {
+    "id": "449",
+    "data": "2022-12-12",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  20ª (VIGÉSIMA) SESSÃO EXTRA-ORDINÁRIA DA LEGISLATURA (2021 - 2024) - 2º PERÍODO DE 2022 DE 12 DE DEZEMBRO DE 2022"
+  },
+  {
+    "id": "450",
+    "data": "2022-12-12",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  21ª (VIGÉSIMA PRIMEIRA) SESSÃO EXTRA-ORDINÁRIA DA LEGISLATURA (2021 - 2024) - 2º PERÍODO DE 2022 DE 12 DE DEZEMBRO DE 2022"
+  },
+  {
+    "id": "451",
+    "data": "2022-12-19",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  22ª (VIGÉSIMA SEGUNDA) SESSÃO EXTRA-ORDINÁRIA DA  DE 19 DE DEZEMBRO DE 2022"
+  },
+  {
+    "id": "452",
+    "data": "2022-12-19",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  23ª (VIGÉSIMA TERCEIRA) SESSÃO EXTRA-ORDINÁRIA DA  DE 19 DE DEZEMBRO DE 2022"
+  },
+  {
+    "id": "453",
+    "data": "N/A",
+    "status": "N/A",
+    "descricao": "N/A"
+  },
+  {
+    "id": "454",
+    "data": "N/A",
+    "status": "N/A",
+    "descricao": "N/A"
+  },
+  {
+    "id": "455",
+    "data": "2023-01-20",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  1ª (PRIMEIRA) SESSÃO EXTRA-ORDINÁRIA DA LEGISLATURA (2021 - 2024) - 1º PERÍODO DE 2023 DE 20 DE JANEIRO DE 2023"
+  },
+  {
+    "id": "456",
+    "data": "2023-01-20",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  2ª (SEGUNDA) SESSÃO EXTRA-ORDINÁRIA DA LEGISLATURA (2021 - 2024) - 1º PERÍODO DE 2023 DE 20 DE JANEIRO DE 2023"
+  },
+  {
+    "id": "457",
+    "data": "2023-02-03",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  01ª (PRIMEIRA) SESSÃO ORDINÁRIA DA LEGISLATURA (2021 - 2024) - 1º PERÍODO DE 2023 DE 3 DE FEVEREIRO DE 2023"
+  },
+  {
+    "id": "458",
+    "data": "2023-02-10",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  02ª (SEGUNDA) SESSÃO ORDINÁRIA DA LEGISLATURA (2021 - 2024) - 1º PERÍODO DE 2023 DE 9 DE FEVEREIRO DE 2023."
+  },
+  {
+    "id": "459",
+    "data": "2023-02-17",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  03° (TERCEIRA) SESSÃO ORDINÁRIA DA LEGISLATURA (2021 - 2024) - 1º PERÍODO DE 2023 DE 17 DE FEVEREIRO DE 2023."
+  },
+  {
+    "id": "460",
+    "data": "2023-02-24",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  04ª (QUARTA) SESSÃO ORDINÁRIA DA LEGISLATURA (2021 - 2024) - 1º PERÍODO DE 2023 DE 24 DE FEVEREIRO DE 2023."
+  },
+  {
+    "id": "461",
+    "data": "2023-03-03",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  05ª (QUINTA) SESSÃO ORDINÁRIA DA LEGISLATURA (2021 - 2024) - 1º PERÍODO DE 2023 DE 03 DE MARÇO DE 2023."
+  },
+  {
+    "id": "462",
+    "data": "2023-03-10",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  06ª (SEXTA) SESSÃO ORDINÁRIA DA LEGISLATURA (2021 - 2024) - 1º PERÍODO DE 2023 DE 10 DE MARÇO DE 2023."
+  },
+  {
+    "id": "463",
+    "data": "2023-03-17",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  07ª (SÉTIMA) SESSÃO ORDINÁRIA DA LEGISLATURA (2021 - 2024) - 1º PERÍODO DE 2023 DE 17 DE MARÇO DE 2023."
+  },
+  {
+    "id": "464",
+    "data": "2023-03-17",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  3ª (TERCEIRA) SESSÃO EXTRA-ORDINÁRIA DA LEGISLATURA (2021 - 2024) - 1º PERÍODO DE 2023 DE 17 DE MARÇO 2023"
+  },
+  {
+    "id": "465",
+    "data": "2023-03-17",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  4ª (QUARTA) SESSÃO EXTRA-ORDINÁRIA DA LEGISLATURA (2021 - 2024) - 1º PERÍODO DE 2023 DE17 DE MARÇO 2023."
+  },
+  {
+    "id": "466",
+    "data": "2023-03-24",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  08ª (OITAVA) SESSÃO ORDINÁRIA DA LEGISLATURA (2021 - 2024) - 1º PERÍODO DE 2023 DE 24 DE MARÇO DE 2023."
+  },
+  {
+    "id": "467",
+    "data": "2023-03-24",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  5ª (QUINTA) SESSÃO EXTRA-ORDINÁRIA DA LEGISLATURA (2021 - 2024) - 1º PERÍODO DE 2023 DE 24 DE MARÇO 2023."
+  },
+  {
+    "id": "468",
+    "data": "2023-03-24",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  6ª (SEXTA) SESSÃO EXTRA-ORDINÁRIA DA LEGISLATURA (2021 - 2024) - 1º PERÍODO DE 2023 DE 24 DE MARÇO 2023."
+  },
+  {
+    "id": "469",
+    "data": "2023-03-31",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  09ª (NONA) SESSÃO ORDINÁRIA DA LEGISLATURA (2021 - 2024) - 1º PERÍODO DE 2023 DE 31 DE MARÇO DE 2023."
+  },
+  {
+    "id": "470",
+    "data": "2023-04-10",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  10ª (DÉCIMA) SESSÃO ORDINÁRIA DA LEGISLATURA (2021 - 2024) - 1º PERÍODO DE 2023 DE 10 DE ABRIL DE 2023."
+  },
+  {
+    "id": "471",
+    "data": "2023-04-14",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  11ª (DÉCIMA PRIMEIRA) SESSÃO ORDINÁRIA DA LEGISLATURA (2021 - 2024) - 1º PERÍODO DE 2023 DE 14 DE ABRIL DE 2023."
+  },
+  {
+    "id": "472",
+    "data": "2023-04-14",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  12ª (DÉCIMA SEGUNDA) SESSÃO ORDINÁRIA DA LEGISLATURA (2021 - 2024) - 1º PERÍODO DE 2023 DE 10 DE ABRIL DE 2023."
+  },
+  {
+    "id": "473",
+    "data": "2023-04-14",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  7ª (SÉTIMA) SESSÃO EXTRA-ORDINÁRIA DA LEGISLATURA (2021 - 2024) - 1º PERÍODO DE 2023 DE 14 DE ABRIL 2023."
+  },
+  {
+    "id": "474",
+    "data": "2023-04-28",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  13ª (DÉCIMA TERCEIRA) SESSÃO ORDINÁRIA DA LEGISLATURA (2021 - 2024) - 1º PERÍODO DE 2023 DE 28 DE ABRIL DE 2023."
+  },
+  {
+    "id": "475",
+    "data": "2023-05-05",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  14ª (DÉCIMA QUARTA) SESSÃO ORDINÁRIA DA LEGISLATURA (2021 - 2024) - 1º PERÍODO DE 2023 DE 05 DE MAIO DE 2023."
+  },
+  {
+    "id": "476",
+    "data": "2023-05-12",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  15ª (DÉCIMA QUINTA) SESSÃO ORDINÁRIA DA LEGISLATURA (2021 - 2024) - 1º PERÍODO DE 2023 DE 12 DE MAIO DE 2023."
+  },
+  {
+    "id": "477",
+    "data": "2023-05-19",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  16ª (DÉCIMA SEXTA) SESSÃO ORDINÁRIA DA LEGISLATURA (2021 - 2024) - 1º PERÍODO DE 2023 DE 19 DE MAIO DE 2023."
+  },
+  {
+    "id": "478",
+    "data": "2023-05-26",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  17ª (DÉCIMA SÉTIMA) SESSÃO ORDINÁRIA DA LEGISLATURA (2021 - 2024) - 1º PERÍODO DE 2023 DE 26 DE MAIO DE 2023."
+  },
+  {
+    "id": "479",
+    "data": "2023-06-02",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  18ª (DÉCIMA OITAVA) SESSÃO ORDINÁRIA DA LEGISLATURA (2021 - 2024) - 1º PERÍODO DE 2023 DE 02 DE JUNHO DE 2023."
+  },
+  {
+    "id": "480",
+    "data": "2023-06-16",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  19ª (DÉCIMA NONA) SESSÃO ORDINÁRIA DA LEGISLATURA (2021 - 2024) - 1º PERÍODO DE 2023 DE 02 DE JUNHO DE 2023."
+  },
+  {
+    "id": "481",
+    "data": "2023-06-16",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  20ª (VIGÉSSIMA) SESSÃO ORDINÁRIA DA LEGISLATURA (2021 - 2024) - 1º PERÍODO DE 2023 DE 16 DE JUNHO DE 2023."
+  },
+  {
+    "id": "482",
+    "data": "2023-06-23",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  21ª (VIGÉSSIMA PRIMEIRA) SESSÃO ORDINÁRIA DA LEGISLATURA (2021 - 2024) - 1º PERÍODO DE 2023 DE 23 DE JUNHO DE 2023."
+  },
+  {
+    "id": "483",
+    "data": "2023-06-30",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  22ª (VIGÉSSIMA SEGUNDA) SESSÃO ORDINÁRIA DA LEGISLATURA (2021 - 2024) - 1º PERÍODO DE 2023 DE 30 DE JUNHO DE 2023."
+  },
+  {
+    "id": "484",
+    "data": "2023-06-30",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  8ª (OITAVA) SESSÃO EXTRA-ORDINÁRIA DA LEGISLATURA (2021 - 2024) - 1º PERÍODO DE 2023 DE 30 DE JUNHO 2023."
+  },
+  {
+    "id": "485",
+    "data": "2023-07-07",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  23ª (VIGÉSSIMA TERCEIRA) SESSÃO ORDINÁRIA DA LEGISLATURA (2021 - 2024) - 1º PERÍODO DE 2023 DE 07 DE JULHO DE 2023."
+  },
+  {
+    "id": "486",
+    "data": "2023-07-14",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  24ª (VIGÉSSIMA QUARTA) SESSÃO ORDINÁRIA DA LEGISLATURA (2021 - 2024) - 1º PERÍODO DE 2023 DE 14 DE JULHO DE 2023."
+  },
+  {
+    "id": "487",
+    "data": "2023-08-04",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  25ª (VIGÉSSIMA QUINTA) SESSÃO ORDINÁRIA DA LEGISLATURA (2021 - 2024) - 2º PERÍODO DE 2023 DE 04 DE AGOSTO DE 2023."
+  },
+  {
+    "id": "488",
+    "data": "2023-08-04",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  09 (NONA) SESSÃO EXTRA-ORDINÁRIA DA LEGISLATURA (2021 - 2024) - 2º PERÍODO DE 2023 DE 04 DE AGOSTO DE 2023."
+  },
+  {
+    "id": "489",
+    "data": "2023-08-04",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  10ª (DÉCIMA) SESSÃO EXTRA-ORDINÁRIA DA LEGISLATURA (2021 - 2024) - 2º PERÍODO DE 2023 DE 04 DE AGOSTO DE 2023."
+  },
+  {
+    "id": "490",
+    "data": "2023-08-11",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  26ª (VIGÉSSIMA SEXTA) SESSÃO ORDINÁRIA DA LEGISLATURA (2021 - 2024) - 2º PERÍODO DE 2023 DE 11 DE AGOSTO DE 2023."
+  },
+  {
+    "id": "491",
+    "data": "2023-08-18",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  27ª (VIGÉSSIMA SÉTIMA) SESSÃO ORDINÁRIA DA LEGISLATURA (2021 - 2024) - 2º PERÍODO DE 2023 DE 16 DE AGOSTO DE 2023."
+  },
+  {
+    "id": "492",
+    "data": "2023-08-18",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  1ª (DÉCIMA PRIMEIRA) SESSÃO EXTRA-ORDINÁRIA DA LEGISLATURA (2021 - 2024) - 2º PERÍODO DE 2023 DE 18 DE AGOSTO DE 2023."
+  },
+  {
+    "id": "493",
+    "data": "2023-08-18",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  12ª (DÉCIMA SEGUNDA) SESSÃO EXTRA-ORDINÁRIA DA LEGISLATURA (2021 - 2024) - 2º PERÍODO DE 2023 DE 18 DE AGOSTO DE 2023."
+  },
+  {
+    "id": "494",
+    "data": "2023-08-25",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  28ª (VIGÉSSIMA OITAVA) SESSÃO ORDINÁRIA DA LEGISLATURA (2021 - 2024) - 2º PERÍODO DE 2023 DE 25 DE AGOSTO DE 2023."
+  },
+  {
+    "id": "495",
+    "data": "2023-08-25",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  13ª (DÉCIMA TERCEIRA) SESSÃO EXTRA-ORDINÁRIA DA LEGISLATURA (2021 - 2024) - 2º PERÍODO DE 2023 DE 25 DE AGOSTO DE 2023."
+  },
+  {
+    "id": "496",
+    "data": "2023-08-25",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  14ª (DÉCIMA QUARTA) SESSÃO EXTRA-ORDINÁRIA DA LEGISLATURA (2021 - 2024) - 2º PERÍODO DE 2023 DE 25 DE AGOSTO DE 2023."
+  },
+  {
+    "id": "497",
+    "data": "2023-09-01",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  29ª (VIGÉSSIMA NONA) SESSÃO ORDINÁRIA DA LEGISLATURA (2021 - 2024) - 2º PERÍODO DE 2023 DE 01 DE SETEMBRO DE 2023."
+  },
+  {
+    "id": "498",
+    "data": "2023-09-01",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  15ª (DÉCIMA QUINTA) SESSÃO EXTRA-ORDINÁRIA DA LEGISLATURA (2021 - 2024) - 2º PERÍODO DE 2023 DE 01 DE SETEMBRO DE 2023."
+  },
+  {
+    "id": "499",
+    "data": "2023-09-01",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  16ª (DÉCIMA SEXTA) SESSÃO EXTRA-ORDINÁRIA DA LEGISLATURA (2021 - 2024) - 2º PERÍODO DE 2023 DE 01 DE SETEMBRO DE 2023."
+  },
+  {
+    "id": "500",
+    "data": "N/A",
+    "status": "N/A",
+    "descricao": "N/A"
+  },
+  {
+    "id": "501",
+    "data": "2023-09-15",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  30ª (TRIGÉSSIMA) SESSÃO ORDINÁRIA DA LEGISLATURA (2021 - 2024) - 2º PERÍODO DE 2023 DE 15 DE SETEMBRO DE 2023."
+  },
+  {
+    "id": "502",
+    "data": "2023-09-15",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  31ª (TRIGESSIMA PRIMEIRA) SESSÃO ORDINÁRIA DA LEGISLATURA (2021 - 2024) - 2º PERÍODO DE 2023 DE 15 DE SETEMBRO DE 2023."
+  },
+  {
+    "id": "503",
+    "data": "2023-09-22",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  32ª (TRIGESSIMA SEGUNDA) SESSÃO ORDINÁRIA DA LEGISLATURA (2021 - 2024) - 2º PERÍODO DE 2023 DE 22 DE SETEMBRO DE 2023."
+  },
+  {
+    "id": "504",
+    "data": "2023-09-22",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  17ª (DÉCIMA SETIMA) SESSÃO EXTRA-ORDINÁRIA DA LEGISLATURA (2021 - 2024) - 2º PERÍODO DE 2023 DE 22 DE SETEMBRO DE 2023."
+  },
+  {
+    "id": "505",
+    "data": "2023-09-29",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  33ª (TRIGESSIMA TERCEIRA) SESSÃO ORDINÁRIA DA LEGISLATURA (2021 - 2024) - 2º PERÍODO DE 2023 DE 28 DE SETEMBRO DE 2023."
+  },
+  {
+    "id": "506",
+    "data": "2023-10-06",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  34ª (TRIGESSIMA QUARTA) SESSÃO ORDINÁRIA DA LEGISLATURA (2021 - 2024) - 2º PERÍODO DE 2023 DE 06 DE OUTUBRO DE 2023."
+  },
+  {
+    "id": "507",
+    "data": "2023-10-06",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  35ª (TRIGESSIMA QUINTA) SESSÃO ORDINÁRIA DA LEGISLATURA (2021 - 2024) - 2º PERÍODO DE 2023 DE 06 DE OUTUBRO DE 2023."
+  },
+  {
+    "id": "508",
+    "data": "2023-10-06",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  18ª (DÉCIMA OITAVA) SESSÃO EXTRA-ORDINÁRIA DA LEGISLATURA (2021 - 2024) - 2º PERÍODO DE 2023 DE 06 DE OUTUBRO DE 2023."
+  },
+  {
+    "id": "509",
+    "data": "2023-10-19",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  36ª (TRIGESSIMA SEXTA) SESSÃO ORDINÁRIA DA LEGISLATURA (2021 - 2024) - 2º PERÍODO DE 2023 DE 19 DE OUTUBRO DE 2023."
+  },
+  {
+    "id": "510",
+    "data": "2023-10-19",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  19ª (DÉCIMA NONA) SESSÃO EXTRA-ORDINÁRIA DA LEGISLATURA (2021 - 2024) - 2º PERÍODO DE 2023 DE 19 DE OUTUBRO DE 2023."
+  },
+  {
+    "id": "511",
+    "data": "2023-10-19",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  19ª (DÉCIMA NONA) SESSÃO EXTRA-ORDINÁRIA DA LEGISLATURA (2021 - 2024) - 2º PERÍODO DE 2023 DE 19 DE OUTUBRO DE 2023."
+  },
+  {
+    "id": "512",
+    "data": "2023-10-27",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  37ª (TRIGESSIMA SÉTIMA) SESSÃO ORDINÁRIA DA LEGISLATURA (2021 - 2024) - 2º PERÍODO DE 2023 DE 26 DE OUTUBRO DE 2023."
+  },
+  {
+    "id": "513",
+    "data": "2023-10-27",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  38ª (TRIGESSIMA OITAVA) SESSÃO ORDINÁRIA DA LEGISLATURA (2021 - 2024) - 2º PERÍODO DE 2023 DE 27 DE OUTUBRO DE 2023."
+  },
+  {
+    "id": "514",
+    "data": "2023-11-10",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  39ª (TRIGESSIMA NONA) SESSÃO ORDINÁRIA DA LEGISLATURA (2021 - 2024) - 2º PERÍODO DE 2023 DE 10 DE NOVEMBRO DE 2023."
+  },
+  {
+    "id": "515",
+    "data": "2023-11-17",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  40ª (QUADRAGÉSIMA) SESSÃO ORDINÁRIA DA LEGISLATURA (2021 - 2024) - 2º PERÍODO DE 2023 DE 17 DE NOVEMBRO DE 2023."
+  },
+  {
+    "id": "516",
+    "data": "2023-11-24",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  41ª (QUADRAGÉSIMA PRIMEIRA) SESSÃO ORDINÁRIA DA LEGISLATURA (2021 - 2024) - 2º PERÍODO DE 2023 DE 24 DE NOVEMBRO DE 2023."
+  },
+  {
+    "id": "517",
+    "data": "2023-11-24",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  21ª (VIGESIMA PRIMEIRA) SESSÃO EXTRA-ORDINÁRIA DA LEGISLATURA (2021 - 2024) - 2º PERÍODO DE 2023 DE 24 DE NOVEMBRO DE 2023."
+  },
+  {
+    "id": "518",
+    "data": "2023-11-24",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  22ª (VIGESIMA SEGUNDA) SESSÃO EXTRA-ORDINÁRIA DA LEGISLATURA (2021 - 2024) - 2º PERÍODO DE 2023 DE 24 DE NOVEMBRO DE 2023."
+  },
+  {
+    "id": "519",
+    "data": "2023-12-01",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  42ª (QUADRAGÉSIMA SEGUNDA) SESSÃO ORDINÁRIA DA LEGISLATURA (2021 - 2024) - 2º PERÍODO DE 2023 DE 01 DE DEZEMBRO DE 2023."
+  },
+  {
+    "id": "520",
+    "data": "2023-12-08",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  23ª (VIGESIMA TÉRCEIRA) SESSÃO EXTRA-ORDINÁRIA DA LEGISLATURA (2021 - 2024) - 2º PERÍODO DE 2023 DE 08 DE DEZEMBRO DE 2023."
+  },
+  {
+    "id": "521",
+    "data": "2023-12-08",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  43ª (QUADRAGÉSIMA TERCEIRA) SESSÃO ORDINÁRIA DA LEGISLATURA (2021 - 2024) - 2º PERÍODO DE 2023 DE 08 DE DEZEMBRO DE 2023."
+  },
+  {
+    "id": "522",
+    "data": "2023-12-08",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  24ª (VIGESIMA QUARTA) SESSÃO EXTRA-ORDINÁRIA DA LEGISLATURA (2021 - 2024) - 2º PERÍODO DE 2023 DE 08 DE DEZEMBRO DE 2023."
+  },
+  {
+    "id": "523",
+    "data": "2024-01-08",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  1ª (PRIMEIRA) SESSÃO EXTRAORDINÁRIA DA LEGISLATURA (2021 - 2024) - 1º PERÍODO DE 2024 DE 08 DE JANEIRO DE 2024."
+  },
+  {
+    "id": "524",
+    "data": "2024-01-08",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  2ª (SEGUNDA) SESSÃO EXTRAORDINÁRIA DA LEGISLATURA (2021 - 2024) - 1º PERÍODO DE 2024 DE 08 DE JANEIRO DE 2024."
+  },
+  {
+    "id": "525",
+    "data": "2024-01-25",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  3ª (TERCEIRA) SESSÃO EXTRAORDINÁRIA DA LEGISLATURA (2021 - 2024) - 1º PERÍODO DE 2024 DE 25 DE JANEIRO DE 2024."
+  },
+  {
+    "id": "526",
+    "data": "2024-01-25",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  4ª (QUARTA) SESSÃO EXTRAORDINÁRIA DA LEGISLATURA (2021 - 2024) - 1º PERÍODO DE 2024 DE 25 DE JANEIRO DE 2024."
+  },
+  {
+    "id": "527",
+    "data": "2024-02-02",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  1ª (PRIMEIRA) SESSÃO ORDINÁRIA DA LEGISLATURA (2021 - 2024) - 1º PERÍODO DE 2024 DE 02 DE FEVEREIRO DE 2024."
+  },
+  {
+    "id": "528",
+    "data": "2024-02-16",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  2ª (SEGUNDA) SESSÃO ORDINÁRIA DA LEGISLATURA (2021 - 2024) - 1º PERÍODO DE 2024 DE 16 DE FEVEREIRO DE 2024."
+  },
+  {
+    "id": "529",
+    "data": "2024-02-16",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  3ª (TERCEIRA) SESSÃO ORDINÁRIA DA LEGISLATURA (2021 - 2024) - 1º PERÍODO DE 2024 DE 16 DE FEVEREIRO DE 2024."
+  },
+  {
+    "id": "530",
+    "data": "2024-02-23",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  4ª (QUARTA) SESSÃO ORDINÁRIA DA LEGISLATURA (2021 - 2024) - 1º PERÍODO DE 2024 DE 23 DE FEVEREIRO DE 2024"
+  },
+  {
+    "id": "531",
+    "data": "2024-03-01",
+    "status": " ENCERRADA",
+    "descricao": "Descrição  5ª (QUINTA) SESSÃO ORDINÁRIA DA LEGISLATURA (2021 - 2024) - 1º PERÍODO DE 2024 DE 01 DE MARÇO DE 2024."
+  }
+]

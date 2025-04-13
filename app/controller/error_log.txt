@@ -1,0 +1,478 @@
+[31-Jan-2023 21:05:06 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function ftp_connect() in C:\wamp64\www\ADMINW2E\src\classes\ClassUploadFtpImages.php:41
+Stack trace:
+#0 C:\wamp64\www\ADMINW2E\app\controller\ControllerRedimencionaImagem.php(112): ClassUploadFtpImages->uploadFtp('Nutty.jpg', 'C:/wamp64/wwwte...')
+#1 C:\wamp64\www\ADMINW2E\public_html\_php\Dispatch.php(21): ControllerRedimencionaImagem->redimensiona()
+#2 C:\wamp64\www\ADMINW2E\public_html\_php\Dispatch.php(5): Dispatch->__construct()
+#3 {main}
+  thrown in C:\wamp64\www\ADMINW2E\src\classes\ClassUploadFtpImages.php on line 41
+[11-Oct-2023 15:13:24 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function ftp_connect() in C:\wamp64\www\ADMINW2E\src\classes\ClassUploadFtpImages.php:41
+Stack trace:
+#0 C:\wamp64\www\ADMINW2E\app\controller\ControllerRedimencionaImagem.php(112): ClassUploadFtpImages->uploadFtp('51.jpg', 'C:/wamp64/wwwte...')
+#1 C:\wamp64\www\ADMINW2E\public_html\_php\Dispatch.php(21): ControllerRedimencionaImagem->redimensiona()
+#2 C:\wamp64\www\ADMINW2E\public_html\_php\Dispatch.php(5): Dispatch->__construct()
+#3 {main}
+  thrown in C:\wamp64\www\ADMINW2E\src\classes\ClassUploadFtpImages.php on line 41
+[11-Oct-2023 16:08:05 UTC] PHP Warning:  imagecreatefromjpeg(): gd-jpeg: JPEG library reports unrecoverable error: Not a JPEG file: starts with 0x89 0x50 in C:\wamp64\www\ADMINW2E\app\controller\ControllerRedimencionaImagem.php on line 75
+[11-Oct-2023 16:08:05 UTC] PHP Stack trace:
+[11-Oct-2023 16:08:05 UTC] PHP   1. {main}() C:\wamp64\www\ADMINW2E\public_html\_php\Dispatch.php:0
+[11-Oct-2023 16:08:05 UTC] PHP   2. Dispatch->__construct() C:\wamp64\www\ADMINW2E\public_html\_php\Dispatch.php:5
+[11-Oct-2023 16:08:05 UTC] PHP   3. ControllerRedimencionaImagem->redimensiona() C:\wamp64\www\ADMINW2E\public_html\_php\Dispatch.php:21
+[11-Oct-2023 16:08:05 UTC] PHP   4. imagecreatefromjpeg($filename = 'C:\\wamp64\\tmp\\phpAD84.tmp') C:\wamp64\www\ADMINW2E\app\controller\ControllerRedimencionaImagem.php:75
+[11-Oct-2023 16:08:05 UTC] PHP Warning:  imagecreatefromjpeg(): 'C:\wamp64\tmp\phpAD84.tmp' is not a valid JPEG file in C:\wamp64\www\ADMINW2E\app\controller\ControllerRedimencionaImagem.php on line 75
+[11-Oct-2023 16:08:05 UTC] PHP Stack trace:
+[11-Oct-2023 16:08:05 UTC] PHP   1. {main}() C:\wamp64\www\ADMINW2E\public_html\_php\Dispatch.php:0
+[11-Oct-2023 16:08:05 UTC] PHP   2. Dispatch->__construct() C:\wamp64\www\ADMINW2E\public_html\_php\Dispatch.php:5
+[11-Oct-2023 16:08:05 UTC] PHP   3. ControllerRedimencionaImagem->redimensiona() C:\wamp64\www\ADMINW2E\public_html\_php\Dispatch.php:21
+[11-Oct-2023 16:08:05 UTC] PHP   4. imagecreatefromjpeg($filename = 'C:\\wamp64\\tmp\\phpAD84.tmp') C:\wamp64\www\ADMINW2E\app\controller\ControllerRedimencionaImagem.php:75
+[11-Oct-2023 16:08:05 UTC] PHP Warning:  imagesx() expects parameter 1 to be resource, bool given in C:\wamp64\www\ADMINW2E\app\controller\ControllerRedimencionaImagem.php on line 76
+[11-Oct-2023 16:08:05 UTC] PHP Stack trace:
+[11-Oct-2023 16:08:05 UTC] PHP   1. {main}() C:\wamp64\www\ADMINW2E\public_html\_php\Dispatch.php:0
+[11-Oct-2023 16:08:05 UTC] PHP   2. Dispatch->__construct() C:\wamp64\www\ADMINW2E\public_html\_php\Dispatch.php:5
+[11-Oct-2023 16:08:05 UTC] PHP   3. ControllerRedimencionaImagem->redimensiona() C:\wamp64\www\ADMINW2E\public_html\_php\Dispatch.php:21
+[11-Oct-2023 16:08:05 UTC] PHP   4. imagesx($im = FALSE) C:\wamp64\www\ADMINW2E\app\controller\ControllerRedimencionaImagem.php:76
+[11-Oct-2023 16:08:05 UTC] PHP Warning:  imagesy() expects parameter 1 to be resource, bool given in C:\wamp64\www\ADMINW2E\app\controller\ControllerRedimencionaImagem.php on line 77
+[11-Oct-2023 16:08:05 UTC] PHP Stack trace:
+[11-Oct-2023 16:08:05 UTC] PHP   1. {main}() C:\wamp64\www\ADMINW2E\public_html\_php\Dispatch.php:0
+[11-Oct-2023 16:08:05 UTC] PHP   2. Dispatch->__construct() C:\wamp64\www\ADMINW2E\public_html\_php\Dispatch.php:5
+[11-Oct-2023 16:08:05 UTC] PHP   3. ControllerRedimencionaImagem->redimensiona() C:\wamp64\www\ADMINW2E\public_html\_php\Dispatch.php:21
+[11-Oct-2023 16:08:05 UTC] PHP   4. imagesy($im = FALSE) C:\wamp64\www\ADMINW2E\app\controller\ControllerRedimencionaImagem.php:77
+[11-Oct-2023 16:08:05 UTC] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, bool given in C:\wamp64\www\ADMINW2E\app\controller\ControllerRedimencionaImagem.php on line 81
+[11-Oct-2023 16:08:05 UTC] PHP Stack trace:
+[11-Oct-2023 16:08:05 UTC] PHP   1. {main}() C:\wamp64\www\ADMINW2E\public_html\_php\Dispatch.php:0
+[11-Oct-2023 16:08:05 UTC] PHP   2. Dispatch->__construct() C:\wamp64\www\ADMINW2E\public_html\_php\Dispatch.php:5
+[11-Oct-2023 16:08:05 UTC] PHP   3. ControllerRedimencionaImagem->redimensiona() C:\wamp64\www\ADMINW2E\public_html\_php\Dispatch.php:21
+[11-Oct-2023 16:08:05 UTC] PHP   4. imagecopyresampled($dst_im = resource(4) of type (gd), $src_im = FALSE, $dst_x = 0, $dst_y = 0, $src_x = 0, $src_y = 0, $dst_w = '350', $dst_h = '470', $src_w = NULL, $src_h = NULL) C:\wamp64\www\ADMINW2E\app\controller\ControllerRedimencionaImagem.php:81
+[11-Oct-2023 16:08:05 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function ftp_connect() in C:\wamp64\www\ADMINW2E\src\classes\ClassUploadFtpImages.php:41
+Stack trace:
+#0 C:\wamp64\www\ADMINW2E\app\controller\ControllerRedimencionaImagem.php(112): ClassUploadFtpImages->uploadFtp('2.jpg', 'C:/wamp64/wwwte...')
+#1 C:\wamp64\www\ADMINW2E\public_html\_php\Dispatch.php(21): ControllerRedimencionaImagem->redimensiona()
+#2 C:\wamp64\www\ADMINW2E\public_html\_php\Dispatch.php(5): Dispatch->__construct()
+#3 {main}
+  thrown in C:\wamp64\www\ADMINW2E\src\classes\ClassUploadFtpImages.php on line 41
+[19-Oct-2023 12:07:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function ftp_connect() in C:\wamp64\www\ADMINW2E\src\classes\ClassUploadFtpImages.php:41
+Stack trace:
+#0 C:\wamp64\www\ADMINW2E\app\controller\ControllerRedimencionaImagem.php(112): ClassUploadFtpImages->uploadFtp('Capa68.png', 'C:/wamp64/wwwte...')
+#1 C:\wamp64\www\ADMINW2E\public_html\_php\Dispatch.php(21): ControllerRedimencionaImagem->redimensiona()
+#2 C:\wamp64\www\ADMINW2E\public_html\_php\Dispatch.php(5): Dispatch->__construct()
+#3 {main}
+  thrown in C:\wamp64\www\ADMINW2E\src\classes\ClassUploadFtpImages.php on line 41
+[24-Dec-2023 02:00:45 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function ftp_connect() in C:\wamp\www\ADMINW2E\src\classes\ClassUploadFtpImages.php:41
+Stack trace:
+#0 C:\wamp\www\ADMINW2E\app\controller\ControllerRedimencionaImagem.php(112): ClassUploadFtpImages->uploadFtp('banner-ouvidori...', 'C:/wamp/wwwtemp...')
+#1 C:\wamp\www\ADMINW2E\public_html\_php\Dispatch.php(21): ControllerRedimencionaImagem->redimensiona()
+#2 C:\wamp\www\ADMINW2E\public_html\_php\Dispatch.php(5): Dispatch->__construct()
+#3 {main}
+  thrown in C:\wamp\www\ADMINW2E\src\classes\ClassUploadFtpImages.php on line 41
+[24-Dec-2023 16:47:47 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function ftp_connect() in C:\wamp\www\ADMINW2E\src\classes\ClassUploadFtpImages.php:41
+Stack trace:
+#0 C:\wamp\www\ADMINW2E\app\controller\ControllerRedimencionaImagem.php(112): ClassUploadFtpImages->uploadFtp('sic2121-.jpg', 'C:/wamp/wwwtemp...')
+#1 C:\wamp\www\ADMINW2E\public_html\_php\Dispatch.php(21): ControllerRedimencionaImagem->redimensiona()
+#2 C:\wamp\www\ADMINW2E\public_html\_php\Dispatch.php(5): Dispatch->__construct()
+#3 {main}
+  thrown in C:\wamp\www\ADMINW2E\src\classes\ClassUploadFtpImages.php on line 41
+[08-Jan-2025 11:40:13 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function ftp_connect() in C:\wamp\www\ADMINW2E\src\classes\ClassUploadFtpImages.php:41
+Stack trace:
+#0 C:\wamp\www\ADMINW2E\app\controller\ControllerRedimencionaImagem.php(112): ClassUploadFtpImages->uploadFtp('cabure.jpeg', 'C:/wamp/wwwtemp...')
+#1 C:\wamp\www\ADMINW2E\public_html\_php\Dispatch.php(21): ControllerRedimencionaImagem->redimensiona()
+#2 C:\wamp\www\ADMINW2E\public_html\_php\Dispatch.php(5): Dispatch->__construct()
+#3 {main}
+  thrown in C:\wamp\www\ADMINW2E\src\classes\ClassUploadFtpImages.php on line 41
+[08-Jan-2025 11:53:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function ftp_connect() in C:\wamp\www\ADMINW2E\src\classes\ClassUploadFtpImages.php:41
+Stack trace:
+#0 C:\wamp\www\ADMINW2E\app\controller\ControllerRedimencionaImagem.php(112): ClassUploadFtpImages->uploadFtp('moises-santos.j...', 'C:/wamp/wwwtemp...')
+#1 C:\wamp\www\ADMINW2E\public_html\_php\Dispatch.php(21): ControllerRedimencionaImagem->redimensiona()
+#2 C:\wamp\www\ADMINW2E\public_html\_php\Dispatch.php(5): Dispatch->__construct()
+#3 {main}
+  thrown in C:\wamp\www\ADMINW2E\src\classes\ClassUploadFtpImages.php on line 41
+[25-Jan-2025 11:59:55 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined function ftp_connect() in C:\wamp\www\ADMINW2E\src\classes\ClassUploadFtpFiles.php:24
+Stack trace:
+#0 C:\wamp\www\ADMINW2E\app\controller\ControllerUploadMultiplo.php(75): ClassUploadFtpFiles->uploadFtp('/public_html/ar...', 'C:\\wamp\\tmp\\php...', '/public_html/ar...', '35045814000127')
+#1 C:\wamp\www\ADMINW2E\public_html\_php\Dispatch.php(21): ControllerUploadMultiplo->analisaArquivo()
+#2 C:\wamp\www\ADMINW2E\public_html\_php\Dispatch.php(5): Dispatch->__construct()
+#3 {main}
+  thrown in C:\wamp\www\ADMINW2E\src\classes\ClassUploadFtpFiles.php on line 24
+[25-Jan-2025 12:00:35 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined function ftp_connect() in C:\wamp\www\ADMINW2E\src\classes\ClassUploadFtpFiles.php:24
+Stack trace:
+#0 C:\wamp\www\ADMINW2E\app\controller\ControllerUploadMultiplo.php(75): ClassUploadFtpFiles->uploadFtp('/public_html/ar...', 'C:\\wamp\\tmp\\php...', '/public_html/ar...', '35045814000127')
+#1 C:\wamp\www\ADMINW2E\public_html\_php\Dispatch.php(21): ControllerUploadMultiplo->analisaArquivo()
+#2 C:\wamp\www\ADMINW2E\public_html\_php\Dispatch.php(5): Dispatch->__construct()
+#3 {main}
+  thrown in C:\wamp\www\ADMINW2E\src\classes\ClassUploadFtpFiles.php on line 24
+[25-Jan-2025 12:01:42 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined function ftp_connect() in C:\wamp\www\ADMINW2E\src\classes\ClassUploadFtpFiles.php:24
+Stack trace:
+#0 C:\wamp\www\ADMINW2E\app\controller\ControllerUploadMultiplo.php(75): ClassUploadFtpFiles->uploadFtp('/public_html/ar...', 'C:\\wamp\\tmp\\php...', '/public_html/ar...', '35045814000127')
+#1 C:\wamp\www\ADMINW2E\public_html\_php\Dispatch.php(21): ControllerUploadMultiplo->analisaArquivo()
+#2 C:\wamp\www\ADMINW2E\public_html\_php\Dispatch.php(5): Dispatch->__construct()
+#3 {main}
+  thrown in C:\wamp\www\ADMINW2E\src\classes\ClassUploadFtpFiles.php on line 24
+[15-Feb-2025 23:42:20 America/Sao_Paulo] PHP Warning:  ftp_login() expects parameter 1 to be resource, bool given in C:\wamp\www\ADMINW2E\src\classes\ClassUploadFtpFiles.php on line 33
+[15-Feb-2025 23:42:20 America/Sao_Paulo] PHP Stack trace:
+[15-Feb-2025 23:42:20 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\ADMINW2E\public_html\_php\Dispatch.php:0
+[15-Feb-2025 23:42:20 America/Sao_Paulo] PHP   2. Dispatch->__construct() C:\wamp\www\ADMINW2E\public_html\_php\Dispatch.php:5
+[15-Feb-2025 23:42:20 America/Sao_Paulo] PHP   3. ControllerUploadMultiplo->analisaArquivo() C:\wamp\www\ADMINW2E\public_html\_php\Dispatch.php:21
+[15-Feb-2025 23:42:20 America/Sao_Paulo] PHP   4. ClassUploadFtpFiles->uploadFtp($nome_arquivo = '/public_html/img/12722468000179/videos.jpg', $arquivo_temp = 'C:\\wamp\\tmp\\php93ED.tmp', $diretorio_ftp = '/public_html/img/', $cnpj = '12722468000179') C:\wamp\www\ADMINW2E\app\controller\ControllerUploadMultiplo.php:75
+[15-Feb-2025 23:42:20 America/Sao_Paulo] PHP   5. ftp_login($ftp = FALSE, $username = 'sitew2etecnologi1', $password = 'W2etecnologia@locaweb') C:\wamp\www\ADMINW2E\src\classes\ClassUploadFtpFiles.php:33
+[16-Feb-2025 13:40:17 UTC] PHP Notice:  Undefined variable: largura in C:\wamp\www\ADMINW2E\app\controller\ControllerRedimencionaImagem.php on line 78
+[16-Feb-2025 13:40:17 UTC] PHP Stack trace:
+[16-Feb-2025 13:40:17 UTC] PHP   1. {main}() C:\wamp\www\ADMINW2E\public_html\_php\Dispatch.php:0
+[16-Feb-2025 13:40:17 UTC] PHP   2. Dispatch->__construct() C:\wamp\www\ADMINW2E\public_html\_php\Dispatch.php:5
+[16-Feb-2025 13:40:17 UTC] PHP   3. ControllerRedimencionaImagem->redimensiona() C:\wamp\www\ADMINW2E\public_html\_php\Dispatch.php:21
+[16-Feb-2025 13:40:17 UTC] PHP Notice:  Undefined variable: altura in C:\wamp\www\ADMINW2E\app\controller\ControllerRedimencionaImagem.php on line 78
+[16-Feb-2025 13:40:17 UTC] PHP Stack trace:
+[16-Feb-2025 13:40:17 UTC] PHP   1. {main}() C:\wamp\www\ADMINW2E\public_html\_php\Dispatch.php:0
+[16-Feb-2025 13:40:17 UTC] PHP   2. Dispatch->__construct() C:\wamp\www\ADMINW2E\public_html\_php\Dispatch.php:5
+[16-Feb-2025 13:40:17 UTC] PHP   3. ControllerRedimencionaImagem->redimensiona() C:\wamp\www\ADMINW2E\public_html\_php\Dispatch.php:21
+[16-Feb-2025 13:40:17 UTC] PHP Notice:  Undefined variable: altura in C:\wamp\www\ADMINW2E\app\controller\ControllerRedimencionaImagem.php on line 79
+[16-Feb-2025 13:40:17 UTC] PHP Stack trace:
+[16-Feb-2025 13:40:17 UTC] PHP   1. {main}() C:\wamp\www\ADMINW2E\public_html\_php\Dispatch.php:0
+[16-Feb-2025 13:40:17 UTC] PHP   2. Dispatch->__construct() C:\wamp\www\ADMINW2E\public_html\_php\Dispatch.php:5
+[16-Feb-2025 13:40:17 UTC] PHP   3. ControllerRedimencionaImagem->redimensiona() C:\wamp\www\ADMINW2E\public_html\_php\Dispatch.php:21
+[16-Feb-2025 13:40:17 UTC] PHP Notice:  Undefined variable: largura in C:\wamp\www\ADMINW2E\app\controller\ControllerRedimencionaImagem.php on line 79
+[16-Feb-2025 13:40:17 UTC] PHP Stack trace:
+[16-Feb-2025 13:40:17 UTC] PHP   1. {main}() C:\wamp\www\ADMINW2E\public_html\_php\Dispatch.php:0
+[16-Feb-2025 13:40:17 UTC] PHP   2. Dispatch->__construct() C:\wamp\www\ADMINW2E\public_html\_php\Dispatch.php:5
+[16-Feb-2025 13:40:17 UTC] PHP   3. ControllerRedimencionaImagem->redimensiona() C:\wamp\www\ADMINW2E\public_html\_php\Dispatch.php:21
+[16-Feb-2025 13:40:17 UTC] PHP Warning:  imagecreatetruecolor(): Invalid image dimensions in C:\wamp\www\ADMINW2E\app\controller\ControllerRedimencionaImagem.php on line 80
+[16-Feb-2025 13:40:17 UTC] PHP Stack trace:
+[16-Feb-2025 13:40:17 UTC] PHP   1. {main}() C:\wamp\www\ADMINW2E\public_html\_php\Dispatch.php:0
+[16-Feb-2025 13:40:17 UTC] PHP   2. Dispatch->__construct() C:\wamp\www\ADMINW2E\public_html\_php\Dispatch.php:5
+[16-Feb-2025 13:40:17 UTC] PHP   3. ControllerRedimencionaImagem->redimensiona() C:\wamp\www\ADMINW2E\public_html\_php\Dispatch.php:21
+[16-Feb-2025 13:40:17 UTC] PHP   4. imagecreatetruecolor($x_size = 0, $y_size = 0) C:\wamp\www\ADMINW2E\app\controller\ControllerRedimencionaImagem.php:80
+[16-Feb-2025 13:40:17 UTC] PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, bool given in C:\wamp\www\ADMINW2E\app\controller\ControllerRedimencionaImagem.php on line 81
+[16-Feb-2025 13:40:17 UTC] PHP Stack trace:
+[16-Feb-2025 13:40:17 UTC] PHP   1. {main}() C:\wamp\www\ADMINW2E\public_html\_php\Dispatch.php:0
+[16-Feb-2025 13:40:17 UTC] PHP   2. Dispatch->__construct() C:\wamp\www\ADMINW2E\public_html\_php\Dispatch.php:5
+[16-Feb-2025 13:40:17 UTC] PHP   3. ControllerRedimencionaImagem->redimensiona() C:\wamp\www\ADMINW2E\public_html\_php\Dispatch.php:21
+[16-Feb-2025 13:40:17 UTC] PHP   4. imagecopyresampled($dst_im = FALSE, $src_im = resource(5) of type (gd), $dst_x = 0, $dst_y = 0, $src_x = 0, $src_y = 0, $dst_w = 0, $dst_h = 0, $src_w = 2048, $src_h = 2560) C:\wamp\www\ADMINW2E\app\controller\ControllerRedimencionaImagem.php:81
+[16-Feb-2025 13:40:17 UTC] PHP Warning:  imagejpeg() expects parameter 1 to be resource, bool given in C:\wamp\www\ADMINW2E\app\controller\ControllerRedimencionaImagem.php on line 83
+[16-Feb-2025 13:40:17 UTC] PHP Stack trace:
+[16-Feb-2025 13:40:17 UTC] PHP   1. {main}() C:\wamp\www\ADMINW2E\public_html\_php\Dispatch.php:0
+[16-Feb-2025 13:40:17 UTC] PHP   2. Dispatch->__construct() C:\wamp\www\ADMINW2E\public_html\_php\Dispatch.php:5
+[16-Feb-2025 13:40:17 UTC] PHP   3. ControllerRedimencionaImagem->redimensiona() C:\wamp\www\ADMINW2E\public_html\_php\Dispatch.php:21
+[16-Feb-2025 13:40:17 UTC] PHP   4. imagejpeg($im = FALSE, $to = '../../public_html/temp/videos.jpg') C:\wamp\www\ADMINW2E\app\controller\ControllerRedimencionaImagem.php:83
+[16-Feb-2025 13:40:20 UTC] PHP Warning:  ftp_put(C:/wamp/www/temp/videos.jpg): failed to open stream: No such file or directory in C:\wamp\www\ADMINW2E\src\classes\ClassUploadFtpImages.php on line 69
+[16-Feb-2025 13:40:20 UTC] PHP Stack trace:
+[16-Feb-2025 13:40:20 UTC] PHP   1. {main}() C:\wamp\www\ADMINW2E\public_html\_php\Dispatch.php:0
+[16-Feb-2025 13:40:20 UTC] PHP   2. Dispatch->__construct() C:\wamp\www\ADMINW2E\public_html\_php\Dispatch.php:5
+[16-Feb-2025 13:40:20 UTC] PHP   3. ControllerRedimencionaImagem->redimensiona() C:\wamp\www\ADMINW2E\public_html\_php\Dispatch.php:21
+[16-Feb-2025 13:40:20 UTC] PHP   4. ClassUploadFtpImages->uploadFtp($nome_arquivo = 'videos.jpg', $arquivo_temp = 'C:/wamp/www/temp/videos.jpg') C:\wamp\www\ADMINW2E\app\controller\ControllerRedimencionaImagem.php:112
+[16-Feb-2025 13:40:20 UTC] PHP   5. ftp_put($ftp = resource(6) of type (FTP Buffer), $remote_file = '/public_html/img/12722468000179/videos.jpg', $local_file = 'C:/wamp/www/temp/videos.jpg', $mode = 2) C:\wamp\www\ADMINW2E\src\classes\ClassUploadFtpImages.php:69
+[16-Feb-2025 13:44:18 UTC] PHP Warning:  ftp_put(C:/wamp/www/temp/videos.jpg): failed to open stream: No such file or directory in C:\wamp\www\ADMINW2E\src\classes\ClassUploadFtpImages.php on line 69
+[16-Feb-2025 13:44:18 UTC] PHP Stack trace:
+[16-Feb-2025 13:44:18 UTC] PHP   1. {main}() C:\wamp\www\ADMINW2E\public_html\_php\Dispatch.php:0
+[16-Feb-2025 13:44:18 UTC] PHP   2. Dispatch->__construct() C:\wamp\www\ADMINW2E\public_html\_php\Dispatch.php:5
+[16-Feb-2025 13:44:18 UTC] PHP   3. ControllerRedimencionaImagem->redimensiona() C:\wamp\www\ADMINW2E\public_html\_php\Dispatch.php:21
+[16-Feb-2025 13:44:18 UTC] PHP   4. ClassUploadFtpImages->uploadFtp($nome_arquivo = 'videos.jpg', $arquivo_temp = 'C:/wamp/www/temp/videos.jpg') C:\wamp\www\ADMINW2E\app\controller\ControllerRedimencionaImagem.php:132
+[16-Feb-2025 13:44:18 UTC] PHP   5. ftp_put($ftp = resource(9) of type (FTP Buffer), $remote_file = '/public_html/img/12722468000179/videos.jpg', $local_file = 'C:/wamp/www/temp/videos.jpg', $mode = 2) C:\wamp\www\ADMINW2E\src\classes\ClassUploadFtpImages.php:69
+[16-Feb-2025 13:45:02 UTC] PHP Warning:  ftp_put(C:/wamp/www/temp/videos.jpg): failed to open stream: No such file or directory in C:\wamp\www\ADMINW2E\src\classes\ClassUploadFtpImages.php on line 69
+[16-Feb-2025 13:45:02 UTC] PHP Stack trace:
+[16-Feb-2025 13:45:02 UTC] PHP   1. {main}() C:\wamp\www\ADMINW2E\public_html\_php\Dispatch.php:0
+[16-Feb-2025 13:45:02 UTC] PHP   2. Dispatch->__construct() C:\wamp\www\ADMINW2E\public_html\_php\Dispatch.php:5
+[16-Feb-2025 13:45:02 UTC] PHP   3. ControllerRedimencionaImagem->redimensiona() C:\wamp\www\ADMINW2E\public_html\_php\Dispatch.php:21
+[16-Feb-2025 13:45:02 UTC] PHP   4. ClassUploadFtpImages->uploadFtp($nome_arquivo = 'videos.jpg', $arquivo_temp = 'C:/wamp/www/temp/videos.jpg') C:\wamp\www\ADMINW2E\app\controller\ControllerRedimencionaImagem.php:132
+[16-Feb-2025 13:45:02 UTC] PHP   5. ftp_put($ftp = resource(9) of type (FTP Buffer), $remote_file = '/public_html/img/12722468000179/videos.jpg', $local_file = 'C:/wamp/www/temp/videos.jpg', $mode = 2) C:\wamp\www\ADMINW2E\src\classes\ClassUploadFtpImages.php:69
+[16-Feb-2025 13:46:27 UTC] PHP Warning:  ftp_put(C:/wamp/www/temp/videos.jpg): failed to open stream: No such file or directory in C:\wamp\www\ADMINW2E\src\classes\ClassUploadFtpImages.php on line 69
+[16-Feb-2025 13:46:27 UTC] PHP Stack trace:
+[16-Feb-2025 13:46:27 UTC] PHP   1. {main}() C:\wamp\www\ADMINW2E\public_html\_php\Dispatch.php:0
+[16-Feb-2025 13:46:27 UTC] PHP   2. Dispatch->__construct() C:\wamp\www\ADMINW2E\public_html\_php\Dispatch.php:5
+[16-Feb-2025 13:46:27 UTC] PHP   3. ControllerRedimencionaImagem->redimensiona() C:\wamp\www\ADMINW2E\public_html\_php\Dispatch.php:21
+[16-Feb-2025 13:46:27 UTC] PHP   4. ClassUploadFtpImages->uploadFtp($nome_arquivo = 'videos.jpg', $arquivo_temp = 'C:/wamp/www/temp/videos.jpg') C:\wamp\www\ADMINW2E\app\controller\ControllerRedimencionaImagem.php:115
+[16-Feb-2025 13:46:27 UTC] PHP   5. ftp_put($ftp = resource(3) of type (FTP Buffer), $remote_file = '/public_html/img/12722468000179/videos.jpg', $local_file = 'C:/wamp/www/temp/videos.jpg', $mode = 2) C:\wamp\www\ADMINW2E\src\classes\ClassUploadFtpImages.php:69
+[16-Feb-2025 13:46:34 UTC] PHP Warning:  ftp_put(C:/wamp/www/temp/videos.jpg): failed to open stream: No such file or directory in C:\wamp\www\ADMINW2E\src\classes\ClassUploadFtpImages.php on line 69
+[16-Feb-2025 13:46:34 UTC] PHP Stack trace:
+[16-Feb-2025 13:46:34 UTC] PHP   1. {main}() C:\wamp\www\ADMINW2E\public_html\_php\Dispatch.php:0
+[16-Feb-2025 13:46:34 UTC] PHP   2. Dispatch->__construct() C:\wamp\www\ADMINW2E\public_html\_php\Dispatch.php:5
+[16-Feb-2025 13:46:34 UTC] PHP   3. ControllerRedimencionaImagem->redimensiona() C:\wamp\www\ADMINW2E\public_html\_php\Dispatch.php:21
+[16-Feb-2025 13:46:34 UTC] PHP   4. ClassUploadFtpImages->uploadFtp($nome_arquivo = 'videos.jpg', $arquivo_temp = 'C:/wamp/www/temp/videos.jpg') C:\wamp\www\ADMINW2E\app\controller\ControllerRedimencionaImagem.php:115
+[16-Feb-2025 13:46:34 UTC] PHP   5. ftp_put($ftp = resource(2) of type (FTP Buffer), $remote_file = '/public_html/img/12722468000179/videos.jpg', $local_file = 'C:/wamp/www/temp/videos.jpg', $mode = 2) C:\wamp\www\ADMINW2E\src\classes\ClassUploadFtpImages.php:69
+[18-Feb-2025 20:57:47 UTC] PHP Notice:  Undefined variable: largura in C:\wamp\www\ADMINW2E\app\controller\ControllerRedimencionaImagem.php on line 97
+[18-Feb-2025 20:57:47 UTC] PHP Stack trace:
+[18-Feb-2025 20:57:47 UTC] PHP   1. {main}() C:\wamp\www\ADMINW2E\public_html\_php\Dispatch.php:0
+[18-Feb-2025 20:57:47 UTC] PHP   2. Dispatch->__construct() C:\wamp\www\ADMINW2E\public_html\_php\Dispatch.php:5
+[18-Feb-2025 20:57:47 UTC] PHP   3. ControllerRedimencionaImagem->redimensiona() C:\wamp\www\ADMINW2E\public_html\_php\Dispatch.php:21
+[18-Feb-2025 20:57:47 UTC] PHP Notice:  Undefined variable: altura in C:\wamp\www\ADMINW2E\app\controller\ControllerRedimencionaImagem.php on line 97
+[18-Feb-2025 20:57:47 UTC] PHP Stack trace:
+[18-Feb-2025 20:57:47 UTC] PHP   1. {main}() C:\wamp\www\ADMINW2E\public_html\_php\Dispatch.php:0
+[18-Feb-2025 20:57:47 UTC] PHP   2. Dispatch->__construct() C:\wamp\www\ADMINW2E\public_html\_php\Dispatch.php:5
+[18-Feb-2025 20:57:47 UTC] PHP   3. ControllerRedimencionaImagem->redimensiona() C:\wamp\www\ADMINW2E\public_html\_php\Dispatch.php:21
+[18-Feb-2025 20:57:47 UTC] PHP Notice:  Undefined variable: altura in C:\wamp\www\ADMINW2E\app\controller\ControllerRedimencionaImagem.php on line 98
+[18-Feb-2025 20:57:47 UTC] PHP Stack trace:
+[18-Feb-2025 20:57:47 UTC] PHP   1. {main}() C:\wamp\www\ADMINW2E\public_html\_php\Dispatch.php:0
+[18-Feb-2025 20:57:47 UTC] PHP   2. Dispatch->__construct() C:\wamp\www\ADMINW2E\public_html\_php\Dispatch.php:5
+[18-Feb-2025 20:57:47 UTC] PHP   3. ControllerRedimencionaImagem->redimensiona() C:\wamp\www\ADMINW2E\public_html\_php\Dispatch.php:21
+[18-Feb-2025 20:57:47 UTC] PHP Notice:  Undefined variable: largura in C:\wamp\www\ADMINW2E\app\controller\ControllerRedimencionaImagem.php on line 98
+[18-Feb-2025 20:57:47 UTC] PHP Stack trace:
+[18-Feb-2025 20:57:47 UTC] PHP   1. {main}() C:\wamp\www\ADMINW2E\public_html\_php\Dispatch.php:0
+[18-Feb-2025 20:57:47 UTC] PHP   2. Dispatch->__construct() C:\wamp\www\ADMINW2E\public_html\_php\Dispatch.php:5
+[18-Feb-2025 20:57:47 UTC] PHP   3. ControllerRedimencionaImagem->redimensiona() C:\wamp\www\ADMINW2E\public_html\_php\Dispatch.php:21
+[18-Feb-2025 20:57:47 UTC] PHP Warning:  imagecreatetruecolor(): Invalid image dimensions in C:\wamp\www\ADMINW2E\app\controller\ControllerRedimencionaImagem.php on line 99
+[18-Feb-2025 20:57:47 UTC] PHP Stack trace:
+[18-Feb-2025 20:57:47 UTC] PHP   1. {main}() C:\wamp\www\ADMINW2E\public_html\_php\Dispatch.php:0
+[18-Feb-2025 20:57:47 UTC] PHP   2. Dispatch->__construct() C:\wamp\www\ADMINW2E\public_html\_php\Dispatch.php:5
+[18-Feb-2025 20:57:47 UTC] PHP   3. ControllerRedimencionaImagem->redimensiona() C:\wamp\www\ADMINW2E\public_html\_php\Dispatch.php:21
+[18-Feb-2025 20:57:47 UTC] PHP   4. imagecreatetruecolor($x_size = 0, $y_size = 0) C:\wamp\www\ADMINW2E\app\controller\ControllerRedimencionaImagem.php:99
+[18-Feb-2025 20:57:47 UTC] PHP Warning:  imagecolorallocatealpha() expects parameter 1 to be resource, bool given in C:\wamp\www\ADMINW2E\app\controller\ControllerRedimencionaImagem.php on line 102
+[18-Feb-2025 20:57:47 UTC] PHP Stack trace:
+[18-Feb-2025 20:57:47 UTC] PHP   1. {main}() C:\wamp\www\ADMINW2E\public_html\_php\Dispatch.php:0
+[18-Feb-2025 20:57:47 UTC] PHP   2. Dispatch->__construct() C:\wamp\www\ADMINW2E\public_html\_php\Dispatch.php:5
+[18-Feb-2025 20:57:47 UTC] PHP   3. ControllerRedimencionaImagem->redimensiona() C:\wamp\www\ADMINW2E\public_html\_php\Dispatch.php:21
+[18-Feb-2025 20:57:47 UTC] PHP   4. imagecolorallocatealpha($im = FALSE, $red = 0, $green = 0, $blue = 0, $alpha = 127) C:\wamp\www\ADMINW2E\app\controller\ControllerRedimencionaImagem.php:102
+[18-Feb-2025 20:57:47 UTC] PHP Warning:  imagecolortransparent() expects parameter 1 to be resource, bool given in C:\wamp\www\ADMINW2E\app\controller\ControllerRedimencionaImagem.php on line 102
+[18-Feb-2025 20:57:47 UTC] PHP Stack trace:
+[18-Feb-2025 20:57:47 UTC] PHP   1. {main}() C:\wamp\www\ADMINW2E\public_html\_php\Dispatch.php:0
+[18-Feb-2025 20:57:47 UTC] PHP   2. Dispatch->__construct() C:\wamp\www\ADMINW2E\public_html\_php\Dispatch.php:5
+[18-Feb-2025 20:57:47 UTC] PHP   3. ControllerRedimencionaImagem->redimensiona() C:\wamp\www\ADMINW2E\public_html\_php\Dispatch.php:21
+[18-Feb-2025 20:57:47 UTC] PHP   4. imagecolortransparent($im = FALSE, $col = FALSE) C:\wamp\www\ADMINW2E\app\controller\ControllerRedimencionaImagem.php:102
+[18-Feb-2025 20:57:47 UTC] PHP Warning:  imagealphablending() expects parameter 1 to be resource, bool given in C:\wamp\www\ADMINW2E\app\controller\ControllerRedimencionaImagem.php on line 103
+[18-Feb-2025 20:57:47 UTC] PHP Stack trace:
+[18-Feb-2025 20:57:47 UTC] PHP   1. {main}() C:\wamp\www\ADMINW2E\public_html\_php\Dispatch.php:0
+[18-Feb-2025 20:57:47 UTC] PHP   2. Dispatch->__construct() C:\wamp\www\ADMINW2E\public_html\_php\Dispatch.php:5
+[18-Feb-2025 20:57:47 UTC] PHP   3. ControllerRedimencionaImagem->redimensiona() C:\wamp\www\ADMINW2E\public_html\_php\Dispatch.php:21
+[18-Feb-2025 20:57:47 UTC] PHP   4. imagealphablending($im = FALSE, $blend = FALSE) C:\wamp\www\ADMINW2E\app\controller\ControllerRedimencionaImagem.php:103
+[18-Feb-2025 20:57:47 UTC] PHP Warning:  imagesavealpha() expects parameter 1 to be resource, bool given in C:\wamp\www\ADMINW2E\app\controller\ControllerRedimencionaImagem.php on line 104
+[18-Feb-2025 20:57:47 UTC] PHP Stack trace:
+[18-Feb-2025 20:57:47 UTC] PHP   1. {main}() C:\wamp\www\ADMINW2E\public_html\_php\Dispatch.php:0
+[18-Feb-2025 20:57:47 UTC] PHP   2. Dispatch->__construct() C:\wamp\www\ADMINW2E\public_html\_php\Dispatch.php:5
+[18-Feb-2025 20:57:47 UTC] PHP   3. ControllerRedimencionaImagem->redimensiona() C:\wamp\www\ADMINW2E\public_html\_php\Dispatch.php:21
+[18-Feb-2025 20:57:47 UTC] PHP   4. imagesavealpha($im = FALSE, $save = TRUE) C:\wamp\www\ADMINW2E\app\controller\ControllerRedimencionaImagem.php:104
+[18-Feb-2025 20:57:47 UTC] PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, bool given in C:\wamp\www\ADMINW2E\app\controller\ControllerRedimencionaImagem.php on line 106
+[18-Feb-2025 20:57:47 UTC] PHP Stack trace:
+[18-Feb-2025 20:57:47 UTC] PHP   1. {main}() C:\wamp\www\ADMINW2E\public_html\_php\Dispatch.php:0
+[18-Feb-2025 20:57:47 UTC] PHP   2. Dispatch->__construct() C:\wamp\www\ADMINW2E\public_html\_php\Dispatch.php:5
+[18-Feb-2025 20:57:47 UTC] PHP   3. ControllerRedimencionaImagem->redimensiona() C:\wamp\www\ADMINW2E\public_html\_php\Dispatch.php:21
+[18-Feb-2025 20:57:47 UTC] PHP   4. imagecopyresampled($dst_im = FALSE, $src_im = resource(3) of type (gd), $dst_x = 0, $dst_y = 0, $src_x = 0, $src_y = 0, $dst_w = 0, $dst_h = 0, $src_w = 90, $src_h = 90) C:\wamp\www\ADMINW2E\app\controller\ControllerRedimencionaImagem.php:106
+[18-Feb-2025 20:57:47 UTC] PHP Warning:  imagepng() expects parameter 1 to be resource, bool given in C:\wamp\www\ADMINW2E\app\controller\ControllerRedimencionaImagem.php on line 107
+[18-Feb-2025 20:57:47 UTC] PHP Stack trace:
+[18-Feb-2025 20:57:47 UTC] PHP   1. {main}() C:\wamp\www\ADMINW2E\public_html\_php\Dispatch.php:0
+[18-Feb-2025 20:57:47 UTC] PHP   2. Dispatch->__construct() C:\wamp\www\ADMINW2E\public_html\_php\Dispatch.php:5
+[18-Feb-2025 20:57:47 UTC] PHP   3. ControllerRedimencionaImagem->redimensiona() C:\wamp\www\ADMINW2E\public_html\_php\Dispatch.php:21
+[18-Feb-2025 20:57:47 UTC] PHP   4. imagepng($im = FALSE, $to = '../../public_html/temp/catunda.png') C:\wamp\www\ADMINW2E\app\controller\ControllerRedimencionaImagem.php:107
+[18-Feb-2025 20:57:48 UTC] PHP Warning:  ftp_put(C:/wamp/www/temp/catunda.png): failed to open stream: No such file or directory in C:\wamp\www\ADMINW2E\src\classes\ClassUploadFtpImages.php on line 69
+[18-Feb-2025 20:57:48 UTC] PHP Stack trace:
+[18-Feb-2025 20:57:48 UTC] PHP   1. {main}() C:\wamp\www\ADMINW2E\public_html\_php\Dispatch.php:0
+[18-Feb-2025 20:57:48 UTC] PHP   2. Dispatch->__construct() C:\wamp\www\ADMINW2E\public_html\_php\Dispatch.php:5
+[18-Feb-2025 20:57:48 UTC] PHP   3. ControllerRedimencionaImagem->redimensiona() C:\wamp\www\ADMINW2E\public_html\_php\Dispatch.php:21
+[18-Feb-2025 20:57:48 UTC] PHP   4. ClassUploadFtpImages->uploadFtp($nome_arquivo = 'catunda.png', $arquivo_temp = 'C:/wamp/www/temp/catunda.png') C:\wamp\www\ADMINW2E\app\controller\ControllerRedimencionaImagem.php:115
+[18-Feb-2025 20:57:48 UTC] PHP   5. ftp_put($ftp = resource(4) of type (FTP Buffer), $remote_file = '/public_html/img/31277622000195/catunda.png', $local_file = 'C:/wamp/www/temp/catunda.png', $mode = 2) C:\wamp\www\ADMINW2E\src\classes\ClassUploadFtpImages.php:69
+[18-Feb-2025 21:07:25 UTC] PHP Warning:  ftp_put(C:/wamp/www/temp/catunda.png): failed to open stream: No such file or directory in C:\wamp\www\ADMINW2E\src\classes\ClassUploadFtpImages.php on line 69
+[18-Feb-2025 21:07:25 UTC] PHP Stack trace:
+[18-Feb-2025 21:07:25 UTC] PHP   1. {main}() C:\wamp\www\ADMINW2E\public_html\_php\Dispatch.php:0
+[18-Feb-2025 21:07:25 UTC] PHP   2. Dispatch->__construct() C:\wamp\www\ADMINW2E\public_html\_php\Dispatch.php:5
+[18-Feb-2025 21:07:25 UTC] PHP   3. ControllerRedimencionaImagem->upload() C:\wamp\www\ADMINW2E\public_html\_php\Dispatch.php:21
+[18-Feb-2025 21:07:25 UTC] PHP   4. ClassUploadFtpImages->uploadFtp($nome_arquivo = 'catunda.png', $arquivo_temp = 'C:/wamp/www/temp/catunda.png') C:\wamp\www\ADMINW2E\app\controller\ControllerRedimencionaImagem.php:144
+[18-Feb-2025 21:07:25 UTC] PHP   5. ftp_put($ftp = resource(3) of type (FTP Buffer), $remote_file = '/public_html/img/31277622000195/catunda.png', $local_file = 'C:/wamp/www/temp/catunda.png', $mode = 2) C:\wamp\www\ADMINW2E\src\classes\ClassUploadFtpImages.php:69
+[18-Feb-2025 21:15:15 UTC] PHP Warning:  imagecolorallocatealpha() expects parameter 1 to be resource, string given in C:\wamp\www\ADMINW2E\app\controller\ControllerRedimencionaImagem.php on line 149
+[18-Feb-2025 21:15:15 UTC] PHP Stack trace:
+[18-Feb-2025 21:15:15 UTC] PHP   1. {main}() C:\wamp\www\ADMINW2E\public_html\_php\Dispatch.php:0
+[18-Feb-2025 21:15:15 UTC] PHP   2. Dispatch->__construct() C:\wamp\www\ADMINW2E\public_html\_php\Dispatch.php:5
+[18-Feb-2025 21:15:15 UTC] PHP   3. ControllerRedimencionaImagem->upload() C:\wamp\www\ADMINW2E\public_html\_php\Dispatch.php:21
+[18-Feb-2025 21:15:15 UTC] PHP   4. imagecolorallocatealpha($im = 'C:\\wamp\\tmp\\phpAB85.tmp', $red = 0, $green = 0, $blue = 0, $alpha = 127) C:\wamp\www\ADMINW2E\app\controller\ControllerRedimencionaImagem.php:149
+[18-Feb-2025 21:15:15 UTC] PHP Warning:  imagecolortransparent() expects parameter 1 to be resource, string given in C:\wamp\www\ADMINW2E\app\controller\ControllerRedimencionaImagem.php on line 149
+[18-Feb-2025 21:15:15 UTC] PHP Stack trace:
+[18-Feb-2025 21:15:15 UTC] PHP   1. {main}() C:\wamp\www\ADMINW2E\public_html\_php\Dispatch.php:0
+[18-Feb-2025 21:15:15 UTC] PHP   2. Dispatch->__construct() C:\wamp\www\ADMINW2E\public_html\_php\Dispatch.php:5
+[18-Feb-2025 21:15:15 UTC] PHP   3. ControllerRedimencionaImagem->upload() C:\wamp\www\ADMINW2E\public_html\_php\Dispatch.php:21
+[18-Feb-2025 21:15:15 UTC] PHP   4. imagecolortransparent($im = 'C:\\wamp\\tmp\\phpAB85.tmp', $col = FALSE) C:\wamp\www\ADMINW2E\app\controller\ControllerRedimencionaImagem.php:149
+[18-Feb-2025 21:15:15 UTC] PHP Warning:  imagealphablending() expects parameter 1 to be resource, string given in C:\wamp\www\ADMINW2E\app\controller\ControllerRedimencionaImagem.php on line 150
+[18-Feb-2025 21:15:15 UTC] PHP Stack trace:
+[18-Feb-2025 21:15:15 UTC] PHP   1. {main}() C:\wamp\www\ADMINW2E\public_html\_php\Dispatch.php:0
+[18-Feb-2025 21:15:15 UTC] PHP   2. Dispatch->__construct() C:\wamp\www\ADMINW2E\public_html\_php\Dispatch.php:5
+[18-Feb-2025 21:15:15 UTC] PHP   3. ControllerRedimencionaImagem->upload() C:\wamp\www\ADMINW2E\public_html\_php\Dispatch.php:21
+[18-Feb-2025 21:15:15 UTC] PHP   4. imagealphablending($im = 'C:\\wamp\\tmp\\phpAB85.tmp', $blend = FALSE) C:\wamp\www\ADMINW2E\app\controller\ControllerRedimencionaImagem.php:150
+[18-Feb-2025 21:15:15 UTC] PHP Warning:  imagesavealpha() expects parameter 1 to be resource, string given in C:\wamp\www\ADMINW2E\app\controller\ControllerRedimencionaImagem.php on line 151
+[18-Feb-2025 21:15:15 UTC] PHP Stack trace:
+[18-Feb-2025 21:15:15 UTC] PHP   1. {main}() C:\wamp\www\ADMINW2E\public_html\_php\Dispatch.php:0
+[18-Feb-2025 21:15:15 UTC] PHP   2. Dispatch->__construct() C:\wamp\www\ADMINW2E\public_html\_php\Dispatch.php:5
+[18-Feb-2025 21:15:15 UTC] PHP   3. ControllerRedimencionaImagem->upload() C:\wamp\www\ADMINW2E\public_html\_php\Dispatch.php:21
+[18-Feb-2025 21:15:15 UTC] PHP   4. imagesavealpha($im = 'C:\\wamp\\tmp\\phpAB85.tmp', $save = TRUE) C:\wamp\www\ADMINW2E\app\controller\ControllerRedimencionaImagem.php:151
+[18-Feb-2025 21:15:15 UTC] PHP Warning:  imagepng() expects parameter 1 to be resource, string given in C:\wamp\www\ADMINW2E\app\controller\ControllerRedimencionaImagem.php on line 153
+[18-Feb-2025 21:15:15 UTC] PHP Stack trace:
+[18-Feb-2025 21:15:15 UTC] PHP   1. {main}() C:\wamp\www\ADMINW2E\public_html\_php\Dispatch.php:0
+[18-Feb-2025 21:15:15 UTC] PHP   2. Dispatch->__construct() C:\wamp\www\ADMINW2E\public_html\_php\Dispatch.php:5
+[18-Feb-2025 21:15:15 UTC] PHP   3. ControllerRedimencionaImagem->upload() C:\wamp\www\ADMINW2E\public_html\_php\Dispatch.php:21
+[18-Feb-2025 21:15:15 UTC] PHP   4. imagepng($im = 'C:\\wamp\\tmp\\phpAB85.tmp', $to = '../../public_html/temp/catunda.png') C:\wamp\www\ADMINW2E\app\controller\ControllerRedimencionaImagem.php:153
+[18-Feb-2025 21:15:15 UTC] PHP Warning:  ftp_put(C:/wamp/www/temp/catunda.png): failed to open stream: No such file or directory in C:\wamp\www\ADMINW2E\src\classes\ClassUploadFtpImages.php on line 69
+[18-Feb-2025 21:15:15 UTC] PHP Stack trace:
+[18-Feb-2025 21:15:15 UTC] PHP   1. {main}() C:\wamp\www\ADMINW2E\public_html\_php\Dispatch.php:0
+[18-Feb-2025 21:15:15 UTC] PHP   2. Dispatch->__construct() C:\wamp\www\ADMINW2E\public_html\_php\Dispatch.php:5
+[18-Feb-2025 21:15:15 UTC] PHP   3. ControllerRedimencionaImagem->upload() C:\wamp\www\ADMINW2E\public_html\_php\Dispatch.php:21
+[18-Feb-2025 21:15:15 UTC] PHP   4. ClassUploadFtpImages->uploadFtp($nome_arquivo = 'catunda.png', $arquivo_temp = 'C:/wamp/www/temp/catunda.png') C:\wamp\www\ADMINW2E\app\controller\ControllerRedimencionaImagem.php:160
+[18-Feb-2025 21:15:15 UTC] PHP   5. ftp_put($ftp = resource(3) of type (FTP Buffer), $remote_file = '/public_html/img/31277622000195/catunda.png', $local_file = 'C:/wamp/www/temp/catunda.png', $mode = 2) C:\wamp\www\ADMINW2E\src\classes\ClassUploadFtpImages.php:69
+[18-Feb-2025 21:16:03 UTC] PHP Warning:  imagecolorallocatealpha() expects parameter 1 to be resource, string given in C:\wamp\www\ADMINW2E\app\controller\ControllerRedimencionaImagem.php on line 149
+[18-Feb-2025 21:16:03 UTC] PHP Stack trace:
+[18-Feb-2025 21:16:03 UTC] PHP   1. {main}() C:\wamp\www\ADMINW2E\public_html\_php\Dispatch.php:0
+[18-Feb-2025 21:16:03 UTC] PHP   2. Dispatch->__construct() C:\wamp\www\ADMINW2E\public_html\_php\Dispatch.php:5
+[18-Feb-2025 21:16:03 UTC] PHP   3. ControllerRedimencionaImagem->upload() C:\wamp\www\ADMINW2E\public_html\_php\Dispatch.php:21
+[18-Feb-2025 21:16:03 UTC] PHP   4. imagecolorallocatealpha($im = 'C:\\wamp\\tmp\\php69F5.tmp', $red = 0, $green = 0, $blue = 0, $alpha = 127) C:\wamp\www\ADMINW2E\app\controller\ControllerRedimencionaImagem.php:149
+[18-Feb-2025 21:16:03 UTC] PHP Warning:  imagecolortransparent() expects parameter 1 to be resource, string given in C:\wamp\www\ADMINW2E\app\controller\ControllerRedimencionaImagem.php on line 149
+[18-Feb-2025 21:16:03 UTC] PHP Stack trace:
+[18-Feb-2025 21:16:03 UTC] PHP   1. {main}() C:\wamp\www\ADMINW2E\public_html\_php\Dispatch.php:0
+[18-Feb-2025 21:16:03 UTC] PHP   2. Dispatch->__construct() C:\wamp\www\ADMINW2E\public_html\_php\Dispatch.php:5
+[18-Feb-2025 21:16:03 UTC] PHP   3. ControllerRedimencionaImagem->upload() C:\wamp\www\ADMINW2E\public_html\_php\Dispatch.php:21
+[18-Feb-2025 21:16:03 UTC] PHP   4. imagecolortransparent($im = 'C:\\wamp\\tmp\\php69F5.tmp', $col = FALSE) C:\wamp\www\ADMINW2E\app\controller\ControllerRedimencionaImagem.php:149
+[18-Feb-2025 21:16:03 UTC] PHP Warning:  imagealphablending() expects parameter 1 to be resource, string given in C:\wamp\www\ADMINW2E\app\controller\ControllerRedimencionaImagem.php on line 150
+[18-Feb-2025 21:16:03 UTC] PHP Stack trace:
+[18-Feb-2025 21:16:03 UTC] PHP   1. {main}() C:\wamp\www\ADMINW2E\public_html\_php\Dispatch.php:0
+[18-Feb-2025 21:16:03 UTC] PHP   2. Dispatch->__construct() C:\wamp\www\ADMINW2E\public_html\_php\Dispatch.php:5
+[18-Feb-2025 21:16:03 UTC] PHP   3. ControllerRedimencionaImagem->upload() C:\wamp\www\ADMINW2E\public_html\_php\Dispatch.php:21
+[18-Feb-2025 21:16:03 UTC] PHP   4. imagealphablending($im = 'C:\\wamp\\tmp\\php69F5.tmp', $blend = FALSE) C:\wamp\www\ADMINW2E\app\controller\ControllerRedimencionaImagem.php:150
+[18-Feb-2025 21:16:03 UTC] PHP Warning:  imagesavealpha() expects parameter 1 to be resource, string given in C:\wamp\www\ADMINW2E\app\controller\ControllerRedimencionaImagem.php on line 151
+[18-Feb-2025 21:16:03 UTC] PHP Stack trace:
+[18-Feb-2025 21:16:03 UTC] PHP   1. {main}() C:\wamp\www\ADMINW2E\public_html\_php\Dispatch.php:0
+[18-Feb-2025 21:16:03 UTC] PHP   2. Dispatch->__construct() C:\wamp\www\ADMINW2E\public_html\_php\Dispatch.php:5
+[18-Feb-2025 21:16:03 UTC] PHP   3. ControllerRedimencionaImagem->upload() C:\wamp\www\ADMINW2E\public_html\_php\Dispatch.php:21
+[18-Feb-2025 21:16:03 UTC] PHP   4. imagesavealpha($im = 'C:\\wamp\\tmp\\php69F5.tmp', $save = TRUE) C:\wamp\www\ADMINW2E\app\controller\ControllerRedimencionaImagem.php:151
+[18-Feb-2025 21:16:03 UTC] PHP Warning:  imagepng() expects parameter 1 to be resource, string given in C:\wamp\www\ADMINW2E\app\controller\ControllerRedimencionaImagem.php on line 153
+[18-Feb-2025 21:16:03 UTC] PHP Stack trace:
+[18-Feb-2025 21:16:03 UTC] PHP   1. {main}() C:\wamp\www\ADMINW2E\public_html\_php\Dispatch.php:0
+[18-Feb-2025 21:16:03 UTC] PHP   2. Dispatch->__construct() C:\wamp\www\ADMINW2E\public_html\_php\Dispatch.php:5
+[18-Feb-2025 21:16:03 UTC] PHP   3. ControllerRedimencionaImagem->upload() C:\wamp\www\ADMINW2E\public_html\_php\Dispatch.php:21
+[18-Feb-2025 21:16:03 UTC] PHP   4. imagepng($im = 'C:\\wamp\\tmp\\php69F5.tmp', $to = '../../public_html/temp/catunda.png') C:\wamp\www\ADMINW2E\app\controller\ControllerRedimencionaImagem.php:153
+[18-Feb-2025 21:16:04 UTC] PHP Warning:  ftp_put(C:/wamp/www/temp/catunda.png): failed to open stream: No such file or directory in C:\wamp\www\ADMINW2E\src\classes\ClassUploadFtpImages.php on line 69
+[18-Feb-2025 21:16:04 UTC] PHP Stack trace:
+[18-Feb-2025 21:16:04 UTC] PHP   1. {main}() C:\wamp\www\ADMINW2E\public_html\_php\Dispatch.php:0
+[18-Feb-2025 21:16:04 UTC] PHP   2. Dispatch->__construct() C:\wamp\www\ADMINW2E\public_html\_php\Dispatch.php:5
+[18-Feb-2025 21:16:04 UTC] PHP   3. ControllerRedimencionaImagem->upload() C:\wamp\www\ADMINW2E\public_html\_php\Dispatch.php:21
+[18-Feb-2025 21:16:04 UTC] PHP   4. ClassUploadFtpImages->uploadFtp($nome_arquivo = 'catunda.png', $arquivo_temp = 'C:/wamp/www/temp/catunda.png') C:\wamp\www\ADMINW2E\app\controller\ControllerRedimencionaImagem.php:160
+[18-Feb-2025 21:16:04 UTC] PHP   5. ftp_put($ftp = resource(3) of type (FTP Buffer), $remote_file = '/public_html/img/31277622000195/catunda.png', $local_file = 'C:/wamp/www/temp/catunda.png', $mode = 2) C:\wamp\www\ADMINW2E\src\classes\ClassUploadFtpImages.php:69
+[18-Feb-2025 21:17:38 UTC] PHP Warning:  imagecolorallocatealpha() expects parameter 1 to be resource, string given in C:\wamp\www\ADMINW2E\app\controller\ControllerRedimencionaImagem.php on line 149
+[18-Feb-2025 21:17:38 UTC] PHP Stack trace:
+[18-Feb-2025 21:17:38 UTC] PHP   1. {main}() C:\wamp\www\ADMINW2E\public_html\_php\Dispatch.php:0
+[18-Feb-2025 21:17:38 UTC] PHP   2. Dispatch->__construct() C:\wamp\www\ADMINW2E\public_html\_php\Dispatch.php:5
+[18-Feb-2025 21:17:38 UTC] PHP   3. ControllerRedimencionaImagem->upload() C:\wamp\www\ADMINW2E\public_html\_php\Dispatch.php:21
+[18-Feb-2025 21:17:38 UTC] PHP   4. imagecolorallocatealpha($im = 'C:\\wamp\\tmp\\phpDCEF.tmp', $red = 0, $green = 0, $blue = 0, $alpha = 127) C:\wamp\www\ADMINW2E\app\controller\ControllerRedimencionaImagem.php:149
+[18-Feb-2025 21:17:38 UTC] PHP Warning:  imagepng() expects parameter 1 to be resource, string given in C:\wamp\www\ADMINW2E\app\controller\ControllerRedimencionaImagem.php on line 153
+[18-Feb-2025 21:17:38 UTC] PHP Stack trace:
+[18-Feb-2025 21:17:38 UTC] PHP   1. {main}() C:\wamp\www\ADMINW2E\public_html\_php\Dispatch.php:0
+[18-Feb-2025 21:17:38 UTC] PHP   2. Dispatch->__construct() C:\wamp\www\ADMINW2E\public_html\_php\Dispatch.php:5
+[18-Feb-2025 21:17:38 UTC] PHP   3. ControllerRedimencionaImagem->upload() C:\wamp\www\ADMINW2E\public_html\_php\Dispatch.php:21
+[18-Feb-2025 21:17:38 UTC] PHP   4. imagepng($im = 'C:\\wamp\\tmp\\phpDCEF.tmp', $to = '../../public_html/temp/catunda.png') C:\wamp\www\ADMINW2E\app\controller\ControllerRedimencionaImagem.php:153
+[18-Feb-2025 21:17:39 UTC] PHP Warning:  ftp_put(C:/wamp/www/temp/catunda.png): failed to open stream: No such file or directory in C:\wamp\www\ADMINW2E\src\classes\ClassUploadFtpImages.php on line 69
+[18-Feb-2025 21:17:39 UTC] PHP Stack trace:
+[18-Feb-2025 21:17:39 UTC] PHP   1. {main}() C:\wamp\www\ADMINW2E\public_html\_php\Dispatch.php:0
+[18-Feb-2025 21:17:39 UTC] PHP   2. Dispatch->__construct() C:\wamp\www\ADMINW2E\public_html\_php\Dispatch.php:5
+[18-Feb-2025 21:17:39 UTC] PHP   3. ControllerRedimencionaImagem->upload() C:\wamp\www\ADMINW2E\public_html\_php\Dispatch.php:21
+[18-Feb-2025 21:17:39 UTC] PHP   4. ClassUploadFtpImages->uploadFtp($nome_arquivo = 'catunda.png', $arquivo_temp = 'C:/wamp/www/temp/catunda.png') C:\wamp\www\ADMINW2E\app\controller\ControllerRedimencionaImagem.php:160
+[18-Feb-2025 21:17:39 UTC] PHP   5. ftp_put($ftp = resource(9) of type (FTP Buffer), $remote_file = '/public_html/img/31277622000195/catunda.png', $local_file = 'C:/wamp/www/temp/catunda.png', $mode = 2) C:\wamp\www\ADMINW2E\src\classes\ClassUploadFtpImages.php:69
+[18-Feb-2025 21:19:20 UTC] PHP Warning:  imagecolorallocatealpha() expects parameter 1 to be resource, string given in C:\wamp\www\ADMINW2E\app\controller\ControllerRedimencionaImagem.php on line 149
+[18-Feb-2025 21:19:20 UTC] PHP Stack trace:
+[18-Feb-2025 21:19:20 UTC] PHP   1. {main}() C:\wamp\www\ADMINW2E\public_html\_php\Dispatch.php:0
+[18-Feb-2025 21:19:20 UTC] PHP   2. Dispatch->__construct() C:\wamp\www\ADMINW2E\public_html\_php\Dispatch.php:5
+[18-Feb-2025 21:19:20 UTC] PHP   3. ControllerRedimencionaImagem->upload() C:\wamp\www\ADMINW2E\public_html\_php\Dispatch.php:21
+[18-Feb-2025 21:19:20 UTC] PHP   4. imagecolorallocatealpha($im = 'C:\\wamp\\tmp\\php6AB5.tmp', $red = 0, $green = 0, $blue = 0, $alpha = 127) C:\wamp\www\ADMINW2E\app\controller\ControllerRedimencionaImagem.php:149
+[18-Feb-2025 21:19:20 UTC] PHP Warning:  imagepng() expects parameter 1 to be resource, string given in C:\wamp\www\ADMINW2E\app\controller\ControllerRedimencionaImagem.php on line 153
+[18-Feb-2025 21:19:20 UTC] PHP Stack trace:
+[18-Feb-2025 21:19:20 UTC] PHP   1. {main}() C:\wamp\www\ADMINW2E\public_html\_php\Dispatch.php:0
+[18-Feb-2025 21:19:20 UTC] PHP   2. Dispatch->__construct() C:\wamp\www\ADMINW2E\public_html\_php\Dispatch.php:5
+[18-Feb-2025 21:19:20 UTC] PHP   3. ControllerRedimencionaImagem->upload() C:\wamp\www\ADMINW2E\public_html\_php\Dispatch.php:21
+[18-Feb-2025 21:19:20 UTC] PHP   4. imagepng($im = 'C:\\wamp\\tmp\\php6AB5.tmp', $to = '../../public_html/temp/catunda.png') C:\wamp\www\ADMINW2E\app\controller\ControllerRedimencionaImagem.php:153
+[18-Feb-2025 21:19:21 UTC] PHP Warning:  ftp_put(C:/wamp/www/temp/catunda.png): failed to open stream: No such file or directory in C:\wamp\www\ADMINW2E\src\classes\ClassUploadFtpImages.php on line 69
+[18-Feb-2025 21:19:21 UTC] PHP Stack trace:
+[18-Feb-2025 21:19:21 UTC] PHP   1. {main}() C:\wamp\www\ADMINW2E\public_html\_php\Dispatch.php:0
+[18-Feb-2025 21:19:21 UTC] PHP   2. Dispatch->__construct() C:\wamp\www\ADMINW2E\public_html\_php\Dispatch.php:5
+[18-Feb-2025 21:19:21 UTC] PHP   3. ControllerRedimencionaImagem->upload() C:\wamp\www\ADMINW2E\public_html\_php\Dispatch.php:21
+[18-Feb-2025 21:19:21 UTC] PHP   4. ClassUploadFtpImages->uploadFtp($nome_arquivo = 'catunda.png', $arquivo_temp = 'C:/wamp/www/temp/catunda.png') C:\wamp\www\ADMINW2E\app\controller\ControllerRedimencionaImagem.php:160
+[18-Feb-2025 21:19:21 UTC] PHP   5. ftp_put($ftp = resource(9) of type (FTP Buffer), $remote_file = '/public_html/img/31277622000195/catunda.png', $local_file = 'C:/wamp/www/temp/catunda.png', $mode = 2) C:\wamp\www\ADMINW2E\src\classes\ClassUploadFtpImages.php:69
+[18-Feb-2025 21:22:10 UTC] PHP Warning:  ftp_put(C:/wamp/www/temp/catunda.png): failed to open stream: No such file or directory in C:\wamp\www\ADMINW2E\src\classes\ClassUploadFtpImages.php on line 69
+[18-Feb-2025 21:22:10 UTC] PHP Stack trace:
+[18-Feb-2025 21:22:10 UTC] PHP   1. {main}() C:\wamp\www\ADMINW2E\public_html\_php\Dispatch.php:0
+[18-Feb-2025 21:22:10 UTC] PHP   2. Dispatch->__construct() C:\wamp\www\ADMINW2E\public_html\_php\Dispatch.php:5
+[18-Feb-2025 21:22:10 UTC] PHP   3. ControllerRedimencionaImagem->upload() C:\wamp\www\ADMINW2E\public_html\_php\Dispatch.php:21
+[18-Feb-2025 21:22:10 UTC] PHP   4. ClassUploadFtpImages->uploadFtp($nome_arquivo = 'catunda.png', $arquivo_temp = 'C:/wamp/www/temp/catunda.png') C:\wamp\www\ADMINW2E\app\controller\ControllerRedimencionaImagem.php:166
+[18-Feb-2025 21:22:10 UTC] PHP   5. ftp_put($ftp = resource(6) of type (FTP Buffer), $remote_file = '/public_html/img/31277622000195/catunda.png', $local_file = 'C:/wamp/www/temp/catunda.png', $mode = 2) C:\wamp\www\ADMINW2E\src\classes\ClassUploadFtpImages.php:69
+[18-Feb-2025 21:22:57 UTC] PHP Warning:  ftp_put(C:/wamp/www/temp/catunda.png): failed to open stream: No such file or directory in C:\wamp\www\ADMINW2E\src\classes\ClassUploadFtpImages.php on line 69
+[18-Feb-2025 21:22:57 UTC] PHP Stack trace:
+[18-Feb-2025 21:22:57 UTC] PHP   1. {main}() C:\wamp\www\ADMINW2E\public_html\_php\Dispatch.php:0
+[18-Feb-2025 21:22:57 UTC] PHP   2. Dispatch->__construct() C:\wamp\www\ADMINW2E\public_html\_php\Dispatch.php:5
+[18-Feb-2025 21:22:57 UTC] PHP   3. ControllerRedimencionaImagem->upload() C:\wamp\www\ADMINW2E\public_html\_php\Dispatch.php:21
+[18-Feb-2025 21:22:57 UTC] PHP   4. ClassUploadFtpImages->uploadFtp($nome_arquivo = 'catunda.png', $arquivo_temp = 'C:/wamp/www/temp/catunda.png') C:\wamp\www\ADMINW2E\app\controller\ControllerRedimencionaImagem.php:166
+[18-Feb-2025 21:22:57 UTC] PHP   5. ftp_put($ftp = resource(5) of type (FTP Buffer), $remote_file = '/public_html/img/31277622000195/catunda.png', $local_file = 'C:/wamp/www/temp/catunda.png', $mode = 2) C:\wamp\www\ADMINW2E\src\classes\ClassUploadFtpImages.php:69
+[18-Feb-2025 21:23:14 UTC] PHP Warning:  ftp_put(C:/wamp/www/temp/catunda.png): failed to open stream: No such file or directory in C:\wamp\www\ADMINW2E\src\classes\ClassUploadFtpImages.php on line 69
+[18-Feb-2025 21:23:14 UTC] PHP Stack trace:
+[18-Feb-2025 21:23:14 UTC] PHP   1. {main}() C:\wamp\www\ADMINW2E\public_html\_php\Dispatch.php:0
+[18-Feb-2025 21:23:14 UTC] PHP   2. Dispatch->__construct() C:\wamp\www\ADMINW2E\public_html\_php\Dispatch.php:5
+[18-Feb-2025 21:23:14 UTC] PHP   3. ControllerRedimencionaImagem->upload() C:\wamp\www\ADMINW2E\public_html\_php\Dispatch.php:21
+[18-Feb-2025 21:23:14 UTC] PHP   4. ClassUploadFtpImages->uploadFtp($nome_arquivo = 'catunda.png', $arquivo_temp = 'C:/wamp/www/temp/catunda.png') C:\wamp\www\ADMINW2E\app\controller\ControllerRedimencionaImagem.php:166
+[18-Feb-2025 21:23:14 UTC] PHP   5. ftp_put($ftp = resource(5) of type (FTP Buffer), $remote_file = '/public_html/img/31277622000195/catunda.png', $local_file = 'C:/wamp/www/temp/catunda.png', $mode = 2) C:\wamp\www\ADMINW2E\src\classes\ClassUploadFtpImages.php:69
+[07-Mar-2025 20:35:06 UTC] PHP Warning:  ftp_login() expects parameter 1 to be resource, bool given in C:\wamp\www\ADMINW2E\src\classes\ClassUploadFtpImages.php on line 44
+[07-Mar-2025 20:35:06 UTC] PHP Stack trace:
+[07-Mar-2025 20:35:06 UTC] PHP   1. {main}() C:\wamp\www\ADMINW2E\public_html\_php\Dispatch.php:0
+[07-Mar-2025 20:35:06 UTC] PHP   2. Dispatch->__construct() C:\wamp\www\ADMINW2E\public_html\_php\Dispatch.php:5
+[07-Mar-2025 20:35:06 UTC] PHP   3. ControllerRedimencionaImagem->redimensiona() C:\wamp\www\ADMINW2E\public_html\_php\Dispatch.php:21
+[07-Mar-2025 20:35:06 UTC] PHP   4. ControllerRedimencionaImagem->uploadToFtp() C:\wamp\www\ADMINW2E\app\controller\ControllerRedimencionaImagem.php:44
+[07-Mar-2025 20:35:06 UTC] PHP   5. ClassUploadFtpImages->uploadFtp($nome_arquivo = 'convite camara cedro.jpg', $arquivo_temp = 'C:/wamp/www/temp/convite camara cedro.jpg') C:\wamp\www\ADMINW2E\app\controller\ControllerRedimencionaImagem.php:137
+[07-Mar-2025 20:35:06 UTC] PHP   6. ftp_login($ftp = FALSE, $username = NULL, $password = NULL) C:\wamp\www\ADMINW2E\src\classes\ClassUploadFtpImages.php:44
+[07-Mar-2025 20:35:29 UTC] PHP Warning:  ftp_login() expects parameter 1 to be resource, bool given in C:\wamp\www\ADMINW2E\src\classes\ClassUploadFtpImages.php on line 44
+[07-Mar-2025 20:35:29 UTC] PHP Stack trace:
+[07-Mar-2025 20:35:29 UTC] PHP   1. {main}() C:\wamp\www\ADMINW2E\public_html\_php\Dispatch.php:0
+[07-Mar-2025 20:35:29 UTC] PHP   2. Dispatch->__construct() C:\wamp\www\ADMINW2E\public_html\_php\Dispatch.php:5
+[07-Mar-2025 20:35:29 UTC] PHP   3. ControllerRedimencionaImagem->redimensiona() C:\wamp\www\ADMINW2E\public_html\_php\Dispatch.php:21
+[07-Mar-2025 20:35:29 UTC] PHP   4. ControllerRedimencionaImagem->uploadToFtp() C:\wamp\www\ADMINW2E\app\controller\ControllerRedimencionaImagem.php:44
+[07-Mar-2025 20:35:29 UTC] PHP   5. ClassUploadFtpImages->uploadFtp($nome_arquivo = 'convite camara cedro.jpg', $arquivo_temp = 'C:/wamp/www/temp/convite camara cedro.jpg') C:\wamp\www\ADMINW2E\app\controller\ControllerRedimencionaImagem.php:137
+[07-Mar-2025 20:35:29 UTC] PHP   6. ftp_login($ftp = FALSE, $username = NULL, $password = NULL) C:\wamp\www\ADMINW2E\src\classes\ClassUploadFtpImages.php:44
+[07-Mar-2025 20:38:05 UTC] PHP Warning:  ftp_put(C:/wamp/www/temp/convite camara cedro.jpg): failed to open stream: No such file or directory in C:\wamp\www\ADMINW2E\src\classes\ClassUploadFtpImages.php on line 69
+[07-Mar-2025 20:38:05 UTC] PHP Stack trace:
+[07-Mar-2025 20:38:05 UTC] PHP   1. {main}() C:\wamp\www\ADMINW2E\public_html\_php\Dispatch.php:0
+[07-Mar-2025 20:38:05 UTC] PHP   2. Dispatch->__construct() C:\wamp\www\ADMINW2E\public_html\_php\Dispatch.php:5
+[07-Mar-2025 20:38:05 UTC] PHP   3. ControllerRedimencionaImagem->redimensiona() C:\wamp\www\ADMINW2E\public_html\_php\Dispatch.php:21
+[07-Mar-2025 20:38:05 UTC] PHP   4. ClassUploadFtpImages->uploadFtp($nome_arquivo = 'convite camara cedro.jpg', $arquivo_temp = 'C:/wamp/www/temp/convite camara cedro.jpg') C:\wamp\www\ADMINW2E\app\controller\ControllerRedimencionaImagem.php:115
+[07-Mar-2025 20:38:05 UTC] PHP   5. ftp_put($ftp = resource(7) of type (FTP Buffer), $remote_file = '/public_html/img/12467809000107/convite camara cedro.jpg', $local_file = 'C:/wamp/www/temp/convite camara cedro.jpg', $mode = 2) C:\wamp\www\ADMINW2E\src\classes\ClassUploadFtpImages.php:69
+[07-Mar-2025 20:38:17 UTC] PHP Warning:  ftp_put(C:/wamp/www/temp/convite camara cedro.jpg): failed to open stream: No such file or directory in C:\wamp\www\ADMINW2E\src\classes\ClassUploadFtpImages.php on line 69
+[07-Mar-2025 20:38:17 UTC] PHP Stack trace:
+[07-Mar-2025 20:38:17 UTC] PHP   1. {main}() C:\wamp\www\ADMINW2E\public_html\_php\Dispatch.php:0
+[07-Mar-2025 20:38:17 UTC] PHP   2. Dispatch->__construct() C:\wamp\www\ADMINW2E\public_html\_php\Dispatch.php:5
+[07-Mar-2025 20:38:17 UTC] PHP   3. ControllerRedimencionaImagem->redimensiona() C:\wamp\www\ADMINW2E\public_html\_php\Dispatch.php:21
+[07-Mar-2025 20:38:17 UTC] PHP   4. ClassUploadFtpImages->uploadFtp($nome_arquivo = 'convite camara cedro.jpg', $arquivo_temp = 'C:/wamp/www/temp/convite camara cedro.jpg') C:\wamp\www\ADMINW2E\app\controller\ControllerRedimencionaImagem.php:115
+[07-Mar-2025 20:38:17 UTC] PHP   5. ftp_put($ftp = resource(6) of type (FTP Buffer), $remote_file = '/public_html/img/12467809000107/convite camara cedro.jpg', $local_file = 'C:/wamp/www/temp/convite camara cedro.jpg', $mode = 2) C:\wamp\www\ADMINW2E\src\classes\ClassUploadFtpImages.php:69
+[07-Mar-2025 20:40:23 UTC] PHP Warning:  ftp_put(C:/wamp/www/temp/capa_camera.jpg): failed to open stream: No such file or directory in C:\wamp\www\ADMINW2E\src\classes\ClassUploadFtpImages.php on line 69
+[07-Mar-2025 20:40:23 UTC] PHP Stack trace:
+[07-Mar-2025 20:40:23 UTC] PHP   1. {main}() C:\wamp\www\ADMINW2E\public_html\_php\Dispatch.php:0
+[07-Mar-2025 20:40:23 UTC] PHP   2. Dispatch->__construct() C:\wamp\www\ADMINW2E\public_html\_php\Dispatch.php:5
+[07-Mar-2025 20:40:23 UTC] PHP   3. ControllerRedimencionaImagem->redimensiona() C:\wamp\www\ADMINW2E\public_html\_php\Dispatch.php:21
+[07-Mar-2025 20:40:23 UTC] PHP   4. ClassUploadFtpImages->uploadFtp($nome_arquivo = 'capa_camera.jpg', $arquivo_temp = 'C:/wamp/www/temp/capa_camera.jpg') C:\wamp\www\ADMINW2E\app\controller\ControllerRedimencionaImagem.php:115
+[07-Mar-2025 20:40:23 UTC] PHP   5. ftp_put($ftp = resource(6) of type (FTP Buffer), $remote_file = '/public_html/img/12722468000179/capa_camera.jpg', $local_file = 'C:/wamp/www/temp/capa_camera.jpg', $mode = 2) C:\wamp\www\ADMINW2E\src\classes\ClassUploadFtpImages.php:69
+[07-Mar-2025 20:46:20 UTC] PHP Warning:  ftp_put(C:/wamp/www/temp/capa_camera.jpg): failed to open stream: No such file or directory in C:\wamp\www\ADMINW2E\src\classes\ClassUploadFtpImages.php on line 89
+[07-Mar-2025 20:46:20 UTC] PHP Stack trace:
+[07-Mar-2025 20:46:20 UTC] PHP   1. {main}() C:\wamp\www\ADMINW2E\public_html\_php\Dispatch.php:0
+[07-Mar-2025 20:46:20 UTC] PHP   2. Dispatch->__construct() C:\wamp\www\ADMINW2E\public_html\_php\Dispatch.php:5
+[07-Mar-2025 20:46:20 UTC] PHP   3. ControllerRedimencionaImagem->redimensiona() C:\wamp\www\ADMINW2E\public_html\_php\Dispatch.php:21
+[07-Mar-2025 20:46:20 UTC] PHP   4. ControllerRedimencionaImagem->uploadToFtp() C:\wamp\www\ADMINW2E\app\controller\ControllerRedimencionaImagem.php:44
+[07-Mar-2025 20:46:20 UTC] PHP   5. ClassUploadFtpImages->uploadFtp($nome_arquivo = 'capa_camera.jpg', $arquivo_temp = 'C:/wamp/www/temp/capa_camera.jpg') C:\wamp\www\ADMINW2E\app\controller\ControllerRedimencionaImagem.php:138
+[07-Mar-2025 20:46:20 UTC] PHP   6. ftp_put($ftp = resource(8) of type (FTP Buffer), $remote_file = '/public_html/img/12722468000179/capa_camera.jpg', $local_file = 'C:/wamp/www/temp/capa_camera.jpg', $mode = 2) C:\wamp\www\ADMINW2E\src\classes\ClassUploadFtpImages.php:89
+[07-Mar-2025 20:52:53 UTC] PHP Warning:  ftp_put(C:/wamp/www/temp/capa_camera.jpg): failed to open stream: No such file or directory in C:\wamp\www\ADMINW2E\src\classes\ClassUploadFtpImages.php on line 89
+[07-Mar-2025 20:52:53 UTC] PHP Stack trace:
+[07-Mar-2025 20:52:53 UTC] PHP   1. {main}() C:\wamp\www\ADMINW2E\public_html\_php\Dispatch.php:0
+[07-Mar-2025 20:52:53 UTC] PHP   2. Dispatch->__construct() C:\wamp\www\ADMINW2E\public_html\_php\Dispatch.php:5
+[07-Mar-2025 20:52:53 UTC] PHP   3. ControllerRedimencionaImagem->redimensiona() C:\wamp\www\ADMINW2E\public_html\_php\Dispatch.php:21
+[07-Mar-2025 20:52:53 UTC] PHP   4. ControllerRedimencionaImagem->uploadToFtp() C:\wamp\www\ADMINW2E\app\controller\ControllerRedimencionaImagem.php:48
+[07-Mar-2025 20:52:53 UTC] PHP   5. ClassUploadFtpImages->uploadFtp($nome_arquivo = 'capa_camera.jpg', $arquivo_temp = 'C:/wamp/www/temp/capa_camera.jpg') C:\wamp\www\ADMINW2E\app\controller\ControllerRedimencionaImagem.php:143
+[07-Mar-2025 20:52:53 UTC] PHP   6. ftp_put($ftp = resource(7) of type (FTP Buffer), $remote_file = '/public_html/img/12722468000179/capa_camera.jpg', $local_file = 'C:/wamp/www/temp/capa_camera.jpg', $mode = 2) C:\wamp\www\ADMINW2E\src\classes\ClassUploadFtpImages.php:89
+[07-Mar-2025 21:04:29 UTC] PHP Warning:  ftp_put(C:/wamp/www/temp/capa_camera.jpg): failed to open stream: No such file or directory in C:\wamp\www\ADMINW2E\src\classes\ClassUploadFtpImages.php on line 89
+[07-Mar-2025 21:04:29 UTC] PHP Stack trace:
+[07-Mar-2025 21:04:29 UTC] PHP   1. {main}() C:\wamp\www\ADMINW2E\public_html\_php\Dispatch.php:0
+[07-Mar-2025 21:04:29 UTC] PHP   2. Dispatch->__construct() C:\wamp\www\ADMINW2E\public_html\_php\Dispatch.php:5
+[07-Mar-2025 21:04:29 UTC] PHP   3. ControllerRedimencionaImagem->redimensiona() C:\wamp\www\ADMINW2E\public_html\_php\Dispatch.php:21
+[07-Mar-2025 21:04:29 UTC] PHP   4. ControllerRedimencionaImagem->uploadToFtp() C:\wamp\www\ADMINW2E\app\controller\ControllerRedimencionaImagem.php:48
+[07-Mar-2025 21:04:29 UTC] PHP   5. ClassUploadFtpImages->uploadFtp($nome_arquivo = 'capa_camera_1741381466.jpg', $arquivo_temp = 'C:/wamp/www/temp/capa_camera.jpg') C:\wamp\www\ADMINW2E\app\controller\ControllerRedimencionaImagem.php:141
+[07-Mar-2025 21:04:29 UTC] PHP   6. ftp_put($ftp = resource(7) of type (FTP Buffer), $remote_file = '/public_html/img/12722468000179/capa_camera_1741381466.jpg', $local_file = 'C:/wamp/www/temp/capa_camera.jpg', $mode = 2) C:\wamp\www\ADMINW2E\src\classes\ClassUploadFtpImages.php:89
+[07-Mar-2025 21:32:02 UTC] PHP Warning:  ftp_put(C:/wamp/www/temp/capa_camera.jpg): failed to open stream: No such file or directory in C:\wamp\www\ADMINW2E\src\classes\ClassUploadFtpImages.php on line 89
+[07-Mar-2025 21:32:02 UTC] PHP Stack trace:
+[07-Mar-2025 21:32:02 UTC] PHP   1. {main}() C:\wamp\www\ADMINW2E\public_html\_php\Dispatch.php:0
+[07-Mar-2025 21:32:02 UTC] PHP   2. Dispatch->__construct() C:\wamp\www\ADMINW2E\public_html\_php\Dispatch.php:5
+[07-Mar-2025 21:32:02 UTC] PHP   3. ControllerRedimencionaImagem->redimensiona() C:\wamp\www\ADMINW2E\public_html\_php\Dispatch.php:21
+[07-Mar-2025 21:32:02 UTC] PHP   4. ControllerRedimencionaImagem->uploadToFtp() C:\wamp\www\ADMINW2E\app\controller\ControllerRedimencionaImagem.php:52
+[07-Mar-2025 21:32:02 UTC] PHP   5. ClassUploadFtpImages->uploadFtp($nome_arquivo = 'capa_camera_1741383121.jpg', $arquivo_temp = 'C:/wamp/www/temp/capa_camera.jpg') C:\wamp\www\ADMINW2E\app\controller\ControllerRedimencionaImagem.php:146
+[07-Mar-2025 21:32:02 UTC] PHP   6. ftp_put($ftp = resource(8) of type (FTP Buffer), $remote_file = '/public_html/img/12722468000179/capa_camera_1741383121.jpg', $local_file = 'C:/wamp/www/temp/capa_camera.jpg', $mode = 2) C:\wamp\www\ADMINW2E\src\classes\ClassUploadFtpImages.php:89
+[07-Mar-2025 21:32:39 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method ControllerRedimencionaImagem::upload() in C:\wamp\www\ADMINW2E\public_html\_php\Dispatch.php:21
+Stack trace:
+#0 C:\wamp\www\ADMINW2E\public_html\_php\Dispatch.php(5): Dispatch->__construct()
+#1 {main}
+  thrown in C:\wamp\www\ADMINW2E\public_html\_php\Dispatch.php on line 21
+[07-Mar-2025 21:34:44 UTC] PHP Warning:  ftp_put(C:/wamp/www/temp/videos.jpg): failed to open stream: No such file or directory in C:\wamp\www\ADMINW2E\src\classes\ClassUploadFtpImages.php on line 89
+[07-Mar-2025 21:34:44 UTC] PHP Stack trace:
+[07-Mar-2025 21:34:44 UTC] PHP   1. {main}() C:\wamp\www\ADMINW2E\public_html\_php\Dispatch.php:0
+[07-Mar-2025 21:34:44 UTC] PHP   2. Dispatch->__construct() C:\wamp\www\ADMINW2E\public_html\_php\Dispatch.php:5
+[07-Mar-2025 21:34:44 UTC] PHP   3. ControllerRedimencionaImagem->redimensiona() C:\wamp\www\ADMINW2E\public_html\_php\Dispatch.php:21
+[07-Mar-2025 21:34:44 UTC] PHP   4. ControllerRedimencionaImagem->uploadToFtp() C:\wamp\www\ADMINW2E\app\controller\ControllerRedimencionaImagem.php:52
+[07-Mar-2025 21:34:44 UTC] PHP   5. ClassUploadFtpImages->uploadFtp($nome_arquivo = 'videos_1741383281.jpg', $arquivo_temp = 'C:/wamp/www/temp/videos.jpg') C:\wamp\www\ADMINW2E\app\controller\ControllerRedimencionaImagem.php:146
+[07-Mar-2025 21:34:44 UTC] PHP   6. ftp_put($ftp = resource(5) of type (FTP Buffer), $remote_file = '/public_html/img/12722468000179/videos_1741383281.jpg', $local_file = 'C:/wamp/www/temp/videos.jpg', $mode = 2) C:\wamp\www\ADMINW2E\src\classes\ClassUploadFtpImages.php:89

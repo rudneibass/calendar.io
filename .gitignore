@@ -1,0 +1,4 @@
+*.ini
+scripts/
+nbproject/
+public_html/temp/
