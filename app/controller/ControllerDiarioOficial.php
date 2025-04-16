@@ -52,26 +52,12 @@ class ControllerDiarioOficial {
             $classe = $dataFormatada === $hoje->format('Y-m-d') ? 'dia hoje' : 'dia';
 
 
-            $html .= '<div class="' . $classe . ' d-flex" id="'.$dia.'" ondblclick="abrirModal(\'modal-diario-oficial\', \''.$dataFormatada.'\')" onclick="checkDia(\''.$dia.'\')">';
-                $html .= '<div>';
-                    $html .= '<h4 class="text-end">'.$dia.'</h4>';
-                $html .= '</div>';
-                
-                $html .= '<div>';
-                    $html .= '<ul>';
-                        if (isset($mapaPublicacoes[$dataFormatada])) {
-                            foreach ($mapaPublicacoes[$dataFormatada] as $pub) {
-                                $html .= 
-                                '<li>
-                                    <a href="#" onclick="abrirModal(\'modal-diario-oficial\', \''.$pub['id'].'\'); populaForm('.$pub['id'].')">
-                                        <small>
-                                            '.$pub['titulo'].'&nbsp;<i class="fa fa-check" style="color: rgb(40, 167, 69)"></i>
-                                        </small>
-                                    </a>
-                                </li>';
-                            }
-                        }
-                    $html .= '</ul>';
+            $html .= '<div class="' . $classe . ' d-flex" id="'.$dia.'" onclick="abrirModal(\'modal-diario-oficial\', \''.$dataFormatada.'\');checkDia(\''.$dia.'\')">';
+                $html .= '<div class="position-relative">';
+                    $html .= '<span style="font-size: 1.5rem">'.$dia.'</span>';
+                    if (isset($mapaPublicacoes[$dataFormatada])) {
+                        $html .= '&nbsp;<sup class="badge badge-pill badge-danger text-end position-absolute" >'.count($mapaPublicacoes[$dataFormatada]).'</sup>';
+                    }
                 $html .= '</div>';
             $html .= '</div>';
         }
@@ -79,6 +65,23 @@ class ControllerDiarioOficial {
         echo $html;
     }
     
+    public function persistAudio(){
+        $uploadDir = '../../uploads/audio/';
+        if (!is_dir($uploadDir)) {
+            mkdir($uploadDir, 0777, true);
+        }
+
+        $fileName = basename($_FILES['audio']['name']);
+        $filePath = $uploadDir . $fileName;
+
+        if (move_uploaded_file($_FILES['audio']['tmp_name'], $filePath)) {
+            // Retornar a URL do arquivo salvo
+            echo '/uploads/audio/' . $fileName;
+        } else {
+            http_response_code(500);
+            echo 'Erro ao salvar o arquivo.';
+        }
+    }
     
     public function update() {
 
@@ -91,7 +94,7 @@ class ControllerDiarioOficial {
 
         if ($val->validar()) {
             $post = filter_var_array($_POST, FILTER_SANITIZE_SPECIAL_CHARS);
-            $post['usuario'] = $_SESSION['USUARIO'];
+            $post['usuario'] = $_SESSION['USUARIO'] ? $_SESSION['USUARIO'] : 'Sistema';
             $id = filter_input(INPUT_GET, 'id', FILTER_SANITIZE_NUMBER_INT);
             $crud = new ClassModel();
             $update = $crud->update('publicacoes ', $post, $id);
@@ -114,7 +117,7 @@ class ControllerDiarioOficial {
         if ($val->validar()) {
             $post = filter_var_array($_POST, FILTER_SANITIZE_SPECIAL_CHARS);
             $post['data_cadastro'] = date("Y/m/d h:i:s");
-            $post['usuario'] = $_SESSION['USUARIO'];
+            $post['usuario'] = $_SESSION['USUARIO'] ? $_SESSION['USUARIO'] : 'Sistema';
             $crud = new ClassModel();
             print $crud->insert($post, 'publicacoes ');
         } else {
@@ -139,78 +142,4 @@ class ControllerDiarioOficial {
             }
         }
     }
-
-    public function importarJson() {
-        if ($_FILES['jsonFile']['error'] == UPLOAD_ERR_OK) {
-            $jsonData = file_get_contents($_FILES['jsonFile']['tmp_name']);
-            $jsonData = json_decode($jsonData, true);
-          
-            $exemplo = '
-            "id": "6",
-            "data": " 15/02/2016",
-            "numero": "LEI MUNICIPAL - FEVEREIRO/2016",
-            "descricao": "Descrição  FICA O PODER LEGISLATIVO AUTORIZADO A CONCEDER AUMENTO DO VENCIMENTO-BASE DOS SERVIDORES DA CÂMARA MUNICIPAL DE CEDRO - CEARÁ.",
-            "arquivo": "/arquivos/6/Leis_476_2016.pdf"
-            "dominio": "https://www.camaradecedro.ce.gov.br"
-            ';
-
-            if ($jsonData !== null) {
-              
-                foreach($jsonData as $item){
-                    $post['id'] = $item['id'];
-                    $post['data_publicacao'] = $item['data'] == 'N/A' ? '0000-00-00': DateTime::createFromFormat('d/m/Y', $item['data'])->format('Y-m-d');
-                    $post['numero'] = $item['numero'];
-                    $post['titulo'] = $item['descricao'];
-                    $post['descricao'] = $item['descricao']; 
-                    $post['exercicio'] = date('Y', strtotime($item['data']));                
-
-                    $post['data_cadastro'] = date("Y/m/d h:i:s");
-                    $post['usuario'] = $_SESSION['USUARIO'];
-                    $post['tbl'] = 'publicacoes';
-
-                    if(isset($item['tipo']) && !empty($item['tipo'])){
-                        $post['tipo'] = $item['tipo'];
-                    }
-                    
-
-                    $db = new ClassModel();
-                    $id = $db->insert($post, 'publicacoes ');
-
-                    if($id){
-                        $postArquivo['nome'] = $item['arquivo'];
-                        $postArquivo['tipo'] = 'application/pdf';
-                        $postArquivo['tamanho'] = 'indisponivel';
-                        $postArquivo['dominio'] = $item['dominio'];
-                        $postArquivo['usuario'] = $_SESSION['USUARIO'];
-                        $postArquivo['data'] = date('Y-m-d');
-                        $postArquivo['hora'] = date('H:i:s');
-                        $postArquivo['hora'] = date('H:i:s');
-                        $postArquivo['id_tabela_pai'] = $item['id'];
-                        $postArquivo['tabela_pai'] = 'publicacoes';
-                        $postArquivo['caminho_absoluto'] = $item['arquivo'];
-                        $postArquivo['caminho_relativo'] = $item['arquivo'];
-
-                        if(!is_array($item['arquivos'])){
-                            $db->insert($postArquivo, 'arquivos ');
-                        }
-                        
-                        if(is_array($item['arquivos'])){
-                            foreach($item['arquivos'] as $arquivo){
-                                $postArquivo['caminho_absoluto'] = $arquivo;
-                                $postArquivo['caminho_relativo'] = $arquivo;
-                                $db->insert($postArquivo, 'arquivos ');
-                            }
-                        }
-                        
-                    }
-                }
-                echo 'Arquivo importado com sucesso!';
-            } else {
-              echo "Erro ao decodificar o JSON.";
-            }
-          } else {
-            echo "Erro ao receber o arquivo JSON.";
-          }
-    }
-
 }

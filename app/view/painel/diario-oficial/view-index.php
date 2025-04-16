@@ -1,5 +1,4 @@
-<main class="col-md-10" >
-
+<main>
     <section>
         <div class="row mb-3 pr-3" style="border: 1px solid #dee2e6; background-color: #f4faf4; padding: 15px 0px 10px 5px">     
             <div class="col-md-11" >
@@ -47,7 +46,8 @@
                             bottom: 0;
                             z-index: 9999;
                             background-color: rgba(0, 0, 0, 0.4);
-                            display: none;"
+                            display: none;
+                            min-height: 80vh;"
                         >
                         </div>                        
                     </div>

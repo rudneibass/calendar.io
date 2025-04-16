@@ -1,1 +1,0 @@
-<?php require_once('../../../app/view/votacao/pwa/index.php') ?>

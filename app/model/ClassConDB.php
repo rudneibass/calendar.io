@@ -16,14 +16,14 @@ if (file_exists('../../config/config.php')) {
         return
                 is_null(self::$pdo) ?
                 self::$pdo = new  \PDO(
-                    ''.$_SESSION['DB_TYPE']
-                    .':host='.$_SESSION['DB_HOST']
-                    .';dbname='.$_SESSION['DB_NAME']
+                    ''.DB_TYPE
+                    .':host='.DB_HOST
+                    .';dbname='.DB_NAME
                     .';charset=utf8', 
 
-                    ''.$_SESSION['DB_USER'].'',
+                    ''.DB_USER.'',
 
-                    ''.$_SESSION['DB_PASS'].'',
+                    ''.DB_PASS.'',
                     
                     $this->exeption): 
                 self::$pdo;

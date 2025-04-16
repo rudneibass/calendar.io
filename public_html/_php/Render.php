@@ -3,11 +3,11 @@
 class Render {
 
     function __construct() {
-        if (file_exists('../../../config/sec.php')) {
+        /*if (file_exists('../../../config/sec.php')) {
             require_once '../../../config/sec.php';
         } else {
             echo '<b>ATENÇÃO: </b>Não foi possivel localizar sec.php!';
-        }
+        }*/
     }
 
     function renderHead() {
@@ -35,11 +35,11 @@ class Render {
     }
 
     function renderMain($viewDir, $viewName) {
-        if (file_exists('../_html/menu-lateral.html')) {
+        /*if (file_exists('../_html/menu-lateral.html')) {
             include ('../_html/menu-lateral.html');
         } else {
             echo "<b>Atenção:</b> Não foi possviel localizar elemento <b>menu-lateral</b>!";
-        }
+        }*/
 
         if (file_exists('../../../app/view/painel/' . $viewDir . '/' . $viewName . '.php')) {
             include ('../../../app/view/painel/' . $viewDir . '/' . $viewName . '.php');

@@ -1,2 +1,2 @@
 <?php
-header('Location: painel/login');
+header('Location: painel/diario-oficial');

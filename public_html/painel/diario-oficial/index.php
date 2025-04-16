@@ -1,75 +1,478 @@
 ﻿<!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-        <title>Painel Administrativo</title>
-        <?php
-            require_once '../../_php/Render.php';
-            $render = new Render();
-            $render->renderHead();
-        ?>   
-        <link href="https://gitcdn.github.io/bootstrap-toggle/2.2.2/css/bootstrap-toggle.min.css" rel="stylesheet">
+
+<head>
+    <title>Painel Administrativo</title>
+    <!-- Bootstrap 4.0  -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- Bootstrap 5.0
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+     -->
+    <!-- Font Awsome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Toast Mensege -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css" crossorigin="anonymous">
+    <!-- Style Nativo -->
+    <link rel="stylesheet" href="style.css">
+    <link href="https://gitcdn.github.io/bootstrap-toggle/2.2.2/css/bootstrap-toggle.min.css" rel="stylesheet">
+</head>
+
+<body style="background-color: #FAFBFC; padding-top: 80px">
+    <header class="navbar navbar-expand navbar-dark flex-column flex-md-row bd-navbar fixed-top">
+        <a class="navbar-brand mr-0 mr-md-2" href="/">
+            Calendar.io
+        </a>
+    </header>
+    <main class="container">
+        <section>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="card">
+                        <div class="card-header">
+                            <div class="d-flex justify-content-center align-items-center">
+                                <i class="fa fa-chevron-circle-left" style="font-size: 25px;" onclick="carregarCalendario(-1)"></i>
+                                <div style="min-width: 320px; text-align: center;">
+                                    <span class="gray" id="mesAno" style="font-size: 2rem">Calendário</span>
+                                </div>
+                                <i class="fa fa-chevron-circle-right" style="font-size: 25px" onclick="carregarCalendario(1)"></i>
+                            </div>
+                        </div>
+                        <div class="card-body position-relative">
+
+                            <!-- Grid do calendário -->
+                            <div style="display: flex; flex-wrap: wrap;">
+                                <div class="bg-purple" style=" text-align: center; width: 14.28%; background-color: rgb(250, 74, 74); font-weight: bold; color: #ffffff; border: 1px solid #ffffff">D</div>
+                                <div class="bg-dark" style=" text-align: center; width: 14.28%; background-color: rgba(0,0,0,.5); font-weight: bold; color: #ffffff; border: 1px solid #ffffff">S</div>
+                                <div class="bg-dark" style=" text-align: center; width: 14.28%; background-color: rgba(0,0,0,.5); font-weight: bold; color: #ffffff; border: 1px solid #ffffff">T</div>
+                                <div class="bg-dark" style=" text-align: center; width: 14.28%; background-color: rgba(0,0,0,.5); font-weight: bold; color: #ffffff; border: 1px solid #ffffff">Q</div>
+                                <div class="bg-dark" style=" text-align: center; width: 14.28%; background-color: rgba(0,0,0,.5); font-weight: bold; color: #ffffff; border: 1px solid #ffffff">D</div>
+                                <div class="bg-dark" style=" text-align: center; width: 14.28%; background-color: rgba(0,0,0,.5); font-weight: bold; color: #ffffff; border: 1px solid #ffffff">S</div>
+                                <div class="bg-purple" style=" text-align: center; width: 14.28%; background-color: rgb(250, 74, 74); font-weight: bold; color: #ffffff; border: 1px solid #ffffff">S</div>
+                            </div>
+                            <div id="calendario" style="display: flex; flex-wrap: wrap;">
+                            </div>
+                            <div
+                                class="loading"
+                                style="
+                                position: absolute; 
+                                right: 0; 
+                                left: 0; 
+                                top: 0;
+                                bottom: 0;
+                                z-index: 9999;
+                                background-color: rgba(0, 0, 0, 0.4);
+                                display: none;
+                                min-height: 80vh;">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <section>
         <style>
-            .dia {
-                border: 1px solid #ccc;
-                padding: 10px;
-                min-height: 100px;
-                width: 14.28%;
-                position: relative;
+            .textarea-box {
+                border-radius: 20px;
+                box-shadow: inset 0 0 5px rgba(255, 255, 255, 0.5);
             }
-            .dia-footer{
-             position: absolute;
-             bottom: 0;
-             right: 0;
-             left: 0;
-             width: 100%;
-             text-align: end;
-             padding: 5px;
+            textarea {
+                border: none;
+                background-color: transparent;
+                color: white;
+                padding: 10px 15px;
+                resize: none;
+                outline: none;
+                width: 100%;
+                font-size: 1rem;
             }
-            .dia.hoje {
-                background-color:rgba(142, 235, 142, 0.74);
-                color: #000;
-                font-weight: bold;
-            }
-            .dia.selecionado {
-                background-color:rgba(235, 229, 142, 0.74);
-                color: #000;
-                font-weight: bold;
-            }
-            .dia ul {
-                padding-left: 0;
-                margin-left: 25px;
-            }
-            .dia ul li{
-                padding-left: 0;
-                margin-left: 0;
-            }
-            .dia ul li::marker {
-                color: gray;
+
+            textarea::placeholder {
+                color: rgba(255, 255, 255, 0.7);
             }
         </style>
-    </head>
-    <body style="background-color: #FAFBFC;">
+        <div class="modal fade" id="modal-diario-oficial" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document" style="z-index: 10000;">
+                <div class="modal-content">
+                    <div class="d-flex justify-content-between px-3 py-2 bg-purple">
+                        <h6 class="modal-title" id="exampleModalLabel" style="color: white"><i class="fa fa-comments"></i> Threads</h6>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true" class="color-white">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body" id="modal-body">
+                        <div class="message-hub px-4">
+                            <div class="message-container">
+                                <div class="message-bubble">
+                                    <div class="message-text">
+                                        Oi! Tudo bem? Oi! Tudo bem? Oi! Tudo bem? Oi! Tudo bem? 😊
+                                    </div>
+                                    <div class="message-time">
+                                        14:32
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
 
-        <?php $render->renderHeader(); ?>   
+                        <div style="border-radius: 0px 0px 10px 10px; background-color:#7952b3; padding: 10px 0">
+                            <form id="tab-1-form-1">
+                                <input type="date" name="data_publicacao" class="d-none" id="data_publicacao" value="" />
+                                <div class="d-flex">
+                                    <div class="d-flex justify-content-center align-items-center width-10">
+                                        <i class="fa fa-camera" style="color: white; font-size: 1.5rem" id="capture-image-btn"></i>
+                                    </div>
+                                    <div class="textarea-box d-flex justify-content-center align-items-center width-80">
+                                        <textarea
+                                            rows="1"
+                                            id="descricao"
+                                            placeholder="Envie uma mensagem, audio ou vídeo."></textarea>
+                                        <div class="px-4">
+                                            <i class="fa fa-paper-plane" aria-hidden="true" id="send-message-btn" style="color: white; font-size: 1.3rem; cursor: pointer;"></i>
+                                        </div>
+                                    </div>
+                                    
+                                    <div id="microphone-container" class="d-flex justify-content-center align-items-center p-2 width-10">
+                                        <i class="fa fa-microphone" aria-hidden="true" id="record-audio-btn" style="display: block; color: #ffffff; font-size: 1.5rem; cursor: pointer"></i>
+                                        <span id="record-timer" style="margin-right: 10px; font-size: 1rem; color: #ffffff; display: none;">00:00</span>
+                                        <button type="button" class="badge" id="stop-audio-btn" style="display: none;">
+                                            &emsp;
+                                        </button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script>
+            
+        </script>
+        <script>
+            const sendMessageButton = document.getElementById('send-message-btn');
+            const textArea = document.getElementById('descricao');
 
-        <div class="container-fluid">
-            <div class="row full-screen">
-                <?php
-                    $render->renderMain('diario-oficial', 'view-index');
-                    $render->renderModal(array('modal-diario-oficial', 'modal-upload'));
-                    $render->renderFooter();
-                ?>   
-            </div><!-- full screen  -->
-        </div><!-- container-fluid -->
-    </body>
-    <?php
-        $render->renderScripts(array('DiarioOficial', 'OptionSelect', 'Upload', 'ListarArquivos', 'EntidadeInfo'));
-        $render->renderScriptsOnload(array('optionSelect' => array('entidade_orgaos', 'mandatos')));
-        $render->renderScriptsOnload(array('razaoSocial' => array('')));
-    ?>
-    <script>
-        $(document).ready(function() {
-            carregarCalendario(0);
+            sendMessageButton.addEventListener('click', () => {
+                const messageText = textArea.value.trim();
+
+                if (messageText === '') {
+                    return; // Não enviar mensagens vazias
+                }
+
+                // Capturar a hora atual
+                const now = new Date();
+                const hours = String(now.getHours()).padStart(2, '0');
+                const minutes = String(now.getMinutes()).padStart(2, '0');
+                const currentTime = `${hours}:${minutes}`;
+
+                // Criar elemento para exibir a hora
+                const timeElement = document.createElement('div');
+                timeElement.classList.add('message-time');
+                timeElement.textContent = currentTime;
+
+                // Criar elemento para exibir a mensagem
+                const messageElement = document.createElement('div');
+                messageElement.classList.add('message-text');
+                messageElement.textContent = messageText;
+
+                // Criar estrutura da mensagem
+                const messageContainer = document.createElement('div');
+                messageContainer.classList.add('message-container');
+
+                const messageBubble = document.createElement('div');
+                messageBubble.classList.add('message-bubble');
+
+                // Adicionar o texto e a hora ao bubble
+                messageBubble.appendChild(messageElement);
+                messageBubble.appendChild(timeElement);
+
+                messageContainer.appendChild(messageBubble);
+                messageHub.appendChild(messageContainer);
+
+                // Limpar o textarea
+                textArea.value = '';
+            });
+        </script>
+    </section>
+
+    <section>
+        <div class="modal fade" id="camera-modal" tabindex="-1" role="dialog" aria-labelledby="cameraModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="cameraModalLabel">Capturar Imagem</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body text-center">
+                        <video id="camera-stream" autoplay style="width: 100%; max-height: 400px;"></video>
+                        <canvas id="camera-canvas" style="display: none;"></canvas>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-success" id="take-photo-btn">📸 Tirar Foto</button>
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+<!-- JQuery -->
+<script type='text/javascript' src="http://code.jquery.com/jquery-latest.min.js"></script>
+<!-- Ajax -->
+<script type='text/javascript' src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script type='text/javascript' src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+<!-- Bootstrap 4.1.3 -->
+<script type='text/javascript' src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+<!-- Toast Mesage -->
+<script type='text/javascript' src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+<!-- Bootbox -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootbox.js/6.0.0/bootbox.min.js"></script>
+<!-- Calendar.io -->
+<script src="calendario.js"></script>
+<style>
+    .pulsing {
+        background-color: red !important;
+        animation: pulse 1s infinite;
+    }
+
+    @keyframes pulse {
+        0% {
+            transform: scale(1);
+            opacity: 1;
+        }
+
+        50% {
+            transform: scale(1.1);
+            opacity: 0.7;
+        }
+
+        100% {
+            transform: scale(1);
+            opacity: 1;
+        }
+    }
+</style>
+
+<script>
+    let mediaRecorder;
+    let audioChunks = [];
+    let timerInterval;
+    let seconds = 0;
+
+    const recordButton = document.getElementById('record-audio-btn');
+    const stopButton = document.getElementById('stop-audio-btn');
+    const timerDisplay = document.getElementById('record-timer');
+    const messageHub = document.querySelector('.message-hub');
+
+    recordButton.addEventListener('click', async () => {
+        const stream = await navigator.mediaDevices.getUserMedia({
+            audio: true
         });
-    </script>
+        mediaRecorder = new MediaRecorder(stream);
+
+        mediaRecorder.start();
+        recordButton.style.display = 'none';
+        stopButton.style.display = 'block';
+        timerDisplay.style.display = 'block';
+
+        // Adicionar a classe de animação ao botão de parar
+        stopButton.classList.add('pulsing');
+
+        // Iniciar o contador de tempo
+        seconds = 0;
+        timerDisplay.textContent = '00:00';
+        timerInterval = setInterval(() => {
+            seconds++;
+            const minutes = Math.floor(seconds / 60);
+            const remainingSeconds = seconds % 60;
+            timerDisplay.textContent = `${String(minutes).padStart(2, '0')}:${String(remainingSeconds).padStart(2, '0')}`;
+        }, 1000);
+
+        mediaRecorder.ondataavailable = (event) => {
+            audioChunks.push(event.data);
+        };
+
+        mediaRecorder.onstop = () => {
+            clearInterval(timerInterval); // Parar o contador
+            timerDisplay.style.display = 'none'; // Ocultar o contador
+
+            const audioBlob = new Blob(audioChunks, {
+                type: 'audio/mpeg'
+            });
+            const audioUrl = URL.createObjectURL(audioBlob);
+
+            // Criar elemento de áudio
+            const audioElement = document.createElement('audio');
+            audioElement.controls = true;
+            audioElement.src = audioUrl;
+
+            // Capturar a hora atual
+            const now = new Date();
+            const hours = String(now.getHours()).padStart(2, '0');
+            const minutes = String(now.getMinutes()).padStart(2, '0');
+            const currentTime = `${hours}:${minutes}`;
+
+            // Criar elemento para exibir a hora
+            const timeElement = document.createElement('div');
+            timeElement.classList.add('message-time');
+            timeElement.textContent = currentTime;
+
+            // Criar estrutura da mensagem
+            const messageContainer = document.createElement('div');
+            messageContainer.classList.add('message-container');
+
+            const messageBubble = document.createElement('div');
+            messageBubble.classList.add('message-bubble');
+
+            // Adicionar o áudio e a hora ao bubble
+            messageBubble.appendChild(audioElement);
+            messageBubble.appendChild(timeElement);
+
+            messageContainer.appendChild(messageBubble);
+            messageHub.appendChild(messageContainer);
+
+            // Resetar variáveis e botões
+            audioChunks = [];
+            recordButton.style.display = 'block';
+            stopButton.style.display = 'none';
+
+            // Remover a classe de animação do botão de parar
+            stopButton.classList.remove('pulsing');
+        };
+    });
+
+    stopButton.addEventListener('click', () => {
+        mediaRecorder.stop();
+        clearInterval(timerInterval); // Parar o contador
+        timerDisplay.style.display = 'none'; // Ocultar o contador
+    });
+</script>
+
+<script>
+    const captureImageButton = document.getElementById('capture-image-btn');
+    const cameraModal = document.getElementById('camera-modal');
+    const cameraStream = document.getElementById('camera-stream');
+    const cameraCanvas = document.getElementById('camera-canvas');
+    const takePhotoButton = document.getElementById('take-photo-btn');
+    let stream;
+
+    // Abrir a câmera
+    captureImageButton.addEventListener('click', async () => {
+        stream = await navigator.mediaDevices.getUserMedia({
+            video: true
+        });
+        cameraStream.srcObject = stream;
+        $('#camera-modal').modal('show');
+    });
+
+    // Capturar a imagem
+    takePhotoButton.addEventListener('click', () => {
+        const context = cameraCanvas.getContext('2d');
+        cameraCanvas.width = cameraStream.videoWidth;
+        cameraCanvas.height = cameraStream.videoHeight;
+        context.drawImage(cameraStream, 0, 0, cameraCanvas.width, cameraCanvas.height);
+
+        // Converter a imagem para URL local
+        const imageUrl = cameraCanvas.toDataURL('image/png');
+
+        // Capturar a hora atual
+        const now = new Date();
+        const hours = String(now.getHours()).padStart(2, '0');
+        const minutes = String(now.getMinutes()).padStart(2, '0');
+        const currentTime = `${hours}:${minutes}`;
+
+        // Criar elemento para exibir a hora
+        const timeElement = document.createElement('div');
+        timeElement.classList.add('message-time');
+        timeElement.textContent = currentTime;
+
+        // Exibir a imagem na interface
+        const imgElement = document.createElement('img');
+        imgElement.src = imageUrl;
+        imgElement.style.maxWidth = '100%';
+        imgElement.style.marginTop = '10px';
+
+        const messageContainer = document.createElement('div');
+        messageContainer.classList.add('message-container');
+
+        const messageBubble = document.createElement('div');
+        messageBubble.classList.add('message-bubble');
+
+        // Adicionar a imagem e a hora ao bubble
+        messageBubble.appendChild(imgElement);
+        messageBubble.appendChild(timeElement);
+
+        messageContainer.appendChild(messageBubble);
+        messageHub.appendChild(messageContainer);
+
+        // Fechar o modal e parar a câmera
+        $('#camera-modal').modal('hide');
+        stream.getTracks().forEach((track) => track.stop());
+    });
+</script>
+
+<script>
+    /*   let mediaRecorder;
+    let audioChunks = [];
+
+    const recordButton = document.getElementById('record-audio-btn');
+    const stopButton = document.getElementById('stop-audio-btn');
+    const messageHub = document.querySelector('.message-hub');
+
+    recordButton.addEventListener('click', async () => {
+        const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
+        mediaRecorder = new MediaRecorder(stream);
+
+        mediaRecorder.start();
+        recordButton.style.display = 'none';
+        stopButton.style.display = 'block';
+
+        mediaRecorder.ondataavailable = (event) => {
+            audioChunks.push(event.data);
+        };
+
+        mediaRecorder.onstop = async () => {
+            const audioBlob = new Blob(audioChunks, { type: 'audio/mpeg' });
+            const formData = new FormData();
+            formData.append('audio', audioBlob, 'audio_' + Date.now() + '.mp3');
+
+            // Enviar o áudio para o servidor
+            const response = await fetch('upload_audio.php', {
+                method: 'POST',
+                body: formData,
+            });
+
+            if (response.ok) {
+                const audioUrl = await response.text();
+
+                // Exibir o áudio na interface
+                const audioElement = document.createElement('audio');
+                audioElement.controls = true;
+                audioElement.src = audioUrl;
+
+                const messageContainer = document.createElement('div');
+                messageContainer.classList.add('message-container');
+
+                const messageBubble = document.createElement('div');
+                messageBubble.classList.add('message-bubble');
+
+                messageBubble.appendChild(audioElement);
+                messageContainer.appendChild(messageBubble);
+                messageHub.appendChild(messageContainer);
+            }
+
+            audioChunks = [];
+            recordButton.style.display = 'block';
+            stopButton.style.display = 'none';
+        };
+    });
+
+    stopButton.addEventListener('click', () => {
+        mediaRecorder.stop();
+    });*/
+</script>
+
 </html>

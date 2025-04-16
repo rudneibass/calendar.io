@@ -47,7 +47,7 @@ function checkDia(dia) {
 
 function insert() {
     $.ajax({
-        url: '../../_php/Dispatch.php?controller=ControllerPublicacoes&&action=insert',
+        url: '../../_php/Dispatch.php?controller=ControllerDiarioOficial&&action=insert',
         type: 'POST',
         data: $('#tab-1-form-1').serialize(),
         beforeSend: function () {
@@ -81,7 +81,7 @@ function insert() {
 
 function populaForm(id) {
     $.ajax({
-        url: '../../_php/Dispatch.php?controller=ControllerPublicacoes&&action=locate',
+        url: '../../_php/Dispatch.php?controller=ControllerDiarioOficial&&action=locate',
         type: 'POST',
         dataType: "json",
         data: {id: id},
@@ -143,7 +143,7 @@ function populaForm(id) {
 
 function  update(id) {
     $.ajax({
-        url: '../../_php/Dispatch.php?controller=ControllerPublicacoes&&action=update&&id=' + id,
+        url: '../../_php/Dispatch.php?controller=ControllerDiarioOficial&&action=update&&id=' + id,
         type: 'POST',
         data: $('#tab-1-form-1').serialize(),
         beforeSend: function () {

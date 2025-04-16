@@ -1,8 +1,0 @@
-ALTER TABLE `comissoes_detalhe` ADD `data_inicio` DATE NULL DEFAULT NULL AFTER `data`, ADD `data_fim` DATE NULL DEFAULT NULL AFTER `data_inicio`, ADD `ativo` VARCHAR(11) NULL DEFAULT NULL AFTER `data_fim`;
-ALTER TABLE `comissoes_detalhe` ADD `data_cadastro` TIMESTAMP NULL DEFAULT NULL AFTER `arquivo`;
-ALTER TABLE `comissoes_detalhe` ADD `TBL` VARCHAR(11) NULL DEFAULT NULL AFTER `id`;
-ALTER TABLE `comissoes_detalhe` ADD `id_servidor` VARCHAR(11) NULL DEFAULT NULL AFTER `id_comissao`;
-ALTER TABLE `comissoes_detalhe` CHANGE `url` `cargo` VARCHAR(255) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL;
-ALTER TABLE `comissoes_detalhe` CHANGE `tbl` `tbl` VARCHAR(255) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL;
-ALTER TABLE `comissoes_detalhe` DROP `nome`;
-ALTER TABLE `comissoes_detalhe` DROP `data`;
