@@ -99,6 +99,14 @@
                     opacity: 1;
                 }
             }
+
+            .message-pending {
+                color: gray;
+            }
+
+            .message-sent {
+                color: black;
+            }
         </style>
         <div class="modal fade" id="modal-diario-oficial" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog modal-lg" role="document" style="z-index: 10000;">
@@ -133,7 +141,7 @@
                                     <div class="textarea-box d-flex justify-content-center align-items-center width-80">
                                         <textarea
                                             rows="1"
-                                            id="descricao"
+                                            id="text_message"
                                             placeholder="Envie uma mensagem, audio ou vídeo."></textarea>
                                         <div class="px-4">
                                             <i class="fa fa-paper-plane" aria-hidden="true" id="send-message-btn" style="color: white; font-size: 1.3rem; cursor: pointer;"></i>
@@ -156,7 +164,7 @@
         </div>
         <script>
             const sendMessageButton = document.getElementById('send-message-btn');
-            const textArea = document.getElementById('descricao');
+            const textArea = document.getElementById('text_message');
 
             sendMessageButton.addEventListener('click', () => {
                 const messageText = textArea.value.trim();
@@ -179,6 +187,7 @@
                 // Criar elemento para exibir a mensagem
                 const messageElement = document.createElement('div');
                 messageElement.classList.add('message-text');
+                messageElement.classList.add('message-text', 'message-pending'); // Adicionar classe inicial (cinza)
                 messageElement.textContent = messageText;
 
                 // Criar estrutura da mensagem
@@ -197,6 +206,22 @@
 
                 // Limpar o textarea
                 textArea.value = '';
+
+                $.ajax({
+                    url: 'dispatch.php?controller=MessageController&&action=create',
+                    type: 'POST',
+                    data: {
+                        message: messageText,
+                        created_at: '2025-01-16',
+                    },
+                    error: function() {
+                        messageContainer.remove();
+                    },
+                    success: function(response) {
+                        messageElement.classList.remove('message-pending');
+                        messageElement.classList.add('message-sent');
+                    },
+                });
             });
         </script>
     </section>

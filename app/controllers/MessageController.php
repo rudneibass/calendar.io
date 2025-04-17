@@ -2,8 +2,9 @@
 
 session_start();
 require_once '../../config/headers.php';
-require_once '../../app/models/ClassModel.php';
+require_once '../../app/models/Message.php';
 
+require_once '../../app/models/Publicacao.php';
 class MessageController {
 
     function locate() {
@@ -18,15 +19,10 @@ class MessageController {
         $dataInicio = $primeiroDia->format('Y-m-d');
         $dataFim = $ultimoDia->format('Y-m-d');
     
-        $db = new ClassModel();
+        $publicacao = new Publicacao();
     
         // Consulta das publicações no mês atual
-        $publicacoes = $db->select(
-            "*, DATE_FORMAT(data_publicacao, '%d/%m/%Y') as data_formatada", 
-            'publicacoes', 
-            'WHERE data_publicacao BETWEEN ? AND ?', 
-            array($dataInicio, $dataFim)
-        )->fetchAll();
+        $publicacoes = $publicacao->getMessages($dataInicio, $dataFim);
     
         // Agrupar publicações por data (YYYY-MM-DD)
         $mapaPublicacoes = [];
@@ -82,18 +78,14 @@ class MessageController {
         }
     }
     
-
-    public function insert() {
-        $post = filter_var_array($_POST, FILTER_SANITIZE_SPECIAL_CHARS);
-        $post['data_cadastro'] = date("Y/m/d h:i:s");
-        $post['usuario'] = $_SESSION['USUARIO'] ? $_SESSION['USUARIO'] : 'Sistema';
-        $crud = new ClassModel();
-        echo $crud->insert($post, 'publicacoes ');
+    public function create() {
+        $message = new Message();
+        $data = filter_var_array($_POST, FILTER_SANITIZE_SPECIAL_CHARS);
+        echo $message->create($data);
     }
 
    public function delete() {
-        $id = filter_input(INPUT_POST, 'id', FILTER_SANITIZE_NUMBER_INT);
-        $crud = new ClassModel();
-        $delete = $crud->delete('publicacoes ', ' WHERE id=?', array($id));
+        $message = new Message();
+        echo $message->delete(filter_input(INPUT_POST, 'id', FILTER_SANITIZE_NUMBER_INT));
     }
 }

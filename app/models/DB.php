@@ -1,9 +1,10 @@
 <?php
 
-require_once 'ClassConDB.php';
+require_once 'DBConnection.php';
 
-class ClassModel extends ClassConDB {
+abstract class DB extends DBConnection {
 
+    private $table;
     private $query;
 
     public function prepExec($prep, $exec) {
@@ -11,7 +12,7 @@ class ClassModel extends ClassConDB {
         $this->query->execute($exec);
     }
 
-    public function executeQuery(string $sql, array $params = []) {
+    public function rawQuery(string $sql, array $params = []) {
         try {
             $this->prepExec($sql, $params);
             if (stripos(trim($sql), 'SELECT') === 0) {
@@ -24,13 +25,13 @@ class ClassModel extends ClassConDB {
         }
     }
 
-    public function insert($post, $table) {
+    public function insert($data) {
         $fields = null;     
         $params = null;
         $valuesPgSql = null;
         $valuesMySql = null;
 
-        foreach ($post as $campo => $valor) {
+        foreach ($data as $campo => $valor) {
             $fields .= $campo . ',';
             $params .= ':' . $campo . ',';
             $valuesPgSql .= $valor . '@&$';
@@ -43,12 +44,13 @@ class ClassModel extends ClassConDB {
         $valuesMySql = substr($valuesMySql, 0, strlen($valuesMySql) - 1);
 
         try {
-            switch ($_SESSION['DB_TYPE']) {
+            switch (DB_TYPE) {
                 case 'pgsql':
-                    $this->prepExec(' INSERT INTO ' . $table . ' (' . $fields . ') VALUES (' . $params . ') ', explode('@&$', $valuesPgSql));
+                    $this->prepExec(' INSERT INTO ' . $this->table . ' (' . $fields . ') VALUES (' . $params . ') ', explode('@&$', $valuesPgSql));
                     break;
                 case 'mysql':
-                    $this->prepExec(' INSERT INTO ' . $table . ' (' . $fields . ') VALUES (' . $valuesMySql . ') ', array());
+                    $this->prepExec(' INSERT INTO ' . $this->table . ' (' . $fields . ') VALUES (' . $valuesMySql . ') ', array());
+
                     break;
             }
         } catch (\PDOException $e) {
@@ -58,12 +60,12 @@ class ClassModel extends ClassConDB {
         return $this->getConn()->lastInsertId();
     }
 
-    public function update($table, $post, $id) {
+    public function update($data, $id) {
 
         $fields = null;
         $values = null;
 
-        foreach ($post as $campo => $valor) {
+        foreach ($data as $campo => $valor) {
             $fields .= $campo . "=?,";
             $values .= $valor . ",-,";
         }
@@ -71,7 +73,7 @@ class ClassModel extends ClassConDB {
         $values = substr($values, 0, strlen($values) - 3);
 
         try {
-            $this->prepExec(' UPDATE ' . $table . ' SET ' . $fields . ' WHERE id = ' . $id . '', explode(',-,', $values));
+            $this->prepExec(' UPDATE ' . $this->table . ' SET ' . $fields . ' WHERE id = ' . $id . '', explode(',-,', $values));
             $this->query->rowCount();
             print $this->query->rowCount() > 0 ? '1' : '0';
         } catch (\PDOException $e) {
@@ -83,9 +85,9 @@ class ClassModel extends ClassConDB {
     }
 
 
-    public function updateAll($table, $column, $value, $id) { 
+    public function updateAll($column, $value, $id) { 
         try {
-            $this->prepExec(' UPDATE ' . $table . ' SET ' . $column . ' = "' . $value . '" WHERE id = '. $id, array());
+            $this->prepExec(' UPDATE ' . $this->table . ' SET ' . $column . ' = "' . $value . '" WHERE id = '. $id, array());
             $this->query->rowCount();
             print $this->query->rowCount() > 0 ? '1' : '0';
         } catch (\PDOException $e) {
@@ -95,9 +97,9 @@ class ClassModel extends ClassConDB {
         return $this->query;
     }
 
-    public function delete($table, $prep, $exec) {
+    public function delete($id) {
         try {
-            $this->prepExec('DELETE FROM ' . $table . ' ' . $prep . ' ', $exec);
+            $this->rawQuery('DELETE FROM ' . $this->table . ' WHERE id = ?', array($id));
         } catch (\PDOException $e) {
             echo $e->getCode();
             echo $e->getMessage();
@@ -105,10 +107,9 @@ class ClassModel extends ClassConDB {
         return $this->query;
     }
 
-    public function select($fields, $table, $prep, $exec) {
-        //var_dump(' SELECT ' . $fields . ' FROM ' . $table . ' ' . $prep . ''); die;
+    public function select($fields, $prep, $exec) {
         try {
-            $this->prepExec(' SELECT ' . $fields . ' FROM ' . $table . ' ' . $prep . '', $exec);
+            $this->prepExec(' SELECT ' . $fields . ' FROM ' . $this->table . ' ' . $prep . '', $exec);
         } catch (\PDOException $e) {
             echo $e->getCode();
             echo $e->getMessage();
@@ -116,9 +117,9 @@ class ClassModel extends ClassConDB {
         return $this->query;
     }
 
-    public function showColumns($table, $exec) {
+    public function showColumns($exec) {
         try {
-            $this->prepExec(' SHOW FULL COLUMNS FROM ' . $table , $exec);
+            $this->prepExec(' SHOW FULL COLUMNS FROM ' . $this->table , $exec);
         } catch (\PDOException $e) {
             echo $e->getCode();
             echo $e->getMessage();
@@ -136,9 +137,9 @@ class ClassModel extends ClassConDB {
         return $this->query;
     }
 
-    public function alterTable($table, $column, $type , $collate, $exec) {
+    public function alterTable($column, $type , $collate, $exec) {
         try {
-            $this->prepExec('ALTER TABLE `'.$table.'` ADD `'.$column.'` '.$type.' '.$collate.'' , $exec);
+            $this->prepExec('ALTER TABLE `'.$this->table.'` ADD `'.$column.'` '.$type.' '.$collate.'' , $exec);
            
         } catch (\PDOException $e) {
             echo $e->getCode();

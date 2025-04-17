@@ -3,12 +3,9 @@
 if (file_exists('../../config/config.php')) {
     require_once '../../config/config.php';
 } else {
-    echo '<b>ATENÇÃO: </b>Não foi possivel localizar config.php em ClassConDB.php!';
+    echo '<b>ATENÇÃO: </b>Não foi possivel localizar config.php em DBConnection.php!';
 }
-
-
- abstract class ClassConDB {
-
+ abstract class DBConnection {
     private static $pdo;
     private $exeptions;
     private $exeption = array(\PDO::ATTR_ERRMODE => \PDO::ERRMODE_EXCEPTION);
@@ -20,11 +17,8 @@ if (file_exists('../../config/config.php')) {
                     .':host='.DB_HOST
                     .';dbname='.DB_NAME
                     .';charset=utf8', 
-
                     ''.DB_USER.'',
-
                     ''.DB_PASS.'',
-                    
                     $this->exeption): 
                 self::$pdo;
     }

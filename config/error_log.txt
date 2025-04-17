@@ -1,0 +1,58 @@
+[16-Apr-2025 21:49:56 America/Sao_Paulo] PHP Warning:  require_once(ClassConDB.php): failed to open stream: No such file or directory in C:\wamp\www\CALENDARIO\app\models\DB.php on line 3
+[16-Apr-2025 21:49:56 America/Sao_Paulo] PHP Stack trace:
+[16-Apr-2025 21:49:56 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\CALENDARIO\public_html\home\dispatch.php:0
+[16-Apr-2025 21:49:56 America/Sao_Paulo] PHP   2. require_once() C:\wamp\www\CALENDARIO\public_html\home\dispatch.php:3
+[16-Apr-2025 21:49:56 America/Sao_Paulo] PHP   3. require_once() C:\wamp\www\CALENDARIO\app\controllers\MessageController.php:7
+[16-Apr-2025 21:49:56 America/Sao_Paulo] PHP   4. require_once() C:\wamp\www\CALENDARIO\app\models\Message.php:2
+[16-Apr-2025 21:49:56 America/Sao_Paulo] PHP Fatal error:  require_once(): Failed opening required 'ClassConDB.php' (include_path='.;C:\php\pear') in C:\wamp\www\CALENDARIO\app\models\DB.php on line 3
+[16-Apr-2025 21:49:56 America/Sao_Paulo] PHP Stack trace:
+[16-Apr-2025 21:49:56 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\CALENDARIO\public_html\home\dispatch.php:0
+[16-Apr-2025 21:49:56 America/Sao_Paulo] PHP   2. require_once() C:\wamp\www\CALENDARIO\public_html\home\dispatch.php:3
+[16-Apr-2025 21:49:56 America/Sao_Paulo] PHP   3. require_once() C:\wamp\www\CALENDARIO\app\controllers\MessageController.php:7
+[16-Apr-2025 21:49:56 America/Sao_Paulo] PHP   4. require_once() C:\wamp\www\CALENDARIO\app\models\Message.php:2
+[16-Apr-2025 21:50:51 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'DBConnection' not found in C:\wamp\www\CALENDARIO\app\models\DB.php:5
+Stack trace:
+#0 C:\wamp\www\CALENDARIO\app\models\Message.php(2): require_once()
+#1 C:\wamp\www\CALENDARIO\app\controllers\MessageController.php(7): require_once('C:\\wamp\\www\\CAL...')
+#2 C:\wamp\www\CALENDARIO\public_html\home\dispatch.php(3): require_once('C:\\wamp\\www\\CAL...')
+#3 {main}
+  thrown in C:\wamp\www\CALENDARIO\app\models\DB.php on line 5
+[16-Apr-2025 21:52:41 America/Sao_Paulo] PHP Warning:  PDOStatement::execute() expects parameter 1 to be array, string given in C:\wamp\www\CALENDARIO\app\models\DB.php on line 12
+[16-Apr-2025 21:52:41 America/Sao_Paulo] PHP Stack trace:
+[16-Apr-2025 21:52:41 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\CALENDARIO\public_html\home\dispatch.php:0
+[16-Apr-2025 21:52:41 America/Sao_Paulo] PHP   2. MessageController->locate() C:\wamp\www\CALENDARIO\public_html\home\dispatch.php:13
+[16-Apr-2025 21:52:41 America/Sao_Paulo] PHP   3. DB->select($fields = '*, DATE_FORMAT(data_publicacao, \'%d/%m/%Y\') as data_formatada', $prep = 'publicacoes', $exec = 'WHERE data_publicacao BETWEEN ? AND ?', [0 => '2025-04-01', 1 => '2025-04-30']) C:\wamp\www\CALENDARIO\app\controllers\MessageController.php:29
+[16-Apr-2025 21:52:41 America/Sao_Paulo] PHP   4. DB->prepExec($prep = ' SELECT *, DATE_FORMAT(data_publicacao, \'%d/%m/%Y\') as data_formatada FROM  publicacoes', $exec = 'WHERE data_publicacao BETWEEN ? AND ?') C:\wamp\www\CALENDARIO\app\models\DB.php:111
+[16-Apr-2025 21:52:41 America/Sao_Paulo] PHP   5. PDOStatement->execute($bound_input_params = 'WHERE data_publicacao BETWEEN ? AND ?') C:\wamp\www\CALENDARIO\app\models\DB.php:12
+[16-Apr-2025 21:53:41 America/Sao_Paulo] PHP Warning:  PDOStatement::execute() expects parameter 1 to be array, string given in C:\wamp\www\CALENDARIO\app\models\DB.php on line 12
+[16-Apr-2025 21:53:41 America/Sao_Paulo] PHP Stack trace:
+[16-Apr-2025 21:53:41 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\CALENDARIO\public_html\home\dispatch.php:0
+[16-Apr-2025 21:53:41 America/Sao_Paulo] PHP   2. MessageController->locate() C:\wamp\www\CALENDARIO\public_html\home\dispatch.php:13
+[16-Apr-2025 21:53:41 America/Sao_Paulo] PHP   3. DB->select($fields = '*, DATE_FORMAT(data_publicacao, \'%d/%m/%Y\') as data_formatada', $prep = 'publicacoes', $exec = 'WHERE data_publicacao BETWEEN ? AND ?', [0 => '2025-04-01', 1 => '2025-04-30']) C:\wamp\www\CALENDARIO\app\controllers\MessageController.php:29
+[16-Apr-2025 21:53:41 America/Sao_Paulo] PHP   4. DB->prepExec($prep = ' SELECT *, DATE_FORMAT(data_publicacao, \'%d/%m/%Y\') as data_formatada FROM  publicacoes', $exec = 'WHERE data_publicacao BETWEEN ? AND ?') C:\wamp\www\CALENDARIO\app\models\DB.php:111
+[16-Apr-2025 21:53:41 America/Sao_Paulo] PHP   5. PDOStatement->execute($bound_input_params = 'WHERE data_publicacao BETWEEN ? AND ?') C:\wamp\www\CALENDARIO\app\models\DB.php:12
+[16-Apr-2025 21:57:42 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined method Message::rawQuery() in C:\wamp\www\CALENDARIO\app\models\Message.php:9
+Stack trace:
+#0 C:\wamp\www\CALENDARIO\app\controllers\MessageController.php(25): Message->getMessages('2025-04-01', '2025-04-30')
+#1 C:\wamp\www\CALENDARIO\public_html\home\dispatch.php(13): MessageController->locate()
+#2 {main}
+  thrown in C:\wamp\www\CALENDARIO\app\models\Message.php on line 9
+[16-Apr-2025 21:58:20 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in C:\wamp\www\CALENDARIO\app\controllers\MessageController.php on line 29
+[16-Apr-2025 21:58:20 America/Sao_Paulo] PHP Stack trace:
+[16-Apr-2025 21:58:20 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\CALENDARIO\public_html\home\dispatch.php:0
+[16-Apr-2025 21:58:20 America/Sao_Paulo] PHP   2. MessageController->locate() C:\wamp\www\CALENDARIO\public_html\home\dispatch.php:13
+[16-Apr-2025 22:05:02 America/Sao_Paulo] PHP Notice:  Undefined index: DB_TYPE in C:\wamp\www\CALENDARIO\app\models\DB.php on line 47
+[16-Apr-2025 22:05:02 America/Sao_Paulo] PHP Stack trace:
+[16-Apr-2025 22:05:02 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\CALENDARIO\public_html\home\dispatch.php:0
+[16-Apr-2025 22:05:02 America/Sao_Paulo] PHP   2. MessageController->create() C:\wamp\www\CALENDARIO\public_html\home\dispatch.php:13
+[16-Apr-2025 22:05:02 America/Sao_Paulo] PHP   3. DB->insert($data = ['message' => 'teste', 'createdAt' => '2025-04-17T01:05:02.130Z']) C:\wamp\www\CALENDARIO\app\controllers\MessageController.php:84
+[16-Apr-2025 22:10:46 America/Sao_Paulo] PHP Notice:  Undefined index: DB_TYPE in C:\wamp\www\CALENDARIO\app\models\DB.php on line 47
+[16-Apr-2025 22:10:46 America/Sao_Paulo] PHP Stack trace:
+[16-Apr-2025 22:10:46 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\CALENDARIO\public_html\home\dispatch.php:0
+[16-Apr-2025 22:10:46 America/Sao_Paulo] PHP   2. MessageController->create() C:\wamp\www\CALENDARIO\public_html\home\dispatch.php:13
+[16-Apr-2025 22:10:46 America/Sao_Paulo] PHP   3. DB->insert($data = ['message' => 'asdfasdf', 'createdAt' => '2025-04-17T01:10:46.962Z']) C:\wamp\www\CALENDARIO\app\controllers\MessageController.php:84
+[16-Apr-2025 22:11:08 America/Sao_Paulo] PHP Notice:  Undefined index: DB_TYPE in C:\wamp\www\CALENDARIO\app\models\DB.php on line 47
+[16-Apr-2025 22:11:08 America/Sao_Paulo] PHP Stack trace:
+[16-Apr-2025 22:11:08 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\CALENDARIO\public_html\home\dispatch.php:0
+[16-Apr-2025 22:11:08 America/Sao_Paulo] PHP   2. MessageController->create() C:\wamp\www\CALENDARIO\public_html\home\dispatch.php:13
+[16-Apr-2025 22:11:08 America/Sao_Paulo] PHP   3. DB->insert($data = ['message' => 'asdfasdf', 'createdAt' => '2025-04-17T01:11:08.689Z']) C:\wamp\www\CALENDARIO\app\controllers\MessageController.php:84

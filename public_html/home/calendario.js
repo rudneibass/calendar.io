@@ -42,38 +42,3 @@ function checkDia(dia) {
         console.warn('Elemento com id "' + dia + '" não encontrado.');
     }
 }
-
-
-function insert() {
-    $.ajax({
-        url: '../../_php/Dispatch.php?controller=MessageController&&action=insert',
-        type: 'POST',
-        data: $('#tab-1-form-1').serialize(),
-        beforeSend: function () {
-            toastr["info"]("Aguarde, as informções estão sendo salvas no banco de dados!");
-        },
-        success: function (data) {
-            if (!isNaN(data)) {
-                $('.toast-info').hide();
-                $('#relacionamento').val(data);
-                toastr["success"]("Cadastro realizado com sucesso!");
-                document.getElementById("tab-1-btn-salvar").disabled = true;
-                document.getElementById("tab-2-btn-show-modal-upload").addEventListener('click', () =>{
-                    showModalUpload('modal-upload', 'ControllerUploadMultiplo', 'analisaArquivo', data , 'publicacoes')  
-                });
-
-                const dataPublicacao = document.getElementById("data_publicacao").value;
-                if (dataPublicacao) {
-                    const data = new Date(dataPublicacao);
-                    const mes = data.getMonth() + 1;
-                    const ano = data.getFullYear();
-                    const incremento = (ano - anoAtual) * 12 + (mes - mesAtual);
-                    carregarCalendario(incremento);
-                }
-            } else {
-                $('.toast-info').hide();
-                toastr["error"](data);
-            }
-        }
-    });
-}
