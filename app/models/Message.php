@@ -9,7 +9,7 @@ class Message extends DB {
             'INSERT INTO '.$this->table.' (message, type) VALUES (:message, :type)', 
             array(
             ':message' => $data['message'],
-            ':type' => 'text'
+            ':type' => $data['type']
             )
         ); 
     }
