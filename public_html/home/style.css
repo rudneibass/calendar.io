@@ -2,7 +2,59 @@ html{
   padding: 0px;
   margin: 0px;
   box-sizing: border-box;
+
+  @media (max-width: 1080px) {
+    font-size: 93.75%;
+  }
+
+  @media (max-width: 720px) {
+    font-size: 87.5%;
+  }
+
+  @media (max-width: 560px) {
+    font-size: 75%;
+  }
+
+  @media (max-width: 375px) {
+    font-size: 68.75%;
+  }
 }
+
+body {
+  min-height: 100vh;
+  max-height: 100vh;
+  overflow-y: hidden;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+a, li.page-item {
+  cursor: pointer !important;
+}
+
+button, a {
+  border-radius: 2px !important; 
+}
+
+::-webkit-scrollbar {
+  width: 3px; 
+  height: 12px; 
+}
+
+::-webkit-scrollbar-thumb {
+   background: #8888888a; 
+  /*background: #FFC107;*/
+  border-radius: 6px; 
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+  border-radius: 6px; 
+}
+
 .color-white {
   color: #fff;
 }
@@ -127,6 +179,8 @@ html{
   background-color: #FAFBFC; 
   padding: 10px;
   min-height: 40vh;
+  max-height: 70vh;
+  overflow-y: scroll;
 }
 .message-container {
   display: flex;

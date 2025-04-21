@@ -1,9 +1,9 @@
 let mesAtual = new Date().getMonth() + 1; // Mês atual (1-12)
 let anoAtual = new Date().getFullYear(); // Ano atual
 
-$(document).ready(function() { carregarCalendario(0) })
+$(document).ready(function() { loadCalendar(0) })
 
-function carregarCalendario(incremento) {
+function loadCalendar(incremento) {
     mesAtual += incremento;
     if (mesAtual < 1) {
         mesAtual = 12;
@@ -13,7 +13,7 @@ function carregarCalendario(incremento) {
         anoAtual++;
     }
     $.ajax({
-        url: 'dispatch.php?controller=MessageController&&action=locate',
+        url: 'dispatch.php?controller=CalendarController&&action=loadCalendar',
         method: 'GET',
         data: { mes: mesAtual, ano: anoAtual },
         beforeSend: function() {
@@ -25,6 +25,39 @@ function carregarCalendario(incremento) {
             let data = new Date(anoAtual, mesAtual - 1).toLocaleString('pt-BR', { month: 'long', year: 'numeric' });
             data = data.charAt(0).toUpperCase() + data.slice(1);
             $('#mesAno').text(data);
+        }
+    });
+}
+
+function loadGroups() {
+    $('#modal_groups').modal('show');
+    $.ajax({
+        url: 'dispatch.php?controller=GroupController&&action=all',
+        method: 'GET',
+        beforeSend: function() {
+            $('.loading').show();
+        },
+        success: function(response) {
+           $('.loading').hide();
+           $('#list_groups').empty();
+           $('#list_groups').html(response);
+        }
+    });
+}
+
+function loadMessages({user, group}) {
+    $('#modal_messages').modal('show');
+    $.ajax({
+        url: 'dispatch.php?controller=MessageController&&action=loadMessages',
+        method: 'GET',
+        data: { user, group },
+        beforeSend: function() {
+            $('.loading').show();
+        },
+        success: function(response) {
+           $('.loading').hide();
+           $('.message-hub').empty();
+           $('.message-hub').html(response);
         }
     });
 }

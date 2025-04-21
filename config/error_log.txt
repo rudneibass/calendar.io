@@ -56,3 +56,88 @@ Stack trace:
 [16-Apr-2025 22:11:08 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\CALENDARIO\public_html\home\dispatch.php:0
 [16-Apr-2025 22:11:08 America/Sao_Paulo] PHP   2. MessageController->create() C:\wamp\www\CALENDARIO\public_html\home\dispatch.php:13
 [16-Apr-2025 22:11:08 America/Sao_Paulo] PHP   3. DB->insert($data = ['message' => 'asdfasdf', 'createdAt' => '2025-04-17T01:11:08.689Z']) C:\wamp\www\CALENDARIO\app\controllers\MessageController.php:84
+[19-Apr-2025 09:33:31 America/Sao_Paulo] PHP Warning:  require_once(C:\wamp\www\CALENDARIO\app\models\Publicacao.php): failed to open stream: No such file or directory in C:\wamp\www\CALENDARIO\app\controllers\MessageController.php on line 7
+[19-Apr-2025 09:33:31 America/Sao_Paulo] PHP Stack trace:
+[19-Apr-2025 09:33:31 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\CALENDARIO\public_html\home\dispatch.php:0
+[19-Apr-2025 09:33:31 America/Sao_Paulo] PHP   2. require_once() C:\wamp\www\CALENDARIO\public_html\home\dispatch.php:3
+[19-Apr-2025 09:33:31 America/Sao_Paulo] PHP Fatal error:  require_once(): Failed opening required 'C:\wamp\www\CALENDARIO\app\models\Publicacao.php' (include_path='.;C:\php\pear') in C:\wamp\www\CALENDARIO\app\controllers\MessageController.php on line 7
+[19-Apr-2025 09:33:31 America/Sao_Paulo] PHP Stack trace:
+[19-Apr-2025 09:33:31 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\CALENDARIO\public_html\home\dispatch.php:0
+[19-Apr-2025 09:33:31 America/Sao_Paulo] PHP   2. require_once() C:\wamp\www\CALENDARIO\public_html\home\dispatch.php:3
+[19-Apr-2025 09:58:37 America/Sao_Paulo] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in C:\wamp\www\CALENDARIO\app\controllers\GroupController.php on line 15
+[19-Apr-2025 09:58:37 America/Sao_Paulo] PHP Stack trace:
+[19-Apr-2025 09:58:37 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\CALENDARIO\public_html\home\dispatch.php:0
+[19-Apr-2025 09:58:37 America/Sao_Paulo] PHP   2. GroupController->all() C:\wamp\www\CALENDARIO\public_html\home\dispatch.php:13
+[19-Apr-2025 09:58:37 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in C:\wamp\www\CALENDARIO\app\controllers\GroupController.php on line 16
+[19-Apr-2025 09:58:37 America/Sao_Paulo] PHP Stack trace:
+[19-Apr-2025 09:58:37 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\CALENDARIO\public_html\home\dispatch.php:0
+[19-Apr-2025 09:58:37 America/Sao_Paulo] PHP   2. GroupController->all() C:\wamp\www\CALENDARIO\public_html\home\dispatch.php:13
+[19-Apr-2025 09:59:30 America/Sao_Paulo] PHP Notice:  Undefined index: description in C:\wamp\www\CALENDARIO\app\controllers\GroupController.php on line 21
+[19-Apr-2025 09:59:30 America/Sao_Paulo] PHP Stack trace:
+[19-Apr-2025 09:59:30 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\CALENDARIO\public_html\home\dispatch.php:0
+[19-Apr-2025 09:59:30 America/Sao_Paulo] PHP   2. GroupController->all() C:\wamp\www\CALENDARIO\public_html\home\dispatch.php:13
+[19-Apr-2025 09:59:30 America/Sao_Paulo] PHP Notice:  Undefined index: description in C:\wamp\www\CALENDARIO\app\controllers\GroupController.php on line 21
+[19-Apr-2025 09:59:30 America/Sao_Paulo] PHP Stack trace:
+[19-Apr-2025 09:59:30 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\CALENDARIO\public_html\home\dispatch.php:0
+[19-Apr-2025 09:59:30 America/Sao_Paulo] PHP   2. GroupController->all() C:\wamp\www\CALENDARIO\public_html\home\dispatch.php:13
+[20-Apr-2025 21:33:04 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined method MessageController::findAllByParams() in C:\wamp\www\CALENDARIO\public_html\home\dispatch.php:13
+Stack trace:
+#0 {main}
+  thrown in C:\wamp\www\CALENDARIO\public_html\home\dispatch.php on line 13
+[20-Apr-2025 21:52:14 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'CalendarController' not found in C:\wamp\www\CALENDARIO\public_html\home\dispatch.php:12
+Stack trace:
+#0 {main}
+  thrown in C:\wamp\www\CALENDARIO\public_html\home\dispatch.php on line 12
+[20-Apr-2025 21:52:55 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'Message' not found in C:\wamp\www\CALENDARIO\app\controllers\CalendarController.php:20
+Stack trace:
+#0 C:\wamp\www\CALENDARIO\public_html\home\dispatch.php(13): CalendarController->loadCalendar()
+#1 {main}
+  thrown in C:\wamp\www\CALENDARIO\app\controllers\CalendarController.php on line 20
+[20-Apr-2025 22:00:54 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in C:\wamp\www\CALENDARIO\app\controllers\MessageController.php on line 35
+[20-Apr-2025 22:00:54 America/Sao_Paulo] PHP Stack trace:
+[20-Apr-2025 22:00:54 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\CALENDARIO\public_html\home\dispatch.php:0
+[20-Apr-2025 22:00:54 America/Sao_Paulo] PHP   2. MessageController->loadMessages() C:\wamp\www\CALENDARIO\public_html\home\dispatch.php:13
+[20-Apr-2025 22:01:48 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in C:\wamp\www\CALENDARIO\app\controllers\MessageController.php on line 33
+[20-Apr-2025 22:01:48 America/Sao_Paulo] PHP Stack trace:
+[20-Apr-2025 22:01:48 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\CALENDARIO\public_html\home\dispatch.php:0
+[20-Apr-2025 22:01:48 America/Sao_Paulo] PHP   2. MessageController->loadMessages() C:\wamp\www\CALENDARIO\public_html\home\dispatch.php:13
+[20-Apr-2025 22:17:31 America/Sao_Paulo] PHP Deprecated:  Non-static method DB::rawQuery() should not be called statically in C:\wamp\www\CALENDARIO\app\models\Group.php on line 15
+[20-Apr-2025 22:17:31 America/Sao_Paulo] PHP Stack trace:
+[20-Apr-2025 22:17:31 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\CALENDARIO\public_html\home\dispatch.php:0
+[20-Apr-2025 22:17:31 America/Sao_Paulo] PHP   2. MessageController->loadMessages() C:\wamp\www\CALENDARIO\public_html\home\dispatch.php:13
+[20-Apr-2025 22:17:31 America/Sao_Paulo] PHP   3. Group::getById($id = 2) C:\wamp\www\CALENDARIO\app\controllers\MessageController.php:32
+[20-Apr-2025 22:17:31 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Using $this when not in object context in C:\wamp\www\CALENDARIO\app\models\DB.php:17
+Stack trace:
+#0 C:\wamp\www\CALENDARIO\app\models\Group.php(17): DB::rawQuery('SELECT * FROM `...', Array)
+#1 C:\wamp\www\CALENDARIO\app\controllers\MessageController.php(32): Group::getById('2')
+#2 C:\wamp\www\CALENDARIO\public_html\home\dispatch.php(13): MessageController->loadMessages()
+#3 {main}
+  thrown in C:\wamp\www\CALENDARIO\app\models\DB.php on line 17
+[20-Apr-2025 22:18:39 America/Sao_Paulo] PHP Deprecated:  Non-static method DB::rawQuery() should not be called statically in C:\wamp\www\CALENDARIO\app\models\Group.php on line 15
+[20-Apr-2025 22:18:39 America/Sao_Paulo] PHP Stack trace:
+[20-Apr-2025 22:18:39 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\CALENDARIO\public_html\home\dispatch.php:0
+[20-Apr-2025 22:18:39 America/Sao_Paulo] PHP   2. MessageController->loadMessages() C:\wamp\www\CALENDARIO\public_html\home\dispatch.php:13
+[20-Apr-2025 22:18:39 America/Sao_Paulo] PHP   3. Group::getById($id = 2) C:\wamp\www\CALENDARIO\app\controllers\MessageController.php:32
+[20-Apr-2025 22:18:39 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Using $this when not in object context in C:\wamp\www\CALENDARIO\app\models\DB.php:17
+Stack trace:
+#0 C:\wamp\www\CALENDARIO\app\models\Group.php(17): DB::rawQuery('SELECT * FROM `...', Array)
+#1 C:\wamp\www\CALENDARIO\app\controllers\MessageController.php(32): Group::getById('2')
+#2 C:\wamp\www\CALENDARIO\public_html\home\dispatch.php(13): MessageController->loadMessages()
+#3 {main}
+  thrown in C:\wamp\www\CALENDARIO\app\models\DB.php on line 17
+[20-Apr-2025 22:22:09 America/Sao_Paulo] PHP Notice:  Array to string conversion in C:\wamp\www\CALENDARIO\app\models\DB.php on line 12
+[20-Apr-2025 22:22:09 America/Sao_Paulo] PHP Stack trace:
+[20-Apr-2025 22:22:09 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\CALENDARIO\public_html\home\dispatch.php:0
+[20-Apr-2025 22:22:09 America/Sao_Paulo] PHP   2. MessageController->loadMessages() C:\wamp\www\CALENDARIO\public_html\home\dispatch.php:13
+[20-Apr-2025 22:22:09 America/Sao_Paulo] PHP   3. Message->findAllByParams($params = ['group_id' => [0 => [...]]]) C:\wamp\www\CALENDARIO\app\controllers\MessageController.php:43
+[20-Apr-2025 22:22:09 America/Sao_Paulo] PHP   4. DB->rawQuery($sql = 'SELECT *, DATE_FORMAT(created_at, \'%d/%m/%Y\') FROM messages  WHERE group_id = :group_id', $params = [':group_id' => [0 => [...]]]) C:\wamp\www\CALENDARIO\app\models\Message.php:17
+[20-Apr-2025 22:22:09 America/Sao_Paulo] PHP   5. DB->prepExec($prep = 'SELECT *, DATE_FORMAT(created_at, \'%d/%m/%Y\') FROM messages  WHERE group_id = :group_id', $exec = [':group_id' => [0 => [...]]]) C:\wamp\www\CALENDARIO\app\models\DB.php:17
+[20-Apr-2025 22:22:09 America/Sao_Paulo] PHP   6. PDOStatement->execute($bound_input_params = [':group_id' => [0 => [...]]]) C:\wamp\www\CALENDARIO\app\models\DB.php:12
+[20-Apr-2025 22:24:45 America/Sao_Paulo] PHP Notice:  Array to string conversion in C:\wamp\www\CALENDARIO\app\models\DB.php on line 12
+[20-Apr-2025 22:24:45 America/Sao_Paulo] PHP Stack trace:
+[20-Apr-2025 22:24:45 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\CALENDARIO\public_html\home\dispatch.php:0
+[20-Apr-2025 22:24:45 America/Sao_Paulo] PHP   2. MessageController->loadMessages() C:\wamp\www\CALENDARIO\public_html\home\dispatch.php:13
+[20-Apr-2025 22:24:45 America/Sao_Paulo] PHP   3. Message->findAllByParams($params = ['group_id' => ['id' => '2', 'name' => 'Privado', 'visibility' => 'private']]) C:\wamp\www\CALENDARIO\app\controllers\MessageController.php:43
+[20-Apr-2025 22:24:45 America/Sao_Paulo] PHP   4. DB->rawQuery($sql = 'SELECT *, DATE_FORMAT(created_at, \'%d/%m/%Y\') FROM messages  WHERE group_id = :group_id', $params = [':group_id' => ['id' => '2', 'name' => 'Privado', 'visibility' => 'private']]) C:\wamp\www\CALENDARIO\app\models\Message.php:17
+[20-Apr-2025 22:24:45 America/Sao_Paulo] PHP   5. DB->prepExec($prep = 'SELECT *, DATE_FORMAT(created_at, \'%d/%m/%Y\') FROM messages  WHERE group_id = :group_id', $exec = [':group_id' => ['id' => '2', 'name' => 'Privado', 'visibility' => 'private']]) C:\wamp\www\CALENDARIO\app\models\DB.php:17
+[20-Apr-2025 22:24:45 America/Sao_Paulo] PHP   6. PDOStatement->execute($bound_input_params = [':group_id' => ['id' => '2', 'name' => 'Privado', 'visibility' => 'private']]) C:\wamp\www\CALENDARIO\app\models\DB.php:12

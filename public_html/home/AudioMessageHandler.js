@@ -21,6 +21,18 @@ class AudioMessageHandler {
     this.stopButton.addEventListener("click", () => this.stopRecording());
   }
 
+  getDateTimesTamp(){
+    const now = new Date()
+    const year = now.getFullYear();
+    const month = String(now.getMonth() + 1).padStart(2, "0"); // + 1 para Corrigir o mês 0 indexado
+    const day = String(now.getDate()).padStart(2, "0");
+    const date = `${year}-${month}-${day}`;
+    const hours = String(now.getHours()).padStart(2, "0");
+    const minutes = String(now.getMinutes()).padStart(2, "0");
+    const seconds = String(now.getSeconds()).padStart(2, "0");
+    return `${date} ${hours}:${minutes}:${seconds}`;
+  }
+
   // Método para iniciar a gravação
   async startRecording() {
     const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
@@ -114,7 +126,7 @@ class AudioMessageHandler {
     formData.append("audio", audioBlob, audioFileName);
     formData.append("message", audioFileName);
     formData.append("type", "audio");
-    formData.append("created_at", new Date().toISOString()); 
+    formData.append("created_at", this.getDateTimesTamp()); 
 
     $.ajax({
       url: "dispatch.php?controller=MessageController&&action=persistAudio",

@@ -13,6 +13,18 @@ class ImageMessageHandler {
         this.takePhotoButton.addEventListener('click', () => this.captureImage());
     }
 
+    getDateTimesTamp(){
+        const now = new Date()
+        const year = now.getFullYear();
+        const month = String(now.getMonth() + 1).padStart(2, "0"); // + 1 para Corrigir o mês 0 indexado
+        const day = String(now.getDate()).padStart(2, "0");
+        const date = `${year}-${month}-${day}`;
+        const hours = String(now.getHours()).padStart(2, "0");
+        const minutes = String(now.getMinutes()).padStart(2, "0");
+        const seconds = String(now.getSeconds()).padStart(2, "0");
+        return `${date} ${hours}:${minutes}:${seconds}`;
+    }
+
     async openCamera() {
         try {
             this.stream = await navigator.mediaDevices.getUserMedia({ video: true });
@@ -64,8 +76,10 @@ class ImageMessageHandler {
     
             // Enviar a imagem para o backend via AJAX
             const formData = new FormData();
-            formData.append('image', imageBlob, `image_${Date.now()}.png`); // Nome do arquivo com timestamp
-            formData.append('created_at', new Date().toISOString()); // Data de criação
+            formData.append('image', imageBlob, `image_${Date.now()}.png`);
+            formData.append('message', `image_${Date.now()}.png`);
+            formData.append('type', 'image');
+            formData.append('created_at', this.getDateTimesTamp()); 
     
             $.ajax({
                 url: 'dispatch.php?controller=MessageController&&action=persistImage',

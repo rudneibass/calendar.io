@@ -26,11 +26,11 @@
                     <div class="card">
                         <div class="card-header">
                             <div class="d-flex justify-content-center align-items-center">
-                                <i class="fa fa-chevron-circle-left" style="font-size: 25px;" onclick="carregarCalendario(-1)"></i>
+                                <i class="fa fa-chevron-circle-left" style="font-size: 25px;" onclick="loadCalendar(-1)"></i>
                                 <div style="min-width: 320px; text-align: center;">
                                     <span class="gray" id="mesAno" style="font-size: 2rem">Calendário</span>
                                 </div>
-                                <i class="fa fa-chevron-circle-right" style="font-size: 25px" onclick="carregarCalendario(1)"></i>
+                                <i class="fa fa-chevron-circle-right" style="font-size: 25px" onclick="loadCalendar(1)"></i>
                             </div>
                         </div>
                         <div class="card-body position-relative">
@@ -55,6 +55,25 @@
             </div>
         </section>
     </main>
+
+    <section>
+        <div class="modal fade" id="modal_groups" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document" style="z-index: 10000;">
+                <div class="modal-content">
+                    <div class="d-flex justify-content-between px-3 py-2 bg-purple">
+                        <h6 class="modal-title" id="exampleModalLabel" style="color: white"><i class="fa fa-comments"></i> Grupos</h6>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true" class="color-white">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row" id="list_groups"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
 
     <section>
         <style>
@@ -108,11 +127,11 @@
                 color: black;
             }
         </style>
-        <div class="modal fade" id="modal-diario-oficial" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal fade" id="modal_messages" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog modal-lg" role="document" style="z-index: 10000;">
                 <div class="modal-content">
                     <div class="d-flex justify-content-between px-3 py-2 bg-purple">
-                        <h6 class="modal-title" id="exampleModalLabel" style="color: white"><i class="fa fa-comments"></i> Threads</h6>
+                        <h6 class="modal-title" id="exampleModalLabel" style="color: white"><i class="fa fa-comments"></i> Mensagens</h6>
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                             <span aria-hidden="true" class="color-white">&times;</span>
                         </button>
