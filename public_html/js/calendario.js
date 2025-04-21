@@ -29,11 +29,12 @@ function loadCalendar(incremento) {
     });
 }
 
-function loadGroups() {
+function loadGroups(date) {
     $('#modal_groups').modal('show');
     $.ajax({
         url: 'dispatch.php?controller=GroupController&&action=all',
         method: 'GET',
+        data: { date },
         beforeSend: function() {
             $('.loading').show();
         },
@@ -45,12 +46,12 @@ function loadGroups() {
     });
 }
 
-function loadMessages({user, group}) {
+function loadMessages({user, group, date}) {
     $('#modal_messages').modal('show');
     $.ajax({
         url: 'dispatch.php?controller=MessageController&&action=loadMessages',
         method: 'GET',
-        data: { user, group },
+        data: { user, group, date },
         beforeSend: function() {
             $('.loading').show();
         },

@@ -1,14 +1,16 @@
 <?php
 
 session_start();
-require_once '../../config/headers.php';
-require_once '../../app/models/Group.php';
+require_once '../config/headers.php';
+require_once '../app/models/Group.php';
 
 class GroupController
 {
 
     public function all()
     {
+        $date = isset($_GET['date']) ? $_GET['date'] : null;
+        
         $group = new Group();
         $groups = $group->all();
 
@@ -19,7 +21,7 @@ class GroupController
                 echo '<div class="card-body">';
                 echo '<h5 class="card-title"><i class="fa fa-comments"></i>&nbsp;' . $value['name'] . '</h5>';
                 echo '<p class="card-text">' . $value['name'] . '</p>';
-                echo '<button type="button" class="btn btn-purple" onclick="loadMessages({user: \'1\' ,group:\'' . $value['id'] . '\'});">Entrar <i class="fa fa-sign-in"></i></button>';
+                echo '<button type="button" class="btn btn-purple" onclick="loadMessages({user: \'1\' ,group:\'' . $value['id'] . '\', date: \''.$date.'\'});">Entrar <i class="fa fa-sign-in"></i></button>';
                 echo '</div>';
                 echo '</div>';
                 echo '</div>';

@@ -1,7 +1,7 @@
 <?php
 
-if (file_exists('../../config/config.php')) {
-    require_once '../../config/config.php';
+if (file_exists('../config/config.php')) {
+    require_once '../config/config.php';
 } else {
     echo '<b>ATENÇÃO: </b>Não foi possivel localizar config.php em DBConnection.php!';
 }

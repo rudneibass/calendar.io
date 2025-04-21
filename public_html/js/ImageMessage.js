@@ -1,4 +1,4 @@
-class ImageMessageHandler {
+class ImageMessage {
     constructor(captureButtonId, modalId, videoId, canvasId, takePhotoButtonId, messageHubSelector) {
         this.captureButton = document.getElementById(captureButtonId);
         this.modal = document.getElementById(modalId);
@@ -104,7 +104,7 @@ class ImageMessageHandler {
 }
 
 // Instanciar a classe
-const imageMessageHandler = new ImageMessageHandler(
+const imageMessage = new ImageMessage(
     'capture-image-btn', // ID do botão de captura
     'camera-modal', // ID do modal da câmera
     'camera-stream', // ID do elemento de vídeo

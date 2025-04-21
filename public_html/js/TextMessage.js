@@ -1,4 +1,4 @@
-class TextMessageHandler {
+class TextMessage {
   constructor(sendButtonId, textAreaId, messageHubSelector) {
       this.sendMessageButton = document.getElementById(sendButtonId);
       this.textArea = document.getElementById(textAreaId);
@@ -101,7 +101,7 @@ class TextMessageHandler {
   }
 }
 
-const textMessageHandler = new TextMessageHandler(
+const textMessage = new TextMessage(
   "send-message-btn", // ID do botão de envio
   "text_message", // ID do textarea
   ".message-hub" // Seletor do container de mensagens

@@ -1,6 +1,6 @@
 <?php
 
-require_once '../../app/controllers/' . $_REQUEST['controller'] . '.php';
+require_once '../app/controllers/' . $_REQUEST['controller'] . '.php';
 
 if (!$_SERVER['HTTP_X_REQUESTED_WITH'] == 'XMLHttpRequest') {
     echo 'Requisição inválida!';

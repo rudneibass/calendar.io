@@ -96,6 +96,7 @@ button, a {
 }
 
 .dia {
+  background-color: #fff;
   border: 1px solid #ccc;
   padding: 10px;
   min-height: 100px;
@@ -138,6 +139,11 @@ button, a {
 
 .dia ul li::marker {
   color: gray;
+}
+
+.feriado span {
+  color: red !important;
+  font-weight: bold;
 }
 
 .bd-navbar {

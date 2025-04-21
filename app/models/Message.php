@@ -13,8 +13,11 @@ class Message extends DB {
 
     public function findAllByParams($params = []) {
         return $this->rawQuery(
-            "SELECT *, DATE_FORMAT(created_at, '%d/%m/%Y') FROM {$this->table}  WHERE group_id = :group_id", 
-            array(':group_id' => $params['group_id'])
+            "SELECT *, DATE_FORMAT(created_at, '%d/%m/%Y') FROM {$this->table}  WHERE group_id = :group_id AND DATE(created_at) = :created_at", 
+            array(
+                ':group_id' => $params['group_id'],
+                ':created_at' => $params['created_at']
+            )
         );
     }
 

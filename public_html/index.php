@@ -10,7 +10,7 @@
     <!-- Toast Mensege -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css" crossorigin="anonymous">
     <!-- Style Nativo -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body style="background-color: #FAFBFC; padding-top: 80px">
@@ -19,42 +19,62 @@
             Calendar.io
         </a>
     </header>
-    <main class="container">
-        <section>
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="card">
-                        <div class="card-header">
-                            <div class="d-flex justify-content-center align-items-center">
-                                <i class="fa fa-chevron-circle-left" style="font-size: 25px;" onclick="loadCalendar(-1)"></i>
-                                <div style="min-width: 320px; text-align: center;">
-                                    <span class="gray" id="mesAno" style="font-size: 2rem">Calendário</span>
-                                </div>
-                                <i class="fa fa-chevron-circle-right" style="font-size: 25px" onclick="loadCalendar(1)"></i>
-                            </div>
-                        </div>
-                        <div class="card-body position-relative">
 
-                            <!-- Grid do calendário -->
-                            <div style="display: flex; flex-wrap: wrap;">
-                                <div class="bg-purple" style=" text-align: center; width: 14.28%; background-color: rgb(250, 74, 74); font-weight: bold; color: #ffffff; border: 1px solid #ffffff">D</div>
-                                <div class="bg-dark" style=" text-align: center; width: 14.28%; background-color: rgba(0,0,0,.5); font-weight: bold; color: #ffffff; border: 1px solid #ffffff">S</div>
-                                <div class="bg-dark" style=" text-align: center; width: 14.28%; background-color: rgba(0,0,0,.5); font-weight: bold; color: #ffffff; border: 1px solid #ffffff">T</div>
-                                <div class="bg-dark" style=" text-align: center; width: 14.28%; background-color: rgba(0,0,0,.5); font-weight: bold; color: #ffffff; border: 1px solid #ffffff">Q</div>
-                                <div class="bg-dark" style=" text-align: center; width: 14.28%; background-color: rgba(0,0,0,.5); font-weight: bold; color: #ffffff; border: 1px solid #ffffff">D</div>
-                                <div class="bg-dark" style=" text-align: center; width: 14.28%; background-color: rgba(0,0,0,.5); font-weight: bold; color: #ffffff; border: 1px solid #ffffff">S</div>
-                                <div class="bg-purple" style=" text-align: center; width: 14.28%; background-color: rgb(250, 74, 74); font-weight: bold; color: #ffffff; border: 1px solid #ffffff">S</div>
-                            </div>
-                            <div id="calendario" style="display: flex; flex-wrap: wrap;">
-                            </div>
-                            <div class="loading">
-                            </div>
-                        </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="d-flex justify-content-center align-items-center  alert" role="alert">
+                    <i class="fa fa-chevron-circle-left" style="font-size: 25px;" onclick="loadCalendar(-1)"></i>
+                    <div style="min-width: 320px; text-align: center;">
+                        <span class="gray" id="mesAno" style="font-size: 2rem">Calendário</span>
+                    </div>
+                    <i class="fa fa-chevron-circle-right" style="font-size: 25px" onclick="loadCalendar(1)"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-10" id="main">
+                <div class="position-relative">
+                    <!-- Grid do calendário -->
+                    <div style="display: flex; flex-wrap: wrap;">
+                        <div class="bg-purple" style=" text-align: center; width: 14.28%; background-color: rgb(250, 74, 74); font-weight: bold; color: #ffffff; border: 1px solid #ffffff">D</div>
+                        <div class="bg-dark" style=" text-align: center; width: 14.28%; background-color: rgba(0,0,0,.5); font-weight: bold; color: #ffffff; border: 1px solid #ffffff">S</div>
+                        <div class="bg-dark" style=" text-align: center; width: 14.28%; background-color: rgba(0,0,0,.5); font-weight: bold; color: #ffffff; border: 1px solid #ffffff">T</div>
+                        <div class="bg-dark" style=" text-align: center; width: 14.28%; background-color: rgba(0,0,0,.5); font-weight: bold; color: #ffffff; border: 1px solid #ffffff">Q</div>
+                        <div class="bg-dark" style=" text-align: center; width: 14.28%; background-color: rgba(0,0,0,.5); font-weight: bold; color: #ffffff; border: 1px solid #ffffff">D</div>
+                        <div class="bg-dark" style=" text-align: center; width: 14.28%; background-color: rgba(0,0,0,.5); font-weight: bold; color: #ffffff; border: 1px solid #ffffff">S</div>
+                        <div class="bg-purple" style=" text-align: center; width: 14.28%; background-color: rgb(250, 74, 74); font-weight: bold; color: #ffffff; border: 1px solid #ffffff">S</div>
+                    </div>
+
+                    <div id="calendario" style="display: flex; flex-wrap: wrap;">
+                    </div>
+                    <div class="loading">
                     </div>
                 </div>
             </div>
-        </section>
-    </main>
+
+            <div class="col-md-2" id="aside">
+                <div class="alert alert-dark bg-purple color-white" role="alert">
+                    <strong>Brasília:</strong>
+                    <h4 id="time-brasilia">--:--</h4>
+                </div>
+                <div class="alert bg-dark color-white" role="alert">
+                    <strong>Nova York:</strong>
+                    <h4 id="time-new-york">--:--</h4>
+                </div>
+                <div class="alert bg-dark color-white" role="alert">
+                    <strong>Londres:</strong>
+                    <h4 id="time-london">--:--</h4>
+                </div>
+                <div class="alert bg-dark color-white" role="alert">
+                    <strong>Tóquio:</strong>
+                    <h4 id="time-tokyo">--:--</h4>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <section>
         <div class="modal fade" id="modal_groups" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -217,11 +237,12 @@
 <script type='text/javascript' src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
 <!-- Bootbox -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/bootbox.js/6.0.0/bootbox.min.js"></script>
-<!-- Calendar.io -->
-<script src="calendario.js"></script>
 
-<script src="TextMessageHandler.js"></script>
-<script src="AudioMessageHandler.js"></script>
-<script src="ImageMessageHandler.js"></script>
+<!-- Calendar.io -->
+<script src="js/calendario.js"></script>
+<script src="js/aside.js"></script>
+<script src="js/TextMessage.js"></script>
+<script src="js/AudioMessage.js"></script>
+<script src="js/ImageMessage.js"></script>
 
 </html>

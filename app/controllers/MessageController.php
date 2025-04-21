@@ -1,9 +1,9 @@
 <?php
 
 session_start();
-require_once '../../config/headers.php';
-require_once '../../app/models/Message.php';
-require_once '../../app/models/Group.php';
+require_once '../config/headers.php';
+require_once '../app/models/Message.php';
+require_once '../app/models/Group.php';
 
 class MessageController
 {
@@ -20,6 +20,9 @@ class MessageController
     {
     $mesAtual = isset($_GET['mes']) ? (int) $_GET['mes'] : date('n');
     $anoAtual = isset($_GET['ano']) ? (int) $_GET['ano'] : date('Y');
+
+    $date = isset($_GET['date']) ? $_GET['date'] : null;
+
     $groupId = isset($_GET['group']) ? (int) $_GET['group'] : null;
 
 
@@ -42,7 +45,7 @@ class MessageController
 
 
     $message = new Message();
-    $messageList = $message->findAllByParams(['group_id' => $groupId]);
+    $messageList = $message->findAllByParams(['group_id' => $groupId, 'created_at' => $date]);
 
     foreach ($messageList as $item) {
         $html .= '<div class="message-container">';
@@ -62,7 +65,7 @@ class MessageController
 
             case 'audio':
                 $html .= '<div class="message-audio">';
-                $html .= '<audio controls style="width: 100%;">';
+                $html .= '<audio controls>';
                 $html .= '<source src="' . htmlspecialchars($item['message']) . '" type="audio/mpeg">';
                 $html .= 'Seu navegador não suporta o elemento de áudio.';
                 $html .= '</audio>';

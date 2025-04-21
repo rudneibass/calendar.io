@@ -1,4 +1,4 @@
-class AudioMessageHandler {
+class AudioMessage {
   constructor(
     recordButtonId,
     stopButtonId,
@@ -145,7 +145,7 @@ class AudioMessageHandler {
 }
 
 // Instanciar a classe
-const audioMessageHandler = new AudioMessageHandler(
+const audioMessage = new AudioMessage(
   "record-audio-btn", // ID do botão de gravação
   "stop-audio-btn", // ID do botão de parar
   "record-timer", // ID do display do timer
