@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css" crossorigin="anonymous">
     <!-- Style Nativo -->
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/modal-messages.css">
 </head>
 
 <body style="background-color: #FAFBFC; padding-top: 80px">
@@ -20,61 +21,75 @@
         </a>
     </header>
 
-
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <div class="d-flex justify-content-center align-items-center  alert" role="alert">
-                    <i class="fa fa-chevron-circle-left" style="font-size: 25px;" onclick="loadCalendar(-1)"></i>
-                    <div style="min-width: 320px; text-align: center;">
-                        <span class="gray" id="mesAno" style="font-size: 2rem">Calendário</span>
+    <main>
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="d-flex justify-content-center align-items-center  alert" role="alert">
+                            <i class="fa fa-chevron-circle-left" style="font-size: 25px;" onclick="loadCalendar(-1)"></i>
+                            <div style="min-width: 320px; text-align: center;">
+                                <span class="gray" id="mesAno" style="font-size: 2rem">Calendário</span>
+                            </div>
+                            <i class="fa fa-chevron-circle-right" style="font-size: 25px" onclick="loadCalendar(1)"></i>
+                        </div>
                     </div>
-                    <i class="fa fa-chevron-circle-right" style="font-size: 25px" onclick="loadCalendar(1)"></i>
+                </div>
+                <div class="row">
+                    <div class="col-md-10" id="main">
+                        <div class="position-relative">
+                            <!-- Grid do calendário -->
+                            <div style="display: flex; flex-wrap: wrap;">
+                                <div class="bg-purple" style=" text-align: center; width: 14.28%; background-color: rgb(250, 74, 74); font-weight: bold; color: #ffffff; border: 1px solid #ffffff">D</div>
+                                <div class="bg-dark" style=" text-align: center; width: 14.28%; background-color: rgba(0,0,0,.5); font-weight: bold; color: #ffffff; border: 1px solid #ffffff">S</div>
+                                <div class="bg-dark" style=" text-align: center; width: 14.28%; background-color: rgba(0,0,0,.5); font-weight: bold; color: #ffffff; border: 1px solid #ffffff">T</div>
+                                <div class="bg-dark" style=" text-align: center; width: 14.28%; background-color: rgba(0,0,0,.5); font-weight: bold; color: #ffffff; border: 1px solid #ffffff">Q</div>
+                                <div class="bg-dark" style=" text-align: center; width: 14.28%; background-color: rgba(0,0,0,.5); font-weight: bold; color: #ffffff; border: 1px solid #ffffff">D</div>
+                                <div class="bg-dark" style=" text-align: center; width: 14.28%; background-color: rgba(0,0,0,.5); font-weight: bold; color: #ffffff; border: 1px solid #ffffff">S</div>
+                                <div class="bg-purple" style=" text-align: center; width: 14.28%; background-color: rgb(250, 74, 74); font-weight: bold; color: #ffffff; border: 1px solid #ffffff">S</div>
+                            </div>
+
+                            <div id="calendario" style="display: flex; flex-wrap: wrap;">
+                            </div>
+                            <div class="loading">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-2" id="aside">
+                        <div class="alert alert-dark bg-purple color-white" role="alert">
+                            <strong>Brasília:</strong>
+                            <h4 id="time-brasilia">--:--</h4>
+                        </div>
+                        <div class="alert bg-dark color-white" role="alert">
+                            <strong>Nova York:</strong>
+                            <h4 id="time-new-york">--:--</h4>
+                        </div>
+                        <div class="alert bg-dark color-white" role="alert">
+                            <strong>Londres:</strong>
+                            <h4 id="time-london">--:--</h4>
+                        </div>
+                        <div class="alert bg-dark color-white" role="alert">
+                            <strong>Tóquio:</strong>
+                            <h4 id="time-tokyo">--:--</h4>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
+        </section>
+        <br/>
+        <br/>
+        <section>
+            <div class="container">
+                <div class="row" id="users_list">
 
-        <div class="row">
-            <div class="col-md-10" id="main">
-                <div class="position-relative">
-                    <!-- Grid do calendário -->
-                    <div style="display: flex; flex-wrap: wrap;">
-                        <div class="bg-purple" style=" text-align: center; width: 14.28%; background-color: rgb(250, 74, 74); font-weight: bold; color: #ffffff; border: 1px solid #ffffff">D</div>
-                        <div class="bg-dark" style=" text-align: center; width: 14.28%; background-color: rgba(0,0,0,.5); font-weight: bold; color: #ffffff; border: 1px solid #ffffff">S</div>
-                        <div class="bg-dark" style=" text-align: center; width: 14.28%; background-color: rgba(0,0,0,.5); font-weight: bold; color: #ffffff; border: 1px solid #ffffff">T</div>
-                        <div class="bg-dark" style=" text-align: center; width: 14.28%; background-color: rgba(0,0,0,.5); font-weight: bold; color: #ffffff; border: 1px solid #ffffff">Q</div>
-                        <div class="bg-dark" style=" text-align: center; width: 14.28%; background-color: rgba(0,0,0,.5); font-weight: bold; color: #ffffff; border: 1px solid #ffffff">D</div>
-                        <div class="bg-dark" style=" text-align: center; width: 14.28%; background-color: rgba(0,0,0,.5); font-weight: bold; color: #ffffff; border: 1px solid #ffffff">S</div>
-                        <div class="bg-purple" style=" text-align: center; width: 14.28%; background-color: rgb(250, 74, 74); font-weight: bold; color: #ffffff; border: 1px solid #ffffff">S</div>
-                    </div>
-
-                    <div id="calendario" style="display: flex; flex-wrap: wrap;">
-                    </div>
-                    <div class="loading">
-                    </div>
                 </div>
             </div>
+        </section>
 
-            <div class="col-md-2" id="aside">
-                <div class="alert alert-dark bg-purple color-white" role="alert">
-                    <strong>Brasília:</strong>
-                    <h4 id="time-brasilia">--:--</h4>
-                </div>
-                <div class="alert bg-dark color-white" role="alert">
-                    <strong>Nova York:</strong>
-                    <h4 id="time-new-york">--:--</h4>
-                </div>
-                <div class="alert bg-dark color-white" role="alert">
-                    <strong>Londres:</strong>
-                    <h4 id="time-london">--:--</h4>
-                </div>
-                <div class="alert bg-dark color-white" role="alert">
-                    <strong>Tóquio:</strong>
-                    <h4 id="time-tokyo">--:--</h4>
-                </div>
-            </div>
-        </div>
-    </div>
+    </main>
+
+
 
     <section>
         <div class="modal fade" id="modal_groups" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -87,66 +102,14 @@
                         </button>
                     </div>
                     <div class="modal-body">
-                        <div class="row" id="list_groups"></div>
+                        <div id="list_groups"></div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-
     <section>
-        <style>
-            .textarea-box {
-                border-radius: 20px;
-                box-shadow: inset 0 0 5px rgba(255, 255, 255, 0.5);
-            }
-
-            textarea {
-                border: none;
-                background-color: transparent;
-                color: white;
-                padding: 10px 15px;
-                resize: none;
-                outline: none;
-                width: 100%;
-                font-size: 1rem;
-            }
-
-            textarea::placeholder {
-                color: rgba(255, 255, 255, 0.7);
-            }
-
-            .pulsing {
-                background-color: red !important;
-                animation: pulse 1s infinite;
-            }
-
-            @keyframes pulse {
-                0% {
-                    transform: scale(1);
-                    opacity: 1;
-                }
-
-                50% {
-                    transform: scale(1.1);
-                    opacity: 0.7;
-                }
-
-                100% {
-                    transform: scale(1);
-                    opacity: 1;
-                }
-            }
-
-            .message-pending {
-                color: gray;
-            }
-
-            .message-sent {
-                color: black;
-            }
-        </style>
         <div class="modal fade" id="modal_messages" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog modal-lg" role="document" style="z-index: 10000;">
                 <div class="modal-content">
@@ -244,5 +207,7 @@
 <script src="js/TextMessage.js"></script>
 <script src="js/AudioMessage.js"></script>
 <script src="js/ImageMessage.js"></script>
+
+<script src="js/User.js"></script>
 
 </html>

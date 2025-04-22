@@ -1,10 +1,10 @@
 let mesAtual = new Date().getMonth() + 1; // Mês atual (1-12)
 let anoAtual = new Date().getFullYear(); // Ano atual
 
-$(document).ready(function() { loadCalendar(0) })
+$(document).ready(function() { loadCalendar({increment: 0, user: 'calendarioComentado'}) })
 
-function loadCalendar(incremento) {
-    mesAtual += incremento;
+function loadCalendar({increment, user}) {
+    mesAtual += increment;
     if (mesAtual < 1) {
         mesAtual = 12;
         anoAtual--;
@@ -15,7 +15,7 @@ function loadCalendar(incremento) {
     $.ajax({
         url: 'dispatch.php?controller=CalendarController&&action=loadCalendar',
         method: 'GET',
-        data: { mes: mesAtual, ano: anoAtual },
+        data: { mes: mesAtual, ano: anoAtual, user: user },
         beforeSend: function() {
             $('.loading').show();
         },
@@ -29,12 +29,12 @@ function loadCalendar(incremento) {
     });
 }
 
-function loadGroups(date) {
+function loadGroups({date, user}) {
     $('#modal_groups').modal('show');
     $.ajax({
         url: 'dispatch.php?controller=GroupController&&action=all',
         method: 'GET',
-        data: { date },
+        data: { date, user },
         beforeSend: function() {
             $('.loading').show();
         },
@@ -61,18 +61,4 @@ function loadMessages({user, group, date}) {
            $('.message-hub').html(response);
         }
     });
-}
-
-function abrirModal(modalId, data) {
-    $('#' + modalId).modal('show');
-    $('#' + modalId).find('input[type="date"]').val(data);
-}
-
-function checkDia(dia) {
-    const elemento = document.getElementById(dia);
-    if (elemento) {
-        elemento.classList.toggle('selecionado');
-    } else {
-        console.warn('Elemento com id "' + dia + '" não encontrado.');
-    }
 }

@@ -11,6 +11,7 @@ class CalendarController
 {
     $mesAtual = isset($_GET['mes']) ? (int) $_GET['mes'] : date('n');
     $anoAtual = isset($_GET['ano']) ? (int) $_GET['ano'] : date('Y');
+    $user = isset($_GET['user']) ? $_GET['user'] : null;
 
     $primeiroDia = new DateTime("$anoAtual-$mesAtual-01");
     $ultimoDia = new DateTime("$anoAtual-$mesAtual-" . $primeiroDia->format('t'));
@@ -20,7 +21,7 @@ class CalendarController
     $dataFim = $ultimoDia->format('Y-m-d');
 
     $message = new Message();
-    $messageList = $message->getMessages($dataInicio, $dataFim);
+    $messageList = $message->getMessages($dataInicio, $dataFim, $user);
 
     $massagesMap = [];
     foreach ($messageList as $item) {
@@ -53,7 +54,7 @@ class CalendarController
             $descricaoFeriado = $feriadosMap[$dataFormatada]; 
         }
 
-        $html .= '<div class="' . $classe . ' d-flex" id="' . $dia . '" onclick="loadGroups(\'' . $dataFormatada . '\');">';
+        $html .= '<div class="' . $classe . ' d-flex" id="' . $dia . '" onclick="loadGroups({date: \'' . $dataFormatada . '\', user: \''.$user.'\'});">';
             $html .= '<div class="position-relative">';
                 $html .= '<span style="font-size: 1.5rem">' . $dia . '</span>';
                 if (isset($massagesMap[$dataFormatada])) {

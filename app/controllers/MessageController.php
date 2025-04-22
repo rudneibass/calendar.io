@@ -16,75 +16,67 @@ class MessageController
         }
     }*/
 
-    public function loadMessages()
-    {
-    $mesAtual = isset($_GET['mes']) ? (int) $_GET['mes'] : date('n');
-    $anoAtual = isset($_GET['ano']) ? (int) $_GET['ano'] : date('Y');
+    public function loadMessages() {
 
-    $date = isset($_GET['date']) ? $_GET['date'] : null;
+        $groupId = isset($_GET['group']) ? (int) $_GET['group'] : null;
+        $date = isset($_GET['date']) ? $_GET['date'] : null;
+        $user = isset($_GET['user']) ? $_GET['user'] : null;
+        
+        $html = '';
 
-    $groupId = isset($_GET['group']) ? (int) $_GET['group'] : null;
+        $groupModel = new Group();
+        $group = $groupModel->getById($groupId);
 
-
-    $primeiroDia = new DateTime("$anoAtual-$mesAtual-01");
-    $ultimoDia = new DateTime("$anoAtual-$mesAtual-" . $primeiroDia->format('t'));
-    $dataInicio = $primeiroDia->format('Y-m-d');
-    $dataFim = $ultimoDia->format('Y-m-d');
-    $html = '';
-
-    $groupModel = new Group();
-    $group = $groupModel->getById($groupId);
-
-    if ($group && $group['visibility'] == 'private') {
-        echo '<div class="alert alert-info" role="alert">';
-        echo 'Grupo privado. Para ter acesso as mensagens é preciso estar conectado com este usuário.';
-        echo ' Mas fique tranquilo, você ainda pode acessar as mensagens dos grupos publicos.';
-        echo '</div>';
-        exit;
-    } 
-
-
-    $message = new Message();
-    $messageList = $message->findAllByParams(['group_id' => $groupId, 'created_at' => $date]);
-
-    foreach ($messageList as $item) {
-        $html .= '<div class="message-container">';
-        $html .= '<div class="message-bubble">';
-
-        // Verificar o tipo de mensagem
-        switch ($item['type']) {
-            case 'text':
-                $html .= '<div class="message-text">' . htmlspecialchars($item['message']) . '</div>';
-                break;
-
-            case 'image':
-                $html .= '<div class="message-image">';
-                $html .= '<img src="' . htmlspecialchars($item['message']) . '" alt="Imagem" style="max-width: 100%; border-radius: 10px;">';
-                $html .= '</div>';
-                break;
-
-            case 'audio':
-                $html .= '<div class="message-audio">';
-                $html .= '<audio controls>';
-                $html .= '<source src="' . htmlspecialchars($item['message']) . '" type="audio/mpeg">';
-                $html .= 'Seu navegador não suporta o elemento de áudio.';
-                $html .= '</audio>';
-                $html .= '</div>';
-                break;
-
-            default:
-                $html .= '<div class="message-unknown">Tipo de mensagem desconhecido.</div>';
-                break;
+        if ($group && $group['visibility'] == 'private') {
+            echo '<div class="alert alert-info mt-3" role="alert">';
+            echo 'Grupo privado. Para ter acesso as mensagens é preciso estar conectado a <b>' . $user . '</b>.';
+            echo ' Mas fique tranquilo, você ainda pode acessar as mensagens dos grupos publicos.';
+            echo '</div>';
+            exit;
         }
 
-        // Exibir a hora da mensagem
-        $html .= '<div class="message-time">' . (new DateTime($item['created_at']))->format('H:i') . '</div>';
-        $html .= '</div>'; // Fechar message-bubble
-        $html .= '</div>'; // Fechar message-container
-    }
 
-    echo $html;
-}
+        $message = new Message();
+        $messageList = $message->findAllByGroupIdAndCreatedAt(['group_id' => $groupId, 'created_at' => $date]);
+
+        foreach ($messageList as $item) {
+            $html .= '<div class="message-container">';
+            $html .= '<div class="message-bubble">';
+
+            // Verificar o tipo de mensagem
+            switch ($item['type']) {
+                case 'text':
+                    $html .= '<div class="message-text">' . htmlspecialchars($item['message']) . '</div>';
+                    break;
+
+                case 'image':
+                    $html .= '<div class="message-image">';
+                    $html .= '<img src="' . htmlspecialchars($item['message']) . '" alt="Imagem" style="max-width: 100%; border-radius: 10px;">';
+                    $html .= '</div>';
+                    break;
+
+                case 'audio':
+                    $html .= '<div class="message-audio">';
+                    $html .= '<audio controls>';
+                    $html .= '<source src="' . htmlspecialchars($item['message']) . '" type="audio/mpeg">';
+                    $html .= 'Seu navegador não suporta o elemento de áudio.';
+                    $html .= '</audio>';
+                    $html .= '</div>';
+                    break;
+
+                default:
+                    $html .= '<div class="message-unknown">Tipo de mensagem desconhecido.</div>';
+                    break;
+            }
+
+            // Exibir a hora da mensagem
+            $html .= '<div class="message-time">' . (new DateTime($item['created_at']))->format('H:i') . '</div>';
+            $html .= '</div>'; // Fechar message-bubble
+            $html .= '</div>'; // Fechar message-container
+        }
+
+        echo $html;
+    }
     public function create()
     {
         $message = new Message();

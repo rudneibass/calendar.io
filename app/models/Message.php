@@ -4,14 +4,19 @@ require_once 'DB.php';
 class Message extends DB {
     private $table = 'messages';
 
-    public function getMessages(string $dataInicio, string $dataFim) {
+    public function getMessages(string $dataInicio, string $dataFim, string $user) {
         return $this->rawQuery(
-            "SELECT *, DATE_FORMAT(created_at, '%d/%m/%Y') FROM {$this->table} ", 
-            array($dataInicio, $dataFim)
+            "SELECT *, 
+                DATE_FORMAT(created_at, '%d/%m/%Y') 
+            FROM {$this->table} 
+            WHERE user_id = :user_id", 
+            array(
+                ':user_id' => $user
+            )
         );
     }
 
-    public function findAllByParams($params = []) {
+    public function findAllByGroupIdAndCreatedAt($params = []) {
         return $this->rawQuery(
             "SELECT *, DATE_FORMAT(created_at, '%d/%m/%Y') FROM {$this->table}  WHERE group_id = :group_id AND DATE(created_at) = :created_at", 
             array(

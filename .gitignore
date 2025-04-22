@@ -3,3 +3,4 @@ scripts/
 nbproject/
 public_html/temp/
 storage/
+/vendor/

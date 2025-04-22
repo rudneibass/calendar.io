@@ -1,0 +1,22 @@
+[22-Apr-2025 17:14:59 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in C:\wamp\www\CALENDARIO\app\controllers\MessageController.php on line 50
+[22-Apr-2025 17:14:59 America/Sao_Paulo] PHP Stack trace:
+[22-Apr-2025 17:14:59 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\CALENDARIO\public_html\dispatch.php:0
+[22-Apr-2025 17:14:59 America/Sao_Paulo] PHP   2. MessageController->loadMessages() C:\wamp\www\CALENDARIO\public_html\dispatch.php:13
+[22-Apr-2025 17:15:59 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in C:\wamp\www\CALENDARIO\app\controllers\MessageController.php on line 50
+[22-Apr-2025 17:15:59 America/Sao_Paulo] PHP Stack trace:
+[22-Apr-2025 17:15:59 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\CALENDARIO\public_html\dispatch.php:0
+[22-Apr-2025 17:15:59 America/Sao_Paulo] PHP   2. MessageController->loadMessages() C:\wamp\www\CALENDARIO\public_html\dispatch.php:13
+[22-Apr-2025 17:27:45 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function getUser() on string in C:\wamp\www\CALENDARIO\app\controllers\GroupController.php:17
+Stack trace:
+#0 C:\wamp\www\CALENDARIO\public_html\dispatch.php(13): GroupController->all()
+#1 {main}
+  thrown in C:\wamp\www\CALENDARIO\app\controllers\GroupController.php on line 17
+[22-Apr-2025 17:30:35 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Object of class DateTime could not be converted to string in C:\wamp\www\CALENDARIO\app\controllers\GroupController.php:30
+Stack trace:
+#0 C:\wamp\www\CALENDARIO\public_html\dispatch.php(13): GroupController->all()
+#1 {main}
+  thrown in C:\wamp\www\CALENDARIO\app\controllers\GroupController.php on line 30
+[22-Apr-2025 18:11:29 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined method UserController::loadUsers() in C:\wamp\www\CALENDARIO\public_html\dispatch.php:13
+Stack trace:
+#0 {main}
+  thrown in C:\wamp\www\CALENDARIO\public_html\dispatch.php on line 13
