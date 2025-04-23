@@ -15,19 +15,15 @@ class UserController
         $html = ''; 
         foreach ($userList as $key => $value) {
             $html .= 
-            '<div class="col-12 col-md-4 col-lg-3 mb-3">
+            '<div class="col-12 col-md-3 col-lg-3 mb-3">
                 <div class="card" style="border-color: #5a3894 !important;">
                     <div class="card-body text-center">
                         <div style="border-radius: 50%; width: 60px; height: 60px; background-color:rgb(203, 183, 235); display: flex; justify-content: center; align-items: center; margin: auto;">
                             <span style="font-size: 1.5rem">'.strtoupper($value['name'][0]).'</span>
                         </div>
-                        <h5 class="card-title mt-2">
+                        <h6 class="card-title mt-2">
                             ' . $value['name'] . '
-                        </h5>
-                        <button type="button" class="btn btn-sm btn-purple" onclick="loadMessages({}});">
-                            Entrar 
-                            <i class="fa fa-sign-in"></i>
-                        </button>
+                        </h6>
                     </div>
                 </div>
             </div>';

@@ -82,6 +82,10 @@ button, a {
 .width-90{
   width: 90%;
 }
+.card {
+  border-radius: 2px !important;
+  border: 1px solid #6841a8 !important;
+}
 
 .loading{
   position: absolute; 
@@ -95,9 +99,27 @@ button, a {
   min-height: 80vh
 }
 
+.weekend-day{
+  text-align: center; 
+  width: 14.28%; 
+  background-color: #5a3894; 
+  font-weight: bold; 
+  color: #ffffff; 
+  border: 1px solid #5a3894 !important;
+}
+
+.week-day{
+  text-align: center; 
+  width: 14.28%; 
+  background-color: rgba(0,0,0,.5); 
+  font-weight: bold; 
+  color: #ffffff; 
+  border: 1px solid #343a40 !important;
+}
+
 .dia {
   background-color: #fff;
-  border: 1px solid #ccc;
+  border: 1px solid  #343a404b !important;
   padding: 10px;
   min-height: 100px;
   width: 14.28%;

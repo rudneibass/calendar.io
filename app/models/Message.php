@@ -4,7 +4,7 @@ require_once 'DB.php';
 class Message extends DB {
     private $table = 'messages';
 
-    public function getMessages(string $dataInicio, string $dataFim, string $user) {
+    public function getMessages( string $user) {
         return $this->rawQuery(
             "SELECT *, 
                 DATE_FORMAT(created_at, '%d/%m/%Y') 

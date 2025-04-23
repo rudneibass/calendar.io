@@ -25,28 +25,45 @@
         <section>
             <div class="container">
                 <div class="row">
-                    <div class="col-md-12">
-                        <div class="d-flex justify-content-center align-items-center  alert" role="alert">
-                            <i class="fa fa-chevron-circle-left" style="font-size: 25px;" onclick="loadCalendar(-1)"></i>
-                            <div style="min-width: 320px; text-align: center;">
-                                <span class="gray" id="mesAno" style="font-size: 2rem">Calendário</span>
-                            </div>
-                            <i class="fa fa-chevron-circle-right" style="font-size: 25px" onclick="loadCalendar(1)"></i>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-10" id="main">
+                    <div class="col-md-10">
                         <div class="position-relative">
+                           <!--
+                            <div class="card mb-3" style="border-color: #5a3894 !important;">
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        
+                                        <div class="d-flex">
+                                            <div style="border-radius: 50%; width: 45px; height: 45px; background-color:rgb(203, 183, 235); display: flex; justify-content: center; align-items: center;">
+                                                <span>U</span>
+                                            </div>
+                                            <div class="px-2" style="display: flex; flex-direction: column; justify-content: center;">
+                                                <span style="font-size: 1rem">' . $userRecord['name'] . '</span>
+                                                <small class="text-muted">' . strftime('%d de %B de %Y', strtotime('')) . '</small>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+-->
                             <!-- Grid do calendário -->
+                            <div class="d-flex justify-content-between align-items-center py-3 px-4 bg-white" 
+                                style="border-radius: 2px !important; border: 1px solid #5a3894 !important;"
+                            >
+                                <i class="fa fa-chevron-circle-left" style="font-size: 25px; color:#343a40" onclick="loadCalendar({increment: -1, user: 'calendarioComentado'})"></i>
+                                <div style="min-width: 200px; text-align: center;">
+                                    <span class="gray" id="mesAno" style="font-size: 1.5rem">Calendário</span>
+                                </div>
+                                <i class="fa fa-chevron-circle-right" style="font-size: 25px; color: #343a40" onclick="loadCalendar({increment: 1, user: 'calendarioComentado'})"></i>
+                            </div>
                             <div style="display: flex; flex-wrap: wrap;">
-                                <div class="bg-purple" style=" text-align: center; width: 14.28%; background-color: rgb(250, 74, 74); font-weight: bold; color: #ffffff; border: 1px solid #ffffff">D</div>
-                                <div class="bg-dark" style=" text-align: center; width: 14.28%; background-color: rgba(0,0,0,.5); font-weight: bold; color: #ffffff; border: 1px solid #ffffff">S</div>
-                                <div class="bg-dark" style=" text-align: center; width: 14.28%; background-color: rgba(0,0,0,.5); font-weight: bold; color: #ffffff; border: 1px solid #ffffff">T</div>
-                                <div class="bg-dark" style=" text-align: center; width: 14.28%; background-color: rgba(0,0,0,.5); font-weight: bold; color: #ffffff; border: 1px solid #ffffff">Q</div>
-                                <div class="bg-dark" style=" text-align: center; width: 14.28%; background-color: rgba(0,0,0,.5); font-weight: bold; color: #ffffff; border: 1px solid #ffffff">D</div>
-                                <div class="bg-dark" style=" text-align: center; width: 14.28%; background-color: rgba(0,0,0,.5); font-weight: bold; color: #ffffff; border: 1px solid #ffffff">S</div>
-                                <div class="bg-purple" style=" text-align: center; width: 14.28%; background-color: rgb(250, 74, 74); font-weight: bold; color: #ffffff; border: 1px solid #ffffff">S</div>
+                                <div class="bg-purple weekend-day" >D</div>
+                                <div class="bg-dark week-day">S</div>
+                                <div class="bg-dark week-day">T</div>
+                                <div class="bg-dark week-day">Q</div>
+                                <div class="bg-dark week-day" >D</div>
+                                <div class="bg-dark week-day" >S</div>
+                                <div class="bg-purple weekend-day">S</div>
                             </div>
 
                             <div id="calendario" style="display: flex; flex-wrap: wrap;">
@@ -77,8 +94,8 @@
                 </div>
             </div>
         </section>
-        <br/>
-        <br/>
+        <br />
+        <br />
         <section>
             <div class="container">
                 <div class="row" id="users_list">

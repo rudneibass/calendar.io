@@ -20,3 +20,56 @@ Stack trace:
 Stack trace:
 #0 {main}
   thrown in C:\wamp\www\CALENDARIO\public_html\dispatch.php on line 13
+[23-Apr-2025 10:52:02 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'User' not found in C:\wamp\www\CALENDARIO\app\controllers\CalendarController.php:42
+Stack trace:
+#0 C:\wamp\www\CALENDARIO\public_html\dispatch.php(13): CalendarController->loadCalendar()
+#1 {main}
+  thrown in C:\wamp\www\CALENDARIO\app\controllers\CalendarController.php on line 42
+[23-Apr-2025 11:05:30 America/Sao_Paulo] PHP Fatal error:  Uncaught TypeError: Argument 3 passed to Message::getMessages() must be of the type string, null given, called in C:\wamp\www\CALENDARIO\app\controllers\CalendarController.php on line 25 and defined in C:\wamp\www\CALENDARIO\app\models\Message.php:7
+Stack trace:
+#0 C:\wamp\www\CALENDARIO\app\controllers\CalendarController.php(25): Message->getMessages('2024-12-01', '2024-12-31', NULL)
+#1 C:\wamp\www\CALENDARIO\public_html\dispatch.php(13): CalendarController->loadCalendar()
+#2 {main}
+  thrown in C:\wamp\www\CALENDARIO\app\models\Message.php on line 7
+[23-Apr-2025 11:05:32 America/Sao_Paulo] PHP Fatal error:  Uncaught TypeError: Argument 3 passed to Message::getMessages() must be of the type string, null given, called in C:\wamp\www\CALENDARIO\app\controllers\CalendarController.php on line 25 and defined in C:\wamp\www\CALENDARIO\app\models\Message.php:7
+Stack trace:
+#0 C:\wamp\www\CALENDARIO\app\controllers\CalendarController.php(25): Message->getMessages('2024-12-01', '2024-12-31', NULL)
+#1 C:\wamp\www\CALENDARIO\public_html\dispatch.php(13): CalendarController->loadCalendar()
+#2 {main}
+  thrown in C:\wamp\www\CALENDARIO\app\models\Message.php on line 7
+[23-Apr-2025 11:05:33 America/Sao_Paulo] PHP Fatal error:  Uncaught TypeError: Argument 3 passed to Message::getMessages() must be of the type string, null given, called in C:\wamp\www\CALENDARIO\app\controllers\CalendarController.php on line 25 and defined in C:\wamp\www\CALENDARIO\app\models\Message.php:7
+Stack trace:
+#0 C:\wamp\www\CALENDARIO\app\controllers\CalendarController.php(25): Message->getMessages('2024-12-01', '2024-12-31', NULL)
+#1 C:\wamp\www\CALENDARIO\public_html\dispatch.php(13): CalendarController->loadCalendar()
+#2 {main}
+  thrown in C:\wamp\www\CALENDARIO\app\models\Message.php on line 7
+[23-Apr-2025 11:05:45 America/Sao_Paulo] PHP Fatal error:  Uncaught TypeError: Argument 3 passed to Message::getMessages() must be of the type string, null given, called in C:\wamp\www\CALENDARIO\app\controllers\CalendarController.php on line 25 and defined in C:\wamp\www\CALENDARIO\app\models\Message.php:7
+Stack trace:
+#0 C:\wamp\www\CALENDARIO\app\controllers\CalendarController.php(25): Message->getMessages('2024-12-01', '2024-12-31', NULL)
+#1 C:\wamp\www\CALENDARIO\public_html\dispatch.php(13): CalendarController->loadCalendar()
+#2 {main}
+  thrown in C:\wamp\www\CALENDARIO\app\models\Message.php on line 7
+[23-Apr-2025 11:07:13 America/Sao_Paulo] PHP Fatal error:  Uncaught TypeError: Argument 3 passed to Message::getMessages() must be of the type string, null given, called in C:\wamp\www\CALENDARIO\app\controllers\CalendarController.php on line 25 and defined in C:\wamp\www\CALENDARIO\app\models\Message.php:7
+Stack trace:
+#0 C:\wamp\www\CALENDARIO\app\controllers\CalendarController.php(25): Message->getMessages('2024-12-01', '2024-12-31', NULL)
+#1 C:\wamp\www\CALENDARIO\public_html\dispatch.php(13): CalendarController->loadCalendar()
+#2 {main}
+  thrown in C:\wamp\www\CALENDARIO\app\models\Message.php on line 7
+[23-Apr-2025 11:07:15 America/Sao_Paulo] PHP Fatal error:  Uncaught TypeError: Argument 3 passed to Message::getMessages() must be of the type string, null given, called in C:\wamp\www\CALENDARIO\app\controllers\CalendarController.php on line 25 and defined in C:\wamp\www\CALENDARIO\app\models\Message.php:7
+Stack trace:
+#0 C:\wamp\www\CALENDARIO\app\controllers\CalendarController.php(25): Message->getMessages('2024-12-01', '2024-12-31', NULL)
+#1 C:\wamp\www\CALENDARIO\public_html\dispatch.php(13): CalendarController->loadCalendar()
+#2 {main}
+  thrown in C:\wamp\www\CALENDARIO\app\models\Message.php on line 7
+[23-Apr-2025 11:09:12 America/Sao_Paulo] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to User::getUserBySlug() must be of the type string, null given, called in C:\wamp\www\CALENDARIO\app\controllers\CalendarController.php on line 44 and defined in C:\wamp\www\CALENDARIO\app\models\User.php:18
+Stack trace:
+#0 C:\wamp\www\CALENDARIO\app\controllers\CalendarController.php(44): User->getUserBySlug(NULL)
+#1 C:\wamp\www\CALENDARIO\public_html\dispatch.php(13): CalendarController->loadCalendar()
+#2 {main}
+  thrown in C:\wamp\www\CALENDARIO\app\models\User.php on line 18
+[23-Apr-2025 11:09:13 America/Sao_Paulo] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to User::getUserBySlug() must be of the type string, null given, called in C:\wamp\www\CALENDARIO\app\controllers\CalendarController.php on line 44 and defined in C:\wamp\www\CALENDARIO\app\models\User.php:18
+Stack trace:
+#0 C:\wamp\www\CALENDARIO\app\controllers\CalendarController.php(44): User->getUserBySlug(NULL)
+#1 C:\wamp\www\CALENDARIO\public_html\dispatch.php(13): CalendarController->loadCalendar()
+#2 {main}
+  thrown in C:\wamp\www\CALENDARIO\app\models\User.php on line 18
